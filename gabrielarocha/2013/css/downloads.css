@@ -1,0 +1,1 @@
+@charset "utf-8";/* CSS Document */*{	margin:0px; /* Margin Zero */	padding:0px; /* Padding Zero */	border:0px; /* Border Zero */}#downloads{	width:632px; /* Largura */	height:199px;	background:url(../img/downloads/download.png);	margin-top:-320px;	}#wallpapers{	width:1000px;	height:600px;	margin-left:200px;		margin-top:50px;}#align{	margin:auto;}

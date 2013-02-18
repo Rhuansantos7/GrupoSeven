@@ -1,0 +1,17 @@
+/* CSS Document */
+
+#topo { height: 363px; width: 100%; background: #000000; margin-top: -2px; }
+#topo-sobre { margin: auto; height: 363px; width: 1000px; background-image: url(../img/sobre/topo-sobre.jpg); }
+#topo-info { margin: auto; height: 35px; width: 470px; background-image: url(../img/sobre/topo-sobre.png); float: left; margin-top: 30px; color: #00cccc; font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left; }
+#text-topo { width: 150px; height: 40px; margin-left: 30px; margin-top: 7px; }
+#conteudo-topo { background-image: url(../img/sobre/topo-sobre.png); width: 470px; height: 230px; float: left; }
+#topoconteudo { margin-left: 25px; margin-top: 7px; font-size: 12px; margin-right: 25px; color: #FFFFFF; }
+#conteudo-sobre { width: 1000px; height: 35px; margin: auto; margin-top: 10px; background-image: url(../img/sobre/sobre-destaque.png); }
+#palavras-do-diretor { color: #FFFFFF; margin: 7px; float: left; margin-left: 30px; color: #00cccc; font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+#palavras-do-diretor-conteudo { width: 1000px; height: 200px; background-image: url(../img/padrao/transparenciapadrao.png); margin: auto; margin-top: 10px; }
+#textdiretor { margin: auto; height: 200px; width: 800px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: justify; color: #FFF; margin-left: 30px; margin-top: 5px; }
+#orgulho-de-ser { width: 1000px; height: 35px; margin: auto; background-image: url(../img/sobre/sobre-destaque.png); margin-top: 10px; }
+#textorgulho { color: #00cccc; font-size: 14px; font-family: Arial, Helvetica, sans-serif; float: left; margin-left: 30px; margin-top: 7px; }
+#conteudo-orgulho-seven { width: 1000px; height: 170px; margin: auto; margin-top: 10px; background-image: url(../img/padrao/transparenciapadrao.png); }
+#text-orgulho-seven { width: 600px; height: 150px; margin: auto; margin-top: 20px; float: left; color: #FFFFFF; font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin-left: 30px; text-align: justify; }
+#imagem-text { float: right; margin-top: 10px; }

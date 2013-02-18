@@ -1,0 +1,9 @@
+body { margin:0;}
+
+#t-toobar { height:120px;}
+#t-line { width:100%; height:42px; background:#333;}
+#t-icon-master { width:221px; height:42px; background:url(../img/toolbar/icon-master.png) no-repeat;}
+#t-box { width:0; height:80px; position:absolute; left:50%; margin-left:0; background:url(../img/toolbar/bg-box.png) no-repeat; display:none; overflow:hidden;}
+#t-balloon { width:auto; height:auto; }
+#t-box ul { margin:0; padding:0;}
+#t-box li { margin:0; padding:0; list-style:none; float:left; width:84px; height:70px; margin:9px 0 0 8px;}

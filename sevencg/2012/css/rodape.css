@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#social-r { }
+.s-r-logo { width: 33px; height: 32px; margin: 8px 12px 0 0; float: right; cursor: pointer; -webkit-transition: all 0.3s linear; -moz-transition: all 03s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; }
+.s-r-logo:hover { -webkit-transition: all 0.7s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out; }
+.s-r-f { background: url(../img/main/f.png) 0 0; }
+.s-r-f:hover { background-position: 0 -32px; }
+.s-r-t { background: url(../img/main/t.png) 0 0; }
+.s-r-t:hover { background-position: 0 -32px; }
+.s-r-y { background: url(../img/main/y.png) 0 0; }
+.s-r-y:hover { background-position: 0 -32px; }
+#logoscenter { width: 1000px; height: 60px; margin: auto; }
+#facebook { float: left; margin-top: 10px; }

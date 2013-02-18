@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#ctel-top { margin-top: -1px; }
+#top-music { background: #000; }
+#top-text-music { width: 1000px; height: 35px; background-image: url(../img/padrao/transparenciapadrao.png); margin: auto; margin-top: 10px; }
+#conteudo-music { width: 1000px; height: 500px; background-image: url(../img/ctel/background.png); margin: auto; margin-top: 10px; text-align: left; }
+#top-text-music { }
+.top-text-music2 { margin-top: 7px; color: #00cccc; float: left; margin-left: 35px; font-family: Verdana, Geneva, sans-serif; font-size: 14px; }
+.txt-music-style { color: #FFFFFF; font-family: Verdana, Geneva, sans-serif; font-size: 12px; margin-left: 35px; }
+#center-txt-music { width: 700px; height: auto; margin-left: 35px; font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #999999; }
+#destaque-music { margin-left: 35px; margin-top: 15px; width: 107px; height: 135px; }
+.color_padrao_music_destaque { color: #00cccc; font-family: Verdana, Geneva, sans-serif; font-size: 14px; }
+#name-destaque { float: left; margin-left: 35px; margin-top: -130px; width: 200px; }
+#class-align-left2 { width: 210px; height: 92px; margin-top: -680px; margin-left: 780px; }
+.color_padrao_music_branco { color: #999999; font-family: Verdana, Geneva, sans-serif; font-size: 12px; width: 300px; height: auto; }
+#contato_music { width: 200px; height: 400px; margin-left: 400px; }

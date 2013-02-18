@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container-galeria { width: 1000px; height: 700px; margin: auto; margin-top: 10px; background-image: url(../img/padrao/transparenciapadrao.png); background-repeat: repeat; }
+.galeria-top-rodape { width: 1000px; height: 35px; margin: auto; margin-top: 35px; background-image: url(../img/padrao/transparenciapadrao.png); }
+.txt-galeria { font-family: Verdana, Geneva, sans-serif; color: #00cccc; text-transform: uppercase; text-align: center; padding-top: 9px; font-size: 14px; }
+.imagens { height: 137px; width: 277px; float: left; margin-top: 25px; margin-left: 40px; border: 3px solid #999; }
+#container-galeria2 { width: 1000px; height: 1100px; margin: auto; margin-top: 10px; background-image: url(../img/padrao/transparenciapadrao.png); background-repeat: repeat; }
+#container-galeria14 { width: 1000px; height: 550px; margin: auto; margin-top: 10px; background-image: url(../img/padrao/transparenciapadrao.png); background-repeat: repeat; }

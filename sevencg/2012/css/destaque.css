@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container-galeria { width: 1000px; height: 1100px; background-image: url(../img/padrao/transparenciapadrao.png); margin: auto; margin-top: 10px; background-repeat: repeat; }
+.galeria-top-rodape { width: 1000px; height: 35px; margin: auto; margin-top: 35px; background-image: url(../img/padrao/transparenciapadrao.png); }
+#txt-top-galeria1 { font-family: Verdana, Geneva, sans-serif; color: #00cccc; text-transform: uppercase; text-align: left; padding-top: 9px; font-size: 14px; float: left; margin-left: 35px; }
+#txt-top-galeria2 { font-family: Verdana, Geneva, sans-serif; color: #00cccc; text-transform: uppercase; text-align: right; padding-top: 9px; font-size: 14px; width: 250px; float: right; margin-right: 35px; }
+#txt-bottom-galeria { font-family: Verdana, Geneva, sans-serif; color: #00cccc; text-transform: uppercase; text-align: right; padding-top: 9px; padding-right: 35px; font-size: 14px; }
+#foto-aluno { height: 165px; width: 160px; border: 3px solid #999; margin: 35px; float: left }
+#trabalho-destaque { height: 700px; width: 510px; border: 3px solid #999; margin-top: 35px; float: left }
+.linha { background-image: url(../img/alunos_destaque/linha.png); background-repeat: repeat-y; height: 650px; width: 5px; float: left; margin-top: 35px; margin-left: 35px; }
+#destaque-anterior { height: 700px; width: 190px; float: left; margin-top: 35px; margin-left: 10px; font-family: Verdana, Geneva, sans-serif; color: #FFF; text-align: left; }
+#slider-destaque { margin-top: 35px; height: 100px; width: 1000px; float: left; }

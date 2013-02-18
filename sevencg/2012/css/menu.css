@@ -1,0 +1,27 @@
+/*-- container geral do menu--*/
+ul#topnav { margin: 2px; padding: 0; float: left; width: 750px;  /*-- se quiser edite a largura total do menu --*/ list-style: none; position: relative; font-size: 12px;   /*-- edite tamanho da fonte--*/ font-family: Verdana, Geneva, sans-serif; /*-- edite cor de fundo--*/ }
+/*-- itens das listas--*/
+ul#topnav li { float: left; margin: 0; padding: 0; border-right: 1px solid #555;/*--edite borda--*/
+}
+/*-- links dos itens das listas --*/
+ul#topnav li a { padding: 10px 10px; display: block; color: #fff; /*-- edite cor dos links --*/ text-decoration: none; }
+/*-- links dos itens das listas no modo hover --*/
+ul#topnav li a:hover { color: #ff6600; /*-- edite cor dos links --*/ }
+/*-- item da lista no modo hover--*/
+ul#topnav li:hover { background: #000000;   /*-- edite cor de fundo--*/ }
+/*-- item da lista do submenu--*/
+ul#topnav li span { float: left; padding: 10px 0; position: absolute; left: 30%; top: -30px; display: none; width: auto; background: #000;/*-- edite cor de fundo do submenu--*/ color: #FFF; font-family: Verdana, Geneva, sans-serif;  /*-- edite cor dos links do submenu--*/ /*--bordas arredondadas a direita--*/
+-moz-border-radius-bottomright: 0px; -khtml-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; /*--bordas arredondadas a esquerda--*/
+-moz-border-radius-bottomleft: 0px; -khtml-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; }
+.topnav-li2-span { padding: 10px 0; margin-left: -180px; position: absolute; top: -35px; display: none; width: 300px; background: #000;/*-- edite cor de fundo do submenu--*/ color: #0F0; font-family: Verdana, Geneva, sans-serif;  /*-- edite cor dos links do submenu--*/ /*--bordas arredondadas a direita--*/
+-moz-border-radius-bottomright: 0px; -khtml-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; /*--bordas arredondadas a esquerda--*/
+-moz-border-radius-bottomleft: 0px; -khtml-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; }
+.topnav-li3-span { padding: 10px 0; margin-left: 80px; position: absolute; top: -35px; display: none; width: 300px; background: #000;/*-- edite cor de fundo do submenu--*/ color: #0F0; font-family: Verdana, Geneva, sans-serif;  /*-- edite cor dos links do submenu--*/ /*--bordas arredondadas a direita--*/
+-moz-border-radius-bottomright: 0px; -khtml-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; /*--bordas arredondadas a esquerda--*/
+-moz-border-radius-bottomleft: 0px; -khtml-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; }
+/*-- item da lista do submenu no estado hover--*/
+ul#topnav li:hover span { display: block; font-family: Verdana, Geneva, sans-serif; }
+/*-- links do item da lista do submenu--*/
+ul#topnav li span a { display: inline; color: #FFF; font-family: Verdana, Geneva, sans-serif; /*-- edite cor dos links do submenu --*/ }
+/*-- links do item da lista do submenu no modo hover--*/
+ul#topnav li span a:hover { color: #ff6600; font-family: Verdana, Geneva, sans-serif;/*-- edite cor dos links do submenu no estado hover --*/ }

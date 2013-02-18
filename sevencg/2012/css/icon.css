@@ -1,0 +1,8 @@
+#tooltip { position: absolute; z-index: 3000; }
+#tooltip h3, #tooltip div { margin: 0; }
+#formacao_mini_dg_home, #formacao_mini_dw_home, #formacao_mini_3d_home, #formacao_mini_pp_home { height: 30px; font-size: 10px; margin-bottom: 10px; float: left; width: 100%; }
+.home_logo img { float: left; width: 30px; margin-left: 10px; }
+.home_txt { float: left; text-align: left; text-indent: 10px; font-size: 12px; color: #999999; font-family: Verdana, Geneva, sans-serif; }
+#formacao_game1, #formacao_game2 { height: 30px; ; font-size: 10px; padding-bottom: 10px; }
+.home_txt2 { float: left; text-align: left; text-indent: 10px; font-size: 14px; color: #FFF; font-family: Verdana, Geneva, sans-serif; }
+#formacao_mini_game2, #formacao_mini_game { height: 30px; font-size: 10px; margin-bottom: 10px; float: left; width: 100%; }

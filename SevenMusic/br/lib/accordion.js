@@ -1,0 +1,17 @@
+$(document).ready(function(){
+	$("h2.accordion").click(function(){
+		$(this).next("div.accordion").slideToggle("slow");
+	});
+	$("h3.accordion").click(function(){
+		$(this).next("div.accordion").slideToggle("slow");
+	});
+	$("h4.accordion").click(function(){
+		$(this).next("div.accordion").slideToggle("slow");
+	});
+	$("h5.accordion").click(function(){
+		$(this).next("div.accordion").slideToggle("slow");
+	});
+	$("h6.accordion").click(function(){
+		$(this).next("div.accordion").slideToggle("slow");
+	});
+});

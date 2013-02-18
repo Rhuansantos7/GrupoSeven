@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+font-family: Fonte1;
+font-style: normal;
+src: url url(@font_face/HelveticaNeueLTPro-LtCn.eot);
+}
+@font-face {
+font-family: Fonte1;
+font-style: normal;
+src: url url(@font_face/HelveticaNeueLTPro-LtCn.woff);
+}
+@font-face {
+font-family: Fonte1;
+font-style: normal;
+src: url(@font_face/HelveticaNeueLTPro-LtCn.ttf);
+}
+@font-face {
+font-family: Fonte2;
+font-style: normal;
+src: url url(@font_face/HelveticaNeueLTPro-Roman.eot);
+}
+@font-face {
+font-family: Fonte2;
+font-style: normal;
+src: url url(@font_face/HelveticaNeueLTPro-Roman.woff);
+}
+@font-face {
+font-family: Fonte2;
+font-style: normal;
+src: url(@font_face/HelveticaNeueLTPro-Roman.ttf);
+}
+a:link{
+	text-decoration:none;
+	font-family:helvetica;
+	color:#aa95bf;
+	cursor:pointer;
+}
+a:hover{
+	text-decoration:none;
+	font-family:helvetica;
+	color:#704699;	
+}
+a:visited{
+	text-decoration:none;
+	font-family:helvetica;
+	color:#aa95bf;	
+}
+#container2{
+	width:878px;
+	height:500px;
+	margin:auto;
+}
+#topo2{
+	background-image:url(../img/topo.png);
+	width:877px;
+	height:182px;
+}
+#ano{
+	margin-left:350px;
+	padding-top:7px;
+	font-family:helvetica;
+	font-size:60px;
+	color:#7c6463;
+	width:150px;
+}
+#meses{
+	margin-left:250px;
+	padding-top:20px;
+	font-family: Fonte1, Helvetica, sans-serif;
+	font-size:30px;
+	word-spacing:30px;
+	color:#aa95bf;
+}
+#tit{
+	margin-left:350px;
+	font-family: Fonte1, Helvetica, sans-serif;
+	font-size:45px;
+	color:#997cb4;
+}
+.linha{
+	width:715px;
+	height:1px;
+	margin-left:130px;
+	background:url(../img/line.png);		
+}
+.linha2{
+	width:715px;
+	height:1px;
+	margin-left:130px;
+	margin-top:5px;
+	background:url(../img/line.png);		
+}
+#paper1{
+	width:89px;
+	height:50px;
+	margin-left:90px;
+	margin-top:10px;
+	background:url(../img/paper1.png);	
+}
+.dia{
+	margin-top:5px;
+	padding-top:10px;
+	margin-left:32px;
+	font-family: Fonte1, Helvetica, sans-serif;;
+	font-size:25px;
+	color:#886e93;
+}
+#evento{
+	width:500px;
+	height:50px;
+	margin-left:215px;	
+	margin-top:-47px;
+	font-family: Fonte1, Helvetica, sans-serif;
+	font-size:19px;
+	color:#886e93;
+}
+#detalhes1{
+	width:89px;
+	height:51px;
+	background:url(../img/detalhes1.png) no-repeat;
+	margin-left:760px;	
+	margin-top:-50px;
+}
+.det{
+	margin-left:16px;
+	padding-top:15px;
+	font-family: Fonte2, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#886e93;
+	letter-spacing:1px;
+}

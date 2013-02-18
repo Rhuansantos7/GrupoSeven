@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#regulamento{
+	width:698px;
+	height:184px;
+	background:url(../img/regulamento/regulamento.png);
+	margin-top:-180px;	
+	margin-left:-80px;
+}
+#regul{
+	width:976px;
+	height:839px;
+	background:url(../img/regulamento/paperbg.png);
+	margin-top:25px;
+	margin-left:-80px;
+}
+#txt-regul{
+	width:670px;
+	height:800px;
+	margin-left:95px;
+	padding-top:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#45335d;
+	text-align:justify;
+		
+}

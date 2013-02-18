@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+{
+	margin:0px; /* Margem zero */
+	padding:0px; /* Padding zero */
+	border:0px; /* Border zero */
+}
+
+
+
+#rotativo{
+	width:900px; /* Largura do Rotativo */
+	background:#;
+	height:358px; /* Altura do Rotativo */
+	margin:auto; /* Centralizador */
+	margin-left:0px; /* Margem Esquerda */
+	margin-top:-400px; /* Margem de Cima */
+}
+#images{
+	width:650px; /* Largura */
+	height:290px; /* Altura */
+	margin:-5px; /* Margem */
+	margin-top:40px; /* Margem de Cima */
+	z-index:1px; /* Layer 1 */
+}
+#divimage{
+	width:850px; /* Largura */
+	height:250px; /* Altura */
+	background:url(../img/home/bgimages.png) no-repeat; /* Imagem de Fundo */
+	z-index:1px; /* Layer 1 */
+}
+#twitter{
+	width:250px; /* Largura */
+	height:330px; /* Altura */
+	margin-top:-238px; /* Margem de Cima */
+	margin-left:650px; /* Margem Esquerda */
+}
+#apDiv1 {
+	position: absolute;
+	width: 177px;
+	height: 70px;
+	z-index: 999;
+	left: 513px;
+	top: 66px;
+	background: url(images/back_banner.png) no-repeat;
+	margin: 55px 0 0 -265px;
+	left: 966px;
+}
+    #apDiv2 {
+	position: absolute;
+	width: 290px;
+	height: 191px;
+	z-index: 1000;
+	top: 900px;
+	margin:55px 0 0 -155px; left:50%;
+	background:url(../img/home/image2.png) no-repeat;
+	cursor:pointer;
+	 box-shadow: 0px 0px 0px #333; -moz-box-shadow: 0px 0px 0px #333; -webkit-box-shadow: 0px 0px 0px #333;
+			-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s linear;-o-transition: all 0.3s linear;transition: all 0.3s linear;
+	
+}
+    #apDiv2:hover {
+	position: absolute;
+	width: 290px;
+	height: 191px;
+	z-index: 1000;
+	top: 900px;
+	margin:55px 0 0 -155px;
+	left:50%;
+	-moz-box-shadow: 0px 0px 0px #38003a;
+	-webkit-box-shadow: 0px 0px 0px #38003a;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	background-image:url(../img/home/image2_cinza.png);
+	background-repeat: no-repeat;
+	
+}
+ #apDiv3 {
+	position: absolute;
+	width: 346px;
+	height: 192px;
+	z-index: 1000;
+	top: 908px;
+	margin:55px 0 0 -500px; left:50%;
+	background:url(../img/home/image01_s.png) no-repeat;
+	cursor:pointer;
+	 box-shadow: 0px 0px 0px #333; -moz-box-shadow: 0px 0px 0px #333; -webkit-box-shadow: 0px 0px 0px #333;
+			-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s linear;-o-transition: all 0.3s linear;transition: all 0.3s linear;
+			
+ }
+  #apDiv3:hover {
+	position: absolute;
+	width: 346px;
+	height: 192px;
+	z-index: 1000;
+	top: 908px;
+	margin:55px 0 0 -500px; left:50%;
+	background:url(../img/home/image01.png) no-repeat;
+	cursor:pointer;
+	-moz-box-shadow: 0px 0px 0px #38003a; -webkit-box-shadow: 0px 0px 0px #38003a;
+	-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s linear;-o-transition: all 0.3s linear;transition: all 0.3s linear;
+			
+ }
+ 

@@ -1,0 +1,365 @@
+/* ---------------------------------------------------- css reset ------------------------------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1.3;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+.clear{clear: both;}
+a{text-decoration: none;}
+/* ---------------------------------------------------- end css reset ------------------------------------------ */
+
+body{
+	background:url(../images/back.jpg);
+}
+
+/* ---------------------------------------------------- banner ------------------------------------------ */
+.banner{
+	background:url(../images/menu.jpg) -120 50%;
+	text-align: center;
+	width: 100%;
+	height: 1.750em;
+	margin-top: 2em;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 10;
+	background-color: black;
+}
+
+.banner a{
+	z-index: 10;
+}
+
+/* ---------------------------------------------------- slider ------------------------------------------ */
+#wrapper {
+	width: 100%;
+	z-index: 1;
+	margin-top: 3.5em;
+	background:#000;
+ }
+
+/* ---------------------------------------------------- home menu ------------------------------------------ */
+.logo_banner{
+	margin-top: -1.7em;
+}
+
+.home_menu ul li a{
+	display: block;
+	position: relative;
+	height: 7em;
+	width: 33%;
+	float: left;
+	margin-top: 1em;
+    color: white;
+    text-align: center;
+}
+
+.home_menu ul li a p{
+	position: absolute;
+	bottom: .5em;
+}
+
+/* ---------------------------------------------------- footer ------------------------------------------ */
+.footer{
+	clear: both;
+	width:100%;
+	height:3em;
+	text-align:center;
+	color:black;
+	font-size:10px;
+	font-family: sans-serif;
+}
+.sociais{
+	text-align:center;
+	display:block;
+}
+
+/* -------------------------------------------------- Menu --------------------------------------------------- */
+#menu{
+	width:1.563em;
+	height:1.625em;
+	position:absolute;
+	z-index: 999;
+	margin-top:-11em;
+	background:url(../images/menu_icon.png) no-repeat;
+
+}
+#menu:hover{
+	width:1.563em;
+	height:1.625em;
+	background:#b7790f;
+	position: absolute;
+	z-index: 20;
+	margin-top:-11.2em;
+	left:17em;
+	background:url(../images/menu_hover.png) no-repeat;
+}
+#menu_list{
+	width:6.5em;
+	height:18em;
+	background:#666666;
+	display:none;
+	margin-top:-3em;	
+	position: absolute;
+	z-index: 10;
+	margin-top:-9.6em;
+	left:12.1em;
+	border-radius: 5px 0 5px 5px;
+
+}
+#menu_list ul li{
+	color: white;
+	font-family: sans-serif;
+	font-size:0.900em;
+	margin-top:1em;
+	text-align:right;
+	padding-right:1em;
+	padding-top:1em;
+	border-top: solid 0.10em #6d6d6d;
+}
+
+/*------------------------------------------  CG EXTREME NA MIDIA ----------------------------------------------------------------------*/
+#banner_midia{
+	width: 1920px;
+	height: 1080px;
+	background: #962929;
+}
+
+/*------------------------------------------  BANNER TOP ----------------------------------------------------------------------*/
+.banner_top{
+	margin-top:3.7em;
+}
+.banner_top img{
+	width:100%;
+}
+
+/*--------------------------------------------- PALESTRANTES -----------------------------------------------------------------------------*/
+.content_palestrantes{
+	width:100%;
+	min-height: 7em;
+	border-bottom: 2px dotted #b41010;
+	margin-bottom: 1em;
+	color: #404040;
+}
+
+.content_palestrantes p{
+	color: #b80e0e;
+}
+
+.content_palestrantes h2{
+	font-weight: bold;
+}
+
+.content_palestrantes h3{
+	color: #707070;
+}
+
+.lista_palestrante{
+	width:100%;
+	margin-top:3%;
+}
+.photo{
+	float:left;
+	margin-left:2em;
+	width: 100px;
+}
+
+/*--------------------------------------------- PALESTRANTES DETAIL PAGE -----------------------------------------------------------------------------*/
+.palestrante_info{
+	padding: 5%;
+}
+
+.palestrante_info img{
+	float: left;
+	padding: 0 .5em 0em 0;
+}
+
+.palestrante_info h2{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #b80e0e;
+}
+
+.palestrante_info p{
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.palestrante_info ul{
+	list-style: disc;
+	margin-left: 3em;
+}
+
+/*--------------------------------------------- LOCAL -----------------------------------------------------------------------------*/
+.citiBank_info, .citiMap{
+	margin: 5%;
+}
+
+.citiBank_info .citiLogo{
+	width: 105px;
+	height: 55px;
+	float: left;
+	margin-top: .3em;
+}
+
+.citiBank_info .citiAddress{
+	color: #202020;
+	font-family: sans-serif;
+	font-size: 0.750em;
+}
+
+/*--------------------------------------------- EVENTO -----------------------------------------------------------------------------*/
+#content_evento{
+	width:100%;
+	height:20em;
+	margin-top:1.5em;
+}
+.data{
+	font-family:arial;
+	font-size:18px;
+	color:#660000;
+	text-align:center;
+}
+#text_evento{
+	padding: 2em;
+	color: #202020;
+	font-family: sans-serif;
+	font-size: 0.790em;
+	text-indent: 2em;
+}
+
+#text_evento p{
+	margin-bottom: 1em;
+}
+
+/*--------------------------------------------- INGRESSOS -----------------------------------------------------------------------------*/
+#content_ingressos{
+	width:100%;
+	margin:auto;
+	min-height:25em;
+	margin-top:1em;
+	font-family: sans-serif;
+	font-size: 0.790em;
+	padding-bottom: 2em;
+}
+.text_data{
+	text-align:center;
+}
+
+.content_lista_ingressos{
+	width:24em;
+	margin:auto;
+	margin-top:1em;
+	text-align: center;
+}
+
+.lista_ingressos li{
+	display:inline;
+}
+
+#content_ingressos .bigTxt{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#content_ingressos .medTxt{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#content_ingressos .content_lista_ingressos.firstChild{
+	border-bottom: 2px dotted #da0000;
+	padding-bottom: 1em;
+}
+
+#content_ingressos .redTxt{
+	color: #da0000;
+	font-size: 1.1em;
+}
+
+#content_ingressos .priceInfo{
+	margin-top: .5em;
+}
+
+/*--------------------------------------------- CONTATO -----------------------------------------------------------------------------*/
+.contact_form{
+	padding: 5%;
+}
+
+.contact_form h2{
+	color: #660000;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.contact_form p{
+	margin-bottom: 1em;
+}
+
+.contact_form form{
+	margin: 0 auto;
+	width: 18.750em;
+}
+
+.contact_form input{
+	margin-bottom: 1em;
+	border: 1px solid #808080;
+	width: 95%;
+}
+
+.contact_form form input.sendFormBtn{
+	height: 3em;
+}
+
+.emailSuccess{
+	background-color: #85db2d;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+.emailFail{
+	background-color: #dc2e2e;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+
+/*--------------------------------------------- ORGANIZACAO -----------------------------------------------------------------------------*/
+.organizacao_content{
+	padding: 0 5%;
+}
+
+.organizacao_content p{
+	text-indent: 2em;
+	margin-bottom: 1em;
+	text-align: justify;
+}
+
+
+.organizacao_logo{
+	text-align: center;
+	margin: 1em 0;
+}

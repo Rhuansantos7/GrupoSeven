@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { overflow-x: hidden; }
+#banner { height: 500px; width: 100%; margin-top: 25px; }
+#principal { margin: auto; height: 220px; width: 1000px; }
+#topoprincipal { height: 35px; width: 1000px; margin-top: 7px; margin-right: auto; margin-bottom: auto; margin-left: auto; background-image: url(../img/padrao/transparenciapadrao.png); background-repeat: repeat; }
+#principal1 { background-image: url(../img/home/principalback.png); background-repeat: repeat; height: 170px; width: 1000px; margin-top: 10px; margin-right: auto; margin-bottom: auto; margin-left: auto; }
+#destaque1 { width: 330px; height: 20px; float: left; color: #00cccc; font-size: 14px; font-family: Verdana, Geneva, sans-serif; margin-top: 10px; margin-right: auto; margin-bottom: auto; margin-left: -35px; ; }
+#rodape1 #textrodape1 #textcenter br { font-family: Verdana, Geneva, sans-serif; font-size: 14px; }
+#destaque2 { font-family: Verdana, Geneva, sans-serif; float: left; color: #00cccc; font-size: 14px; height: 20px; width: 300px; margin-top: 10px; margin-right: auto; margin-bottom: auto; margin-left: auto; }
+#destaque3 { float: left; height: 20px; width: 300px; font-size: 14px; font-family: Verdana, Geneva, sans-serif; margin-top: 10px; margin-right: auto; margin-bottom: auto; margin-left: auto; color: #00cccc; }
+#li-destaque1-logo { margin: auto; float: left; height: 170px; width: 50px; margin-left: 0px; margin-top: 15px; }
+#textoformacao { margin: auto; float: left; height: 30px; width: 200px; margin-top: -15px; }
+#textoformacao2 { float: left; height: 30px; width: 150px; margin-top: 60px; margin-right: auto; margin-bottom: auto; margin-left: -200px; }
+#textoformacao3 { float: left; height: 30px; width: 150px; margin-top: 95px; margin-right: auto; margin-bottom: auto; margin-left: -200px; }
+#textoformacao4 { float: left; height: 30px; width: 150px; margin-top: 135px; margin-right: auto; margin-bottom: auto; margin-left: -200px; }
+.alinharesquerda { text-align: left; }
+#ultimasdoblog { width: 300px; height: 150px; margin-left: 270px; margin-top: -180px; float: left; clear: left; }
+#eventos { height: 170px; width: 300px; margin-top: -160px; margin-right: auto; margin-bottom: auto; margin-left: 700px; float: left; }
+#caixa2-principal { margin: auto; height: 210px; width: 1000px; margin-top: 7px; background-image: url(../img/padrao/transparenciapadrao.png); }
+#nossaestrutura { height: 180px; width: 330px; color: #FFF; float: left; margin-left: 5px; margin-top: 20px; }
+#videos { margin: auto; height: 180px; width: 330px; color: #FFF; float: left; margin-top: 20px; }
+#destaquedomes { margin: auto; height: 180px; width: 330px; color: #FFF; float: left; margin-top: 20px; }
+#topocaixa2 { margin: auto; height: 35px; width: 1000px; margin-top: 10px; }
+#nossaestruturadestaque { margin: auto; width: 300px; float: left; color: #00cccc; font-size: 14px; font-family: Verdana, Geneva, sans-serif; }
+#videosdestaque { margin: auto; width: 300px; float: left; color: #00cccc; font-size: 14px; }
+#alunodestaque { margin: auto; width: 300px; float: left; color: #00cccc; font-size: 14px; }
+#topocaixa2 { background-image: url(../img/padrao/transparenciapadrao.png); margin: auto; height: 35px; width: 1000px; margin-top: 10px; background-repeat: repeat; }
+#nossaestruturadestaque { width: 300px; float: left; color: #00cccc; font-size: 14px; font-family: Verdana, Geneva, sans-serif; margin-top: -5px; }
+#videosdestaque { margin: auto; width: 300px; float: left; color: #00cccc; font-size: 14px; margin-top: -5px; }
+#alunodestaque { margin: auto; width: 300px; float: left; color: #00cccc; font-size: 14px; margin-top: -5px; }
+#topo_home { background-image: url(../img/padrao/transparenciapadrao.png); width: 1000px; height: 35px; margin: auto; margin-top: 15px; color: #00cccc; font-family: Verdana, Geneva, sans-serif; font-size: 14px; }
+#conteudo1_home { background-image: url(../img/home/principalback.png); width: 1000px; height: 180px; margin: auto; margin-top: 10px; }
+#topo_home1 { background-image: url(../img/padrao/transparenciapadrao.png); width: 1000px; height: 35px; margin: auto; margin-top: 15px; color: #00cccc; font-family: Verdana, Geneva, sans-serif; font-size: 14px; }
+#conteudo_home2 { background-image: url(../img/home/principalback.png); width: 1000px; height: 180px; margin: auto; margin-top: 10px; }
+.h-delimiter { width: 330px; height: auto; float: left; padding-top: 6px; border: 1px solid #F00F; }
+.formacao_game_home { font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #999999; font-size: 10px; }
+.formacao_game_destaque_home { font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #ec681b; }
+.formacao_game_destaque2_home { font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #994393;

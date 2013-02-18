@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box_form { width: 430px; font-size: 12px; }
+#campo, #campo4 { float: left; width: auto; height: 25px; }
+#campo2 { width: 400px; float: left; }
+#campo3 { width: 100px; height: 25px; float: left; padding-right: 20px; }
+#texto { float: left; width: 80px; height: 25px; font-weight: bold; color: #f26522; line-height: 25px; }
+#texto2 { float: left; width: 400px; height: 25px; font-weight: bold; color: #f26522; line-height: 25px; }
+#texto3 { float: left; width: 80px; height: 25px; font-weight: bold; color: #f26522; line-height: 25px; }
+.formu { margin: 0; font-weight: bold; color: #f26522; }
+.formu input { width: 300px; }
+#campo3 input, #campo3 select { width: 100px; }
+#campo4 input { width: 60px; }
+.branco { color: #FFF; }
+#box_contato0 { width: 900px; height: 420px; }
+#box_contato1 { width: 213px; height: 366px; float: left; margin-left: 10px; }
+#box_barra_contato1 { width: 213px; height: 30px; float: left; }
+#barra_contato1a { background: url('img/bg/barra1.png'); width: 60px; height: 30px; float: left; }
+#barra_contato1b { background: url('img/bg/barra2.png'); width: 153px; height: 30px; float: left; }
+#linha_contato1a { background: url('img/linha_v.png'); width: 2px; height: 362px; float: left; }
+#linha_contato1b { background: url('img/linha_h.png'); width: 213px; height: 2px; float: left; }
+#bg_enquete { background-image: url('img/bg/bg_contato_1.png'); width: 209px; height: 362px; float: left; }
+#bg_enquete_txt { width: 179px; margin-top: 192px; margin-left: 12px; font-size: 11px; }
+#bg_talento { background-image: url('img/bg/bg_contato_2.png'); width: 209px; height: 362px; float: left; }
+#bg_talento_txt { width: 179px; margin-top: 12px; margin-left: 12px; font-size: 11px; }
+#box_contato2 { width: 880px; height: 270px; float: left; margin-left: 10px; }
+#box_barra_contato2 { width: 880px; height: 30px; float: left; }
+#barra_contato2a { background: url('img/bg/barra1.png'); width: 60px; height: 30px; float: left; }
+#barra_contato2b { background: url('img/bg/barra2.png'); width: 820px; height: 30px; float: left; }
+#linha_contato2a { background: url('img/linha_v.png'); width: 2px; height: 366px; float: left; }
+#linha_contato2b { background: url('img/linha_h.png'); width: 880px; height: 2px; float: left; }
+#bg_empresa { background-image: url('img/bg/bg_centro_366.png'); width: 876px; height: 366px; float: left; }
+#bg_empresa_txt { width: 414px; margin-top: 12px; margin-left: 231px; font-size: 14px; }
+#topo-contato { width: 1920px; height: 374px; }
+#topo-contatoimg { width: 100%; height: 374px; background: url(../img/contato/contato-topo.jpg) no-repeat center; }
+#formulario-de-contato { width: 1000px; height: 35px; background-image: url(../img/padrao/transparenciapadrao.png); margin: auto; }
+#contato-txt { float: left; color: #00cccc; font-size: 14px; font-family: Verdana, Geneva, sans-serif; margin-left: 30px; margin-top: 7px; }
+#formulario-contato { width: 1000px; margin: auto; height: 450px; background-image: url(../img/padrao/transparenciapadrao.png); margin-top: 10px; }

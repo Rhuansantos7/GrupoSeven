@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+#info-media { width: 1000px; height: 35px; margin: auto; margin-top: 40px; font-size: 14px; font-family: Verdana, Geneva, sans-serif; color: #00cccc; background-image: url(../img/padrao/transparenciapadrao.png); }
+.class-midia { margin-left: 80px; float: left; margin-top: 7px; }
+.class-midia2 { margin-left: 300px; margin-top: 7px; float: left; }
+.class-midia3 { margin-left: 300px; margin-top: 7px; float: left; }
+#seven-na-midia { margin: auto; width: 1000px; height: auto; background-image: url(../img/padrao/transparenciapadrao.png); margin-top: 10px; text-align: left; }
+.cor_laranja { color: #ff6600; }
+.cor_branca { color: #FFF; }
+

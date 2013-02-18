@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style> * {
+ border:0;
+}
+body { margin: 0; padding: 0; text-align: center; font-family: "arial"; }
+.barra_grupo { width: 100%; height: 28px; background: url('../img/barra_grupo/top.png'); margin-left: auto; margin-right: auto; }
+#logo_mini { float: left; width: 90px; height: 64px; background: url('../img/barra_grupo/logo_larga.png') no-repeat; background-position: 0px 0px; margin-left: 35px; position: relative; }
+#logo_mini:hover { background: url('../img/barra_grupo/logo_larga.png') no-repeat; background-position: 0px -64px; }
+#logos { display: none; width: 100%; height: 83px; background: url('../img/barra_grupo/dropdown.png'); padding-top: 10px; margin: -5px; margin-top: 1px; z-index: 55; position: relative; }
+#logos2 { margin: auto; width: 1024px; }
+#sombra_a { background: url('../img/barra_grupo/sombra_b.png'); width: 90px; height: 24px; }
+</style>

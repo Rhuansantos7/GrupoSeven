@@ -1,0 +1,12 @@
+@viewport {
+	width: device-width;
+}
+
+/* ---------------- CSS MOBILE ---------------- */
+@media screen and (max-width: 400px) {
+
+}
+/* ---------------- CSS TABLET ---------------- */
+@media screen and (min-width: 400px) {
+	
+}

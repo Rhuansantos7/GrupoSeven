@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$("h2.accordion2").click(function(){
+		$(this).next("div.accordion2").slideToggle("slow");
+	});
+	$("h3.accordion2").click(function(){
+		$(this).next("div.accordion2").slideToggle("slow");
+	});
+	$("h4.accordion2").click(function(){
+		$(this).next("div.accordion2").slideToggle("slow");
+	});
+	$("h5.accordion2").click(function(){
+		$(this).next("div.accordion2").slideToggle("slow");
+	});
+});

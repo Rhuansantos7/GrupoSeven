@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; border: 0; }
+.*::-moz-selection {
+background:#ff6600; /*---Cor de fundo--*/
+color:#FFF; /*--cor da fonte--*/
+}
+*::selection { background: #ff6600;/*---Cor de fundo--*/ color: #FFF; ; /*--cor da fonte--*/ }
+body { background-image: url(../img/bg/bg.jpg); background-repeat: repeat; }
+#menu { background-repeat: repeat; height: 43px; width: 100%; margin-top: 40px; background-image: url(../img/padrao/menu.png); z-index: 10; }
+#menutxt { height: 40px; width: 900px; margin: auto; clear: right; }
+#menuopcoes { margin: auto; height: 40px; width: 700px; float: right; }
+#textosrodape { margin: auto; height: 130px; width: 1000px; color: #FFF; }
+#unidades1 { height: 130px; width: 210px; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: 50px; }
+#unidades2 { height: 130px; width: 300px; margin-top: -115px; margin-right: auto; margin-bottom: auto; margin-left: auto; font-size: 14px; font-family: Verdana, Geneva, sans-serif; }
+#principal { margin: auto; height: 920px; width: 1000px; }
+#textrodape { height: 40px; width: 600px; font-size: 14px; font-family: Verdana, Geneva, sans-serif; text-align: right; }
+#rodape2 { height: 150px; width: 100%; margin-top: 5px; background-repeat: repeat; background-image: url(../img/padrao/transparenciapadrao.png); }
+#rodape1 { height: 40px; width: 100%; background-image: url(../img/padrao/menu.png); background-repeat: repeat; }
+#textrodape1 { margin: auto; height: 40px; width: 1000px; }
+#textrodape1 { margin: auto; height: 40px; width: 1000px; }
+#textcenter { height: 40px; width: 230px; float: left; font-family: Verdana, Geneva, sans-serif; margin-left: 40px; }
+#logoadobe { height: 70px; width: 300px; margin-top: -100px; margin-left: 300px; }
+#rodape2 #textosrodape #unidades1 { font-family: Verdana, Geneva, sans-serif; color: #00cccc; font-size: 12px; }
+#centralizandotxt { margin: auto; height: 50px; width: 1000px; }
+#logosevenmedia { height: 30px; width: 140px; float: left; margin-left: 35px; }
+#rodape3 { height: 50px; width: 100%; background-color: #000; }
+#menu-horizontal { font-family: Verdana, Geneva, sans-serif; font-size: 12px; list-style: none; margin: 10px; }
+#menu-horizontal li { width: 80px; display: inline; }
+#menu-horizontal li a {
+background-color:
+border-right: 1px solid #ccc; color: #FFFFFF; padding: 5px; text-decoration: none; }
+#menu-horizontal li a:hover {
+ background-color:; color: #ff6600; font-family: Verdana, Geneva, sans-serif; }
+#banner { height: 500px; width: 1920px; margin-top: 15px; display: block; }
+/*facebook */
+#social-r { }
+.s-r-logo { width: 33px; height: 32px; margin: 8px 12px 0 0; float: right; cursor: pointer; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear; }
+.s-r-logo:hover { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out; }
+.s-r-f { background: url(img/main/f.png) 0 0; }
+.s-r-f:hover { background-position: 0 -32px; }
+.s-r-t { background: url(img/main/t.png) 0 0; }
+.s-r-t:hover { background-position: 0 -32px; }
+.s-r-y { background: url(img/main/y.png) 0 0; }
+.s-r-y:hover { background-position: 0 -32px; }
+#logoscenter { width: 1000px; height: 60px; margin: auto; }
+#facebook { float: left; margin-top: 10px; }
+/** links */
+a:link { text-decoration: none; color: #00cccc; ; }
+a:visited { color: #00cccc; text-decoration: none; }
+a:hover { color: #ff6600; text-decoration: none; }
+a:active { text-decoration: none; }

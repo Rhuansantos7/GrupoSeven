@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#topo-unidades { width: 1024px; height: 375px; margin: auto; margin-top: -2px; }
+#topo-unidades2 { width: 1920px; height: 375px; margin: auto; background: #000000; }
+#unidades-pag { width: 1000px; height: 35px; margin: auto; margin-top: 30px; background-image: url(../img/padrao/transparenciapadrao.png); }
+#txt-unidades { width: 300px; height: 30; margin-top: 7px; color: #00cccc; float: left; }
+#todas-unidades { width: 1000px; height: 800px; background-image: url(../img/padrao/transparenciapadrao.png); margin: auto; margin-top: 10px; }
+#unidades-todas { width: 1000px; }
+.unidades-class { width: 228px; height: 137px; margin-top: 15px; margin-left: 87px; margin-bottom: 45px; float: left; font-size: 12px; font-family: Verdana, Geneva, sans-serif; color: #994393; }
+.cor_brancaunidades { font-size: 12px; font-family: Verdana, Geneva, sans-serif; color: #999999; }
