@@ -16,7 +16,7 @@ a{outline: none;}
 html{padding-bottom: 50px;}
 /* -------------------------------------------------------------------------- the end reset css -------------------------------------------------------------------------- */
 
-/* ------- main------- */
+/* ------- main ------- */
 #mainDiv{
 
 }
@@ -36,13 +36,13 @@ html{padding-bottom: 50px;}
 	margin: 0px 0px 0px -400px;
 }
 #caminho{
-	width:1327px;
-	height:3509px;
-	background:url("../image/home/caminho.png");
+	width:800px;/*800px*/
+	height:0px/*3791px*/;
+	background:url("../image/home/caminho.png")no-repeat;
 	z-index:10;
 	position:absolute;
 	left:50%;
-	margin:700px 0px 0px -700px;
+	margin:-3px 0px 0px -405px;
 }
 
 
@@ -137,7 +137,49 @@ html{padding-bottom: 50px;}
 
 #section2{
 	width:800px;
-	height:700px;
-	margin-top:700px;
+	height:1000px;
+	position:absolute;
+	left:50%;
+	margin: 700px 0px 0px -400px;
+	z-index:10;
+}
+#palestrantes{
+	width:700px;
+	height:400px;
 	background:red;
+	margin:0 auto;
+	margin-top:200px;
+}
+/* ---------------------------------------------------- INGRESSOS ---------------------------------------------------------- */
+#section3{
+	width:800px;
+	height:1000px;
+	position:absolute;
+	left:50%;
+	margin:2400px 0px 0px -400px;
+	z-index:10;
+}
+#ingressos{
+	width:700px;
+	height:400px;
+	margin:0 auto;
+	margin-top:100px;
+}
+#passaporte_close{
+	width:442px;
+	height:506px;
+	position:absolute;
+	z-index:50;
+	left:50%;
+	margin:1600px 0px 0px -900px;
+	background:url("../image/ingressos/passaporte-fechado.png");
+}
+#passaporte_open{
+	width:639px;
+	height:472px;
+	position:absolute;
+	z-index:50;
+	left:50%;
+	margin:1600px 0px 0px 450px;
+	background:url("../image/ingressos/passaporte-aberto.png");
 }

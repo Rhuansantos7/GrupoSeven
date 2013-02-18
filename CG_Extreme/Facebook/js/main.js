@@ -41,6 +41,39 @@ $("#menu").append('<div class="tooltip"></div>');
 	
 	},2000);
 	
+// -------------------------------------------------------------- CAMINHO ----------------------------------------------------------------
+	
+	$("#caminho").delay(4000).animate({
+		height: "1200px"
+	},2000);
+	
+		$(".caminho0").click(function(){
+			$("#caminho").animate({
+				height: "1200px"
+			},3000);
+		});
+	
+	$(".caminho1").click(function(){
+		$("#caminho").animate({
+			height: "2400px"
+		},3000);
+	});
+	
+	$(".caminho2").click(function (){
+		$("#caminho").animate({
+			height: "3791px"
+		},3000)
+		$("#passaporte_close").delay(1500).animate({
+			marginLeft: "-370px"
+		},2000);
+		$("#passaporte_open").delay(1500).animate({
+			marginLeft: "-250px"
+		},2000);
+	});
+
+	
+	
+	
 // -------------------------------------------------------------- NAVEGACAO ----------------------------------------------------------------
                 $('ul a').bind('click',function(event){
                     var $anchor = $(this);
@@ -48,12 +81,7 @@ $("#menu").append('<div class="tooltip"></div>');
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
                     }, 1500,'');
-                    /*
-                    if you don't want to use the easing effects:
-                    $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top
-                    }, 1000);
-                    */
+               
                     event.preventDefault();
                 });
  

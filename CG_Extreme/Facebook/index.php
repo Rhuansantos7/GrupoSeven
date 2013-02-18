@@ -20,9 +20,9 @@
 		<div id="mainDiv">
 			<div id="menu">
 				<ul>
-				<a href="#section1" rel="tooltip" te="Home"><li><img src="image/home/icone-home.png" alt="HOME"></li></a>
-				<a href="#section2" rel="tooltip" te="Palestrantes"><li><img src="image/home/icone-palestrantes.png" alt=""PALESTRANTES></li></a>
-				<a href="#section3" rel="tooltip" te="Ingressos"><li><img src="image/home/icone-ingressos.png" alt="INGRESSOS"></li></a>
+				<a href="#section1" rel="tooltip" te="Home"><li class="caminho0"><img src="image/home/icone-home.png" alt="HOME"></li></a>
+				<a href="#section2" rel="tooltip" te="Palestrantes"><li class="caminho1"><img src="image/home/icone-palestrantes.png" alt=""PALESTRANTES></li></a>
+				<a href="#section3" rel="tooltip" te="Ingressos"><li class="caminho2"><img src="image/home/icone-ingressos.png" alt="INGRESSOS"></li></a>
 				<a href="http://cgextreme.com.br" target="new" rel="tooltip" te="Site Oficial"><li><img src="image/home/icone-site-oficial.png" alt="SITE"></li></a>
 				</ul>
 			</div><!-- close menu-->
@@ -38,14 +38,24 @@
 	
 	
 	<div class="section" id="section2">
-	
-	
+		<div id="palestrantes">
+			<div id="passaporte_close">
+			</div><!-- close passaporte close -->
+			<div id="passaporte_open">
+			</div><!-- close passaporte open -->
+
+		</div><!-- close palestrantes -->
 	</div><!-- close section2 -->
 	
+	
 	<div class="section" id="section3">
-	
-	
-		</div><!-- close section2 -->
+		<div id="ingressos">
+		
+		</div><!-- close ingressos -->
+	</div><!-- close section3 -->
+		
+
+		
 	</div><!--close mainDiv -->
 
 </body>
