@@ -40,6 +40,8 @@ $("#menu").append('<div class="tooltip"></div>');
 		width: "386px"
 	
 	},2000);
+
+
 	
 // -------------------------------------------------------------- CAMINHO ----------------------------------------------------------------
 	
@@ -59,6 +61,18 @@ $("#menu").append('<div class="tooltip"></div>');
 		},3000);
 	});
 	
+	
+	
+		$(".caminho1").click(function (){
+			$("#titulo_palestrante").delay(2000).fadeIn("Slow");
+			$(".col_left").delay(3000).fadeIn("Slow");
+			$(".col_right").delay(4000).fadeIn("Slow");
+		});
+	
+	
+	
+	
+	
 	$(".caminho2").click(function (){
 		$("#caminho").animate({
 			height: "3791px"
@@ -69,6 +83,11 @@ $("#menu").append('<div class="tooltip"></div>');
 		$("#passaporte_open").delay(1500).animate({
 			marginLeft: "-250px"
 		},2000);
+		$("#titulo_ingresso").delay(3000).fadeIn("Slow");
+		$("#ticket").delay(4000).fadeIn("fast");
+		$("#lote").delay(5000).fadeIn("fast");
+
+		
 	});
 
 	
