@@ -1,0 +1,180 @@
+﻿<!doctype html>
+<html>
+	<head>
+			<title>CG Extreme - Contanto</title>
+	<link rel="icon" href="five.png" type="image/png" />
+	<link rel="stylesheet" href="style/main.css" />
+	<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	
+	<meta name="keywords" content="cgextreme, Seven, Fullsail, Citibank hall, Chance Glasco, Nathaniel Howe, Sebastian Krys, Cordy Rierson, Laurie Brugger, Jayson Whitmore">
+	<meta name="description" content="cgextreme web site">
+	<meta name="author" content="seven media">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery1.8.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+
+	 <?php
+		$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+		$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+		$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+		$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+		$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+		$ipad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
+		
+		if ($iphone || $android || $palmpre || $ipod || $berry == true) 
+		{ 
+			echo "<script>window.location=' '</script>";
+		}
+		
+		/*
+		if ($ipad == true) 
+		{ 
+			echo "<script>window.location='tablet/index.php'</script>";
+		}
+		*/
+	?>
+</head>
+	
+	<body>
+		<?php include('include/menu.php'); ?>
+
+		
+		<div class="content">
+			<div class="pageBanner contatos">
+				
+			</div><!--close palestrante banner-->
+			
+			<div class="wrapper">	
+				<div class="contactForm">
+					<div class="subTitle">
+						<p><span class="textoImportante">Dúvidas ou sugestões?</span> Teremos o maior prazer em atender <span class="textoImportante">você!</span></p>
+					</div><!--close subtitle-->	
+					
+
+<?php
+if (isset($_POST['BTEnvia'])){
+ 
+	//REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
+ 	//====================================================
+	$email_remetente = "contato@cgextreme.com.br"; // deve ser um email do dominio
+	//====================================================
+ 
+ 
+	//Configurações do email, ajustar conforme necessidade
+	//====================================================
+	$email_destinatario = "contato@cgextreme.com.br"; // qualquer email pode receber os dados
+	$email_reply = "$email";
+	$email_assunto = "Contato CG Extreme";
+	//====================================================
+ 
+ 
+	//Variaveis de POST, Alterar somente se necessário
+	//====================================================
+	$nome = $_POST['nome'];
+	$email = $_POST['email'];
+	$telefone = $_POST['telefone'];
+ 	$mensagem = $_POST['mensagem'];
+	//====================================================
+ 
+	//Monta o Corpo da Mensagem
+	//====================================================
+	$email_conteudo = "Nome = $nome \n"; 
+	$email_conteudo .= "Email = $email \n"; 
+	$email_conteudo .=  "Telefone = $telefone \n";
+	$email_conteudo .=  "Mensagem = $mensagem \n";
+ 	//====================================================
+ 
+	//Seta os Headers (Alerar somente caso necessario)
+	//====================================================
+	$email_headers = implode ( "\n",array ( "From: $email_remetente", "Reply-To: $email_reply", "Subject: $email_assunto","Return-Path:  $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
+	//====================================================
+ 
+ 
+	//Enviando o email
+	//====================================================
+	if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){
+		echo "</b>E-Mail enviado com sucesso!</b>"; 
+	}
+  	else{
+		echo "</b>Falha no envio do E-Mail!</b>";
+	}
+	//====================================================
+}	
+?>
+
+					<form action="<? $PHP_SELF; ?>" method="POST">
+
+    
+    
+						<div class="formSection">
+							<div class="formInput">
+								<input type="text" name="nome" placeholder="Nome" class="userInput_name">
+							</div><!--close form input-->
+						</div><!--close formSection-->
+						
+						<div class="formSection">
+							<div class="formInput">
+								<input type="text" name="email" placeholder="E-mail" class="userInput_email">
+							</div><!--close form input-->
+						</div><!--close formSection-->
+						
+						<div class="formSection">
+							<div class="formInput">
+								<input type="text" name="assunto" placeholder="Assunto" class="userInput_subject">
+							</div><!--close form input-->
+						</div><!--close formSection-->
+						
+						<div class="formSection">
+							<div class="formInput">
+								<textarea placeholder="Mensagem" name="mensagem" class="userInput_comment"></textarea>
+							</div><!--close form input-->
+						</div><!--close formSection-->
+						
+						<input type="submit" name="BTEnvia" value="Enviar" class="blueBtn sendContactFormBtn">
+					</form> 	
+				</div><!--close contactForm-->		
+				
+				<div class="maisInformacoes">
+        	<h2> MAIS INFORMAÇÕES </h2>
+          
+					<p>contato@cgextreme.com.br</p>
+					<p>21 2509-6323 / 21 2221-5502</p>
+        </div><!--close informacoes-->
+				
+				<div class="maisInformacoes">
+        	<h2> APOIO E PATROCÍNIO </h2>
+          
+					<p>Entre em contato conosco e aproveite a oportunidade de inserir a sua marca neste espetáculo!</p>
+          <br />
+          <p>Seven Media Produtora</p>
+          <p> Tel.: +55 21 2509-6323</p>
+          <p style="padding-left:37px;">+55 21 6931-9192</p>
+          <p> E-mail: comercial@cgextreme.com.br</p>
+        </div><!--close informacoes-->
+				
+				<div class="maisInformacoes">
+        	<h2> IMPRENSA </h2>
+          
+					<p>Entre em contato com nossa assessoria de imprensa para agendar entrevistas, colher materiais e informações sobre o evento</p>
+					<Br/>
+          <p>Alexandre Fontoura</p>
+          
+          <p>21 9124-6924 / 9757-5828</p>
+          <p>21 2610-3075 / 3027-2998 (Escritório)</p>
+          <p>afontoura@gmail.com</p>
+          <p>alexandre@tuiuiu.com</p>
+        </div><!--close informacoes-->
+        
+				<div class="clear"></div>
+			</div><!--close wrapper-->
+<?php include('include/rodape.php'); ?>
+		</div><!--close content-->
+	</body>
+</html>
