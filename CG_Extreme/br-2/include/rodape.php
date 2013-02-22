@@ -59,13 +59,13 @@
 			<div class="menu_rodape">
 				<span class="menu_rodape_top">PALESTRANTES</span>
 				<ul>
-					<li class="menu_ropde_sub">Laurie Brugger</li>
-					<li class="menu_ropde_sub">Sebastian Krys</li>
-					<li class="menu_ropde_sub">Nathaniel Howe</li>
-					<li class="menu_ropde_sub">Jayson Whitmore</li>
-					<li class="menu_ropde_sub">Cordy Rierson</li>
+					<a href="laurie_brugger.php"><li class="menu_ropde_sub">Laurie Brugger</li></a>
+					<a href="sebastian_krys.php"><li class="menu_ropde_sub">Sebastian Krys</li></a>
+					<a href="nathaniel_howe.php"><li class="menu_ropde_sub">Nathaniel Howe</li></a>
+					<a href="jayson_whitmore.php"><li class="menu_ropde_sub">Jayson Whitmore</li></a>
+					<a href="cordy_rierson.php"><li class="menu_ropde_sub">Cordy Rierson</li></a>
 					<br>
-					<li class="menu_ropde_sub">Chance Clasco</li>
+					<a href="chance_glasco.php"><li class="menu_ropde_sub">Chance Clasco</li></a>
 				</ul>
 			</div><!-- close menu rodape -->
 			

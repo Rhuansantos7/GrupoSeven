@@ -30,12 +30,12 @@
 	<li><a href="palestrantes.php">PALESTRANTES</a>
 
 		<ul>
-			<li><a href="#">Laurie Brugger</a></li>
-			<li><a href="#">Sebastian Krys</a></li>
-			<li><a href="#">Nathaniel Howe</a></li>
-			<li><a href="#">Jayson Whitmore</a></li>
-			<li><a href="#">Cordy Rierson</a></li>
-			<li><a href="#">Chance Clasco</a></li>
+			<li><a href="laurie_brugger.php">Laurie Brugger</a></li>
+			<li><a href="sebastian_krys.php">Sebastian Krys</a></li>
+			<li><a href="nathaniel_howe.php">Nathaniel Howe</a></li>
+			<li><a href="jayson_whitmore.php">Jayson Whitmore</a></li>
+			<li><a href="cordy_rierson.php">Cordy Rierson</a></li>
+			<li><a href="chance_glasco.php">Chance Clasco</a></li>
 		</ul>
 
 	</li>

@@ -12,7 +12,10 @@ $(document).ready(function(e) {
 	
 	$("#aviao_top").animate({
 		marginLeft:"1000px"
-	},7000);
+	},7000,function(){
+		$(this).fadeOut();
+	});
+
 	
 	$("#logo_top").delay(6000).animate({
 		marginTop: "0px"

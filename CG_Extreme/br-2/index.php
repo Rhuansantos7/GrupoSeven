@@ -87,35 +87,52 @@
 
 </div><!-- close banner_home -->
 	
-	<div id="content_home">
+<div id="content_home">
+		
 		<div id="news_home">
 			<span class="titulo_home">NEWS</span>
-			
 		</div><!-- close new_home -->
+	
+	
+
+<! --------------------------------------- GALLERY VIDEO ------------------------------->			
 		<div id="videos_home">
 			<span class="titulo_home">VÍDEOS</span>
 			
-				<! --------------------------------------- GALLERY VIDEO ------------------------------->		
 				
 			<div id="content_video_home">
 				<!-- A wrapper DIV to center the Gallery -->
 				<div style="text-align:center;">
 				
-					<div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="370" data-height="250">
+					<div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="370" data-height="250" data-autoplayvideo="false">
 					
 						<!-- Add Youtube video to Gallery -->
-						<a href="http://www.youtube.com/watch?v=urdS0fcLopc&feature=share&list=UUOCnRD7UIj34ZsxAOonqNlQ"><img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt=""></a>
-						<a href="http://www.youtube.com/watch?v=uNY3yZtZI0I"><img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video"></a>
+						<a href="http://www.youtube.com/watch?v=urdS0fcLopc&feature=share&list=UUOCnRD7UIj34ZsxAOonqNlQ"><img src="http://i1.ytimg.com/vi/urdS0fcLopc/hqdefault.jpg" alt=""></a>
+						<a href="http://www.youtube.com/watch?v=7GeMovTmacE"><img src="http://img.youtube.com/vi/YE7VzlLtp-4/2.jpg" alt="Youtube Video"></a>
 
 					</div>
 				
 				</div>
 			</div><!-- close content_video_home -->
-			<! --------------------------------------- GALLERY VIDEO ------------------------------->		
-
-	
-			
 		</div><!-- close videos_home -->
+<! --------------------------------------- GALLERY VIDEO ------------------------------->		
+
+		
+		<div id="HomeMidia">
+			
+		</div><!-- close home midia -->
+		
+		
+		<div class="redesHome">
+			<span class="titulo_home">TWEETS</span>
+		</div><!-- close redesHome -->
+		
+		
+		<div class="redesHome">
+			<span class="titulo_home">FACEBOOK</span>
+		</div><!-- close redesHome -->
+		
+		
 	</div><!-- close content home -->
 	
 <?php include('include/rodape.php'); ?>
