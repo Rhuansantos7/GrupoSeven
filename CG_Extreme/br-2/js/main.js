@@ -1,35 +1,64 @@
-// JavaScript Document
-$(document).ready(function(e) {
+$(document)
+    .ready(function(e) {
+    hVideo_qtd = $("#b-slide ul li")
+        .length;
+    a = 8;
+    $("#b-slide-list ul li")
+        .each(function(index, element) {
+        a--;
+        $("#b-slide-list-control ul")
+            .append("<li i='" + index + "'></li>");
+    });
+    $("#b-slide-list-control ul li:eq(6)")
+        .css("background", "url(img/slider/bullets_hover.png) no-repeat");
+    var img = 4;
+    var imgAnt = 0;
+    var eixo = 0;
+    var time = 7000;
+    var loop;
+    var status = false;
 
-	
-	$("#caminho").delay("1000").animate({
-		width: "980px"
-	},5000, function(){
-		$(this).fadeOut();
-	});
+    function setAnimation() {
+        $("#b-slide ul li:eq(" + imgAnt + ")")
+            .fadeOut("slow");
+        $("#b-slide ul li:eq(" + img + ")")
+            .fadeIn("slow");
 
-		
-	
-	$("#aviao_top").animate({
-		marginLeft:"1000px"
-	},7000,function(){
-		$(this).fadeOut();
-	});
+        $("#b-slide-list-control ul li:eq(" + img + ")")
+            .css("background", "url(img/slider/bullets_hover.png) no-repeat");
+        $("#b-slide-list-control ul li:eq(" + imgAnt + ")")
+            .css("background", "");
+    }
 
-	
-	$("#logo_top").delay(6000).animate({
-		marginTop: "0px"
-	},2000);
-	
-		$("#data_top").delay(7000).animate({
-		width: "332px"
-	},1500);
-	
-	$("#text_top").delay(8000).fadeIn("slow");
-	
- });
+    function interval() {
+        loop = setInterval(function() {
+            status = false;
+            imgAnt = img;
+            img--;
+            if (img < 0) {
+                img = 4;
+                imgAnt = 0;
+            }
+            setAnimation();
+        }, time)
+    }
+    interval();
+    $("#b-slide-list-control ul li")
+        .click(function(e) {
+        imgAnt = img;
+        img = $(this)
+            .attr("i");
+        setAnimation();
+        if (status == true) {
+            clearInterval(loop);
+            interval();
+            status = false;
+        }
+        
+    });
     
+   
+$(".fancybox").fancybox();
 
-	
-
-	
+});
+		

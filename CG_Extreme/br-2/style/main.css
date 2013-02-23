@@ -7,10 +7,10 @@ ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
-a:link { text-decoration: none; color: #FFF; }
+a:link { text-decoration: none; color: #000; }
 a:active { text-decoration: none; }
-a:visited { text-decoration: none; color: #FFF; }
-a:hover { text-decoration: none; color: #FFF; }
+a:visited { text-decoration: none; color: #000; }
+a:hover { text-decoration: none; color: #000; }
 .clear{clear: both;}
 a{outline: none;}
 /* -------------------------------------------------------------------------- the end reset css -------------------------------------------------------------------------- */
@@ -24,9 +24,10 @@ a{outline: none;}
 
 /* -------------- Topo estático ------------ */
 #topo{
+	width:100%;
 	height:148px;
 	margin:auto;
-	background:url("../img/topo/fundo-estatico.jpg") no-repeat 50% 0;
+	background:url("../img/topo/fundo-estatico.jpg") 50% 0;
 	
 }
 #topo img{
@@ -35,9 +36,10 @@ a{outline: none;}
 
 /* -------------- Topo animado ------------ */
 #topo_animado{
+	width:1920px;
 	height:148px;
 	margin:auto;
-	background:url("../img/topo/fundo-topo.jpg") no-repeat 50% 0;
+	background:url("../img/topo/fundo-topo.jpg") 50% 0;
 	
 }
 #data_top{
@@ -188,7 +190,7 @@ a{outline: none;}
 }
 
 .menu li:hover > ul li {
-	width:170px;
+	width:200px;
 	margin-left:-3px;
 	height: 36px;
 	overflow: visible;
@@ -197,8 +199,41 @@ a{outline: none;}
 	
 }
 
+.menu ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+	margin-left:-3px;
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+}
+
+.menu li:hover > ul li ul {
+	float:left;
+	width:200px;
+	margin-left:203px;
+	margin-top:-100px;
+	height: 36px;
+	overflow: visible;
+	padding: 0;
+
+}
+
+.menu li:hover > ul li ul li{
+	width:250px;
+	background: #1f2024;
+	
+}
+.menu li:hover > ul li ul li a{
+	text-align:left;
+	padding-left:10px;
+	width:250px;
+}
 .menu ul li a {
-	width: 170px;
+	width: 200px;
 	padding: 0px 0 0px 0px;
 	margin: 0;
 	border: none;
@@ -1226,6 +1261,211 @@ border:solid # 4px;
 	color:white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
+}
+/* ----------------------------------- PAVAILHAO ---------------------------------------*/
+#ContentPavilhao{
+	width:960px;
+	height:1000px;
+	margin:0 auto;
+	margin-top:50px;
+}
+#IntroPavilhao{
+	width:439px;
+	height:207px;
+	float:left;
+	background:url("../img/pavilhao/fundo-introducao-pavilhao.png");
+}
+#CampeonatoUnity{
+	width:260px;
+	height:100px;
+	border:solid 1px red;
+	float:left;
+	background:url("");
+}
+#Guinnes{
+	width:230px;
+	height:174px;
+	border:solid 1px red;
+	float:right;
+	background:url("");
+}
+#VideoPavilhao{
+	width:430px;
+	height:300px;
+	float:left;
+	border:solid 1px red;
+}
+#ExpoSeven{
+	width:260px;
+	height:160px;
+	float:left;
+	border:solid 1px red;
+	margin-left:5px;
+	margin-top:-90px;
+}
+#Oportunidade{
+	width:260px;
+	height:100px;
+	float:left;
+	border:solid 1px red;
+	margin-left:5px;
+	margin-top:10px;
+}
+#Character{
+	width:260px;
+	height:215px;
+	float:left;
+	border:solid 1px red;
+	margin-left:5px;
+	margin-top:10px;
+}
+
+#VagasPeloMundo{
+	width:430px;
+	height:170px;
+	float:left;
+	margin-top:-100px;
+	background:url("../img/pavilhao/fundo-vagas-pelo-mundo.jpg");
+}
+#Content_BtEnd{
+	width:710px;
+	height:140px;
+	float:left;
+	margin-top:10px;
+}
+
+.BtEnd{
+	width:230px;
+	height:120px;
+	float:left;
+	/*margin-left:4px;*/
+	border:solid 1px red;
+}
+#ContatoPavilhao{
+	width:239px;
+	height:172px;
+	float:right;
+	clear:both;
+	padding-right:7px;
+	margin-top:20px;
+	background:url("../img/pavilhao/fundo-contatos-sidebar.png") no-repeat ;
+}
+#TextoContantoPavilhao{
+	width:210px;
+	height:100px;
+	margin-left:10px;
+	margin-top:50px;
+}
+
+#Empregadores{
+	width:239px;
+	height:404px;
+	float:right;
+	margin-top:40px;
+	background:url("../img/pavilhao/fundo-empregadores-sidebar.png");
+}
+.TextoPavilhao{	
+	width:210px;
+	height:300px;
+	display:block;
+	margin-left:10px;
+	margin-top:70px;
+
+}
+.TextoPadraoPavilhao{	
+
+	font-family: 'Poiret One', cursive;
+	font-size:12px;
+	color:black;
+	
+	}
+#BtEmpregadores{
+	width:210px;
+	height:70px;
+	margin-top:50px;
+
+	
+}
+
+.TextoIntroPavilhao{	
+	width:400px;
+	height:100px;
+	display:block;
+	margin-left:10px;
+	margin-top:60px;
+
+}
+
+/* ----------------------------------- PAVAILHAO - VAGAS PELO MUNDO ---------------------------------------*/
+
+
+#ColunaFixaPavailhao{
+
+	width:250px;
+	height:1000px;
+	float:right;
+}
+#MenuPavilhao{
+	width:239px;
+	height:234px;
+	background:url("../img/pavilhao/fundo-menu-sidebar.png");
+}
+
+#MenuPavilhao ul{
+	width:210px;
+	height:130px;
+	margin-left:10px;
+	position:relative;
+	top:50px;
+
+}
+
+#MenuPavilhao ul li a { color:black;}
+
+.VagasContent{
+	width:689px;
+	height:700px;
+	margin-top:-15px;
+	background:url("../img/pavilhao/fundo-conteudo.png");
+	float:left;
+}
+.VagasContent ul{
+	margin-top:50px;
+}
+.VagasContent ul li{
+	width:680px;
+	height:30px;
+	background:url("../img/pavilhao/fundo-item-vagas.png");
+}
+
+.VagasContent ul li span{
+	margin-left:130px;
+	position:relative;
+	top:5px;
+	font-family: 'Poiret One', cursive;
+	font-size:18px;
+	color:black;
+}
+
+/* ----------------------------------- PAVAILHAO - EMPREGADORES ---------------------------------------*/
+
+#ConteudoEmpregadores{
+	width:689px;
+	height:870px;
+	margin-top:-15px;
+	float:left;
+	background:url("../img/pavilhao/fundo-conteudo.png");
+}
+
+/* ----------------------------------- PAVAILHAO - EXPO ---------------------------------------*/
+
+
+#ContentExpo{
+	width:689px;
+	height:870px;
+	margin-top:-15px;
+	float:left;
+	background:url("../img/pavilhao/fundo-conteudo.png");
 }
 
 

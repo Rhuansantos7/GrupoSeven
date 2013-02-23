@@ -74,7 +74,7 @@
 			<div class="menu_rodape">
 				<span class="menu_rodape_top">INGRESSOS</span>
 				<ul>
-					<li class="menu_ropde_sub">Onde Comprar</li>
+					<a class="fancybox fancybox.iframe" href="como-comprar.php"><li class="menu_ropde_sub">Onde Comprar</li></a>
 				</ul>
 			</div><!-- close menu rodape -->
 			

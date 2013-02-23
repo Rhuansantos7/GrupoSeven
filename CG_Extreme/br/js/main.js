@@ -55,9 +55,25 @@ $(document)
             interval();
             status = false;
         }
+        
+        
     });
     
+   
+	
+
+	
+
+
    
 $(".fancybox").fancybox();
 
 });
+
+
+
+
+
+	
+
+	
