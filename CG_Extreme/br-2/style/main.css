@@ -315,8 +315,8 @@ a{outline: none;}
 }
 
 #HomeMidia{
-	width:999px;
-	height:226px;
+	width:953px;
+	height:204px;
 	clear:both;
 	position:relative;
 	top:30px;
@@ -344,7 +344,7 @@ a{outline: none;}
 }
 #apoio{
 	width:325px;
-	height:86px;
+	height:88px;
 	position:relative;
 	top:10px;
 	float:left;
@@ -359,7 +359,7 @@ a{outline: none;}
 }
 #parceiros{
 	width:327px;
-	height:86px;
+	height:88px;
 	float:left;
 	margin-left:80px;
 	position:relative;
@@ -376,7 +376,7 @@ a{outline: none;}
 
 #organizacao{
 	width:210px;
-	height:86px;
+	height:88px;
 	float:left;
 	margin-left:80px;
 	position:relative;
@@ -1041,6 +1041,8 @@ e pela lei de Deus.
 
 Afinal de contas, só Deus sabe como isso aqui funciona
 favor nāo alterar desta linha para baixo 
+
+
 */
 
 #topo_download {
@@ -1263,11 +1265,35 @@ border:solid # 4px;
 	font-size: 16px;
 }
 /* ----------------------------------- PAVAILHAO ---------------------------------------*/
+.banner_pavilhao{
+	height:500px;
+	background: url("../img/pavilhao/banner-pavilhao.jpg") 50% 0;
+}
+#ContentFixPavilhao{
+	width:250px;
+	height:900px;
+	float:right;
+	border:solid 1px red;
+}
 #ContentPavilhao{
 	width:960px;
 	height:1000px;
 	margin:0 auto;
 	margin-top:50px;
+}
+.ImgTopoPavilhao{
+	width:658px;
+	height:200px;
+	margin-top:30px;
+	margin-left:12px;
+}
+.ContentTextPavilhao{
+	width:658px;
+	height:550px;
+	margin-top:30px;
+	margin-left:12px;
+	border:solid red 1px;
+	
 }
 #IntroPavilhao{
 	width:439px;
@@ -1275,13 +1301,7 @@ border:solid # 4px;
 	float:left;
 	background:url("../img/pavilhao/fundo-introducao-pavilhao.png");
 }
-#CampeonatoUnity{
-	width:260px;
-	height:100px;
-	border:solid 1px red;
-	float:left;
-	background:url("");
-}
+
 #Guinnes{
 	width:230px;
 	height:174px;
@@ -1289,58 +1309,7 @@ border:solid # 4px;
 	float:right;
 	background:url("");
 }
-#VideoPavilhao{
-	width:430px;
-	height:300px;
-	float:left;
-	border:solid 1px red;
-}
-#ExpoSeven{
-	width:260px;
-	height:160px;
-	float:left;
-	border:solid 1px red;
-	margin-left:5px;
-	margin-top:-90px;
-}
-#Oportunidade{
-	width:260px;
-	height:100px;
-	float:left;
-	border:solid 1px red;
-	margin-left:5px;
-	margin-top:10px;
-}
-#Character{
-	width:260px;
-	height:215px;
-	float:left;
-	border:solid 1px red;
-	margin-left:5px;
-	margin-top:10px;
-}
 
-#VagasPeloMundo{
-	width:430px;
-	height:170px;
-	float:left;
-	margin-top:-100px;
-	background:url("../img/pavilhao/fundo-vagas-pelo-mundo.jpg");
-}
-#Content_BtEnd{
-	width:710px;
-	height:140px;
-	float:left;
-	margin-top:10px;
-}
-
-.BtEnd{
-	width:230px;
-	height:120px;
-	float:left;
-	/*margin-left:4px;*/
-	border:solid 1px red;
-}
 #ContatoPavilhao{
 	width:239px;
 	height:172px;

@@ -48,6 +48,8 @@
 		
 		<div id="news_home">
 			<span class="titulo_home">NEWS</span>
+	
+	
 		</div><!-- close new_home -->
 	
 	

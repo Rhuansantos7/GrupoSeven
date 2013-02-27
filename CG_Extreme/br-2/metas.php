@@ -5,6 +5,7 @@
 	<link rel="icon" href="five.png" type="image/png" />
 	<!-- main css -->
 	<link rel="stylesheet" href="style/main.css" />
+
 	
 	<!-- fonts used -->
 	<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
@@ -22,19 +23,12 @@
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery1.8.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<script src="js/topoHome.js"></script>
-	
-	
-
 	<!-- include Cycle plugin -->
 	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
-		
 	<! --------- -VÍDEO GALLERY ---->
 	<script type="text/javascript" src="js/html5gallery/html5gallery.js"></script>    
 	
-	
-	
-	
+		
 		<!---- FANCY BOX ---->
 	
 	
@@ -62,7 +56,7 @@
 		$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 		$ipad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
 		
-		if ($iphone || $android || $palmpre || $ipod || $berry == true) 
+		if ($iphone || $ipad || $android || $palmpre || $ipod || $berry == true) 
 		{ 
 			echo "<script>window.location=' '</script>";
 		}

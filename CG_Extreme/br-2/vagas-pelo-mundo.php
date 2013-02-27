@@ -4,6 +4,8 @@
 
 <body>
 <?php include('include/menu.php'); ?>
+
+	<div class="banner_pavilhao"></div> <! close baner pavilhao -->
 		
 	<div id="ContentPavilhao">
 		
@@ -11,12 +13,12 @@
 		<div id="ColunaFixaPavailhao">
 			<div id="MenuPavilhao">
 				<ul class="TextoPadraoPavilhao">
-					<li>Embarque na Seven</li>
-					<li>Núcleo de Portfolio</li>
-					<li>Oportunidade para os alunos</li>
-					<li>Campeonato Unity</li>
-					<li>Guinness Book</li>
-					<li>Exposição de Talentos da Seven</li>
+					<li><a href="embarque.php">Embarque na Seven</a></li>
+					<li><a href="nucleo.php">Núcleo de Portfolio</a></li>
+					<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
+					<li><a href="unity.php">Campeonato Unity</a></li>
+					<li><a href="guinnes.php">Guinness Book</a></li>
+					<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
 					<li><a href="empregadores.php">Empregadores</a></li>
 					<li><a href="vagas-pelo-mundo.php"><b>Vagas Pelo Mundo</b></a></li>
 				</ul>
@@ -52,6 +54,8 @@
 		
 		<div class="VagasContent">
 			<span class="titulo_home" style="margin-left:27px;">Vagas pelo mundo</span>
+				<div class="ImgTopoPavilhao" style="margin-left:2px;"><img src="img/pavilhao/banner-vagas-mundo.jpg" alt=""></div><!-- close ImgTopoPavilhao -->
+			
 			<ul>
 				<li>
 					<span>Empresa</span><span>Vaga</span><span>Site</span>

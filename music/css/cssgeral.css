@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	}
+/*Menu*/
+
+#menu {
+	width:100%;
+	height:110px;
+	background:url(../img/fundo_menu_03.png);
+	position:absolute;
+	margin-top:50px;
+	}
+	
+#menu_dentro{
+    width: 973px;
+	height: 100px;
+	margin: auto;
+	margin-top: 10px;
+	background: ;
+	}
+	
+#menu-bt {
+	line-height: 100px;
+	margin-top: -1px;
+	color: #FFF;
+	list-style: none;
+	float: right;
+		
+	}
+	#menu-bt li {
+	    font-family: Verdana, Geneva, sans-serif;
+		font-size: 16px;
+		text-align: center;
+		float: left;
+	}
+#menu-bt li a {
+	width: 100px;
+	height: 100px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+		}
+#menu-bt li a:hover {
+		color: #FFF;
+		background:url(../img/menu-hover2_03.png);
+		}
+
+/*Fim Menu*/
+
+	/* Topo */
+#topo{
+	width:100%;
+	height:600px;
+	background:#000;
+	
+	}
+	
+#topo_dentro{
+	width:1900px;
+	margin:auto;
+	background:#CCC;
+	height:600px;
+	}
+	/* Fim Topo */
+	
+	/* Vitrine */
+#vitrine{
+	width:100%;
+	height:290px;
+	background:url(../img/fundo_vitrine.jpg);
+	}
+#vitrine_dentro{
+	width:1020px;
+	height:290px;
+	background:;
+	margin:auto;
+	
+	}
+	/* FIm Vitrine */
+	
+	/* Formação */
+#formacao{
+	width:100%;
+	height:320px;
+	background:url(../img/fundo_03.jpg);
+	}
+#formacao_dentro{
+	width:1020px;
+	height:320px;
+	background:;
+	margin:auto;
+	}
+	
+	/* Fim Formação */
+	
+	/* Roda Pé */
+	
+#rodape1{
+	width:100%;
+	height:112px;
+	background:#000;
+	}
+#rodape1_dentro{
+	width:1900px;
+	height:112px;
+	margin:auto;
+	background:;
+	}	
+#rodape2{
+	width:100%;
+	height:38px;
+	background:#0d0b0a;
+	}
+#rodape2_dentro{
+	width:1900px;
+	height:38px;
+	background: ;
+	margin:auto;
+		}	
+		
+#redesociais{
+	margin-left:550px;
+	position:absolute;
+	margin-top: 2px;
+	}
+	
+#media{
+	position:absolute;
+	margin-left:1280px;
+	margin-top: 10px;
+	}
+#para{
+	line-height:30px;
+	float:left;
+	position:absolute;
+	margin-left:800px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	margin-top: 2px;
+	}
+/* Fim Roda Pé */

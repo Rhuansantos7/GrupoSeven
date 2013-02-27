@@ -20,14 +20,14 @@
 				<li><a href="#">Vídeos</a></li>
 				<li><a href="carreira.php">Pavilhão de Carreira</a>
 					<ul>
-						<li><a href="#">Embarque na Seven</a></li>
-						<li><a href="#">Núcleo de Portfolio</a></li>
-						<li><a href="#">Oportunidade para os alunos</a></li>
-						<li><a href="#">Campeonato Unity</a></li>
-						<li><a href="#">Guinness Book</a></li>
-						<li><a href="#">Exposição de Talentos da Seven</a></li>
-						<li><a href="#">Empregadores</a></li>
-						<li><a href="vagas-pelo-mundo.php">Vagas Pelo Mundo</a></li>
+						<li><a href="embarque.php">Embarque na Seven</a></li>
+						<li><a href="nucleo.php">Núcleo de Portfolio</a></li>
+						<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
+						<li><a href="unity.php">Campeonato Unity</a></li>
+						<li><a href="guinnes.php">Guinness Book</a></li>
+						<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
+						<li><a href="empregadores.php">Empregadores</a></li>
+						<li><a href="vagas-pelo-mundo.php"><b>Vagas Pelo Mundo</b></a></li>
 					</ul>
 				</li>
 				

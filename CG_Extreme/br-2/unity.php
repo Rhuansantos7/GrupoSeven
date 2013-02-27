@@ -4,28 +4,25 @@
 
 <body>
 <?php include('include/menu.php'); ?>
-
-	<div class="banner_pavilhao"></div> <! close baner pavilhao -->
-	
-	
-		<div id="ContentPavilhao">
 		
-			<div id="IntroPavilhao">
-				<Span class="TextoPadraoPavilhao TextoIntroPavilhao">
-					Focando em ações colaborativas no mundo business, que possam ajudar o crescimento da indústria no País, o
-					departamento “OPPORTUNITY” do CGEXTREME esta juntando forças com empresas da indústria para montar um
-					pavilhão de carreira dentro do evento, onde a indústria irá prospectar sua marca para um público segmentado de
-					6000 pessoas e fazer o recrutamento de novos talentos para a indústria nacional.
-				</span>
-			</div><!-- close IntroPavilhao-->
+			<div class="banner_pavilhao"></div> <! close baner pavilhao -->
 			
-			
-			
-			
-		<div id="ContentFixPavilhao">
-			<div id="Guinnes">
-			</div><!-- close guines -->
-			
+	<div id="ContentPavilhao">
+		
+		
+		<div id="ColunaFixaPavailhao">
+			<div id="MenuPavilhao">
+				<ul class="TextoPadraoPavilhao">
+					<li><a href="embarque.php">Embarque na Seven</a></li>
+					<li><a href="nucleo.php">Núcleo de Portfolio</a></li>
+					<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
+					<li><a href="unity.php">Campeonato Unity</a></li>
+					<li><a href="guinnes.php">Guinness Book</a></li>
+					<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
+					<li><a href="empregadores.php">Empregadores</a></li>
+					<li><a href="vagas-pelo-mundo.php"><b>Vagas Pelo Mundo</b></a></li>
+				</ul>
+			</div><!-- close Menupavilhao -->
 			
 			
 			<div id="ContatoPavilhao">
@@ -46,21 +43,24 @@
 					talentos para expandir seus negócios e a demanda atual em grandes projetos, o pavilhão de carreira é o lugar para
 					se estar.
 				
+					<a href="empregadores.php">
 					<div id="BtEmpregadores">
 						<img src="img/pavilhao/seta-azul.png" alt=""/>
 						QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA
 					</div><!-- close BtEmpregadores -->
+					</a>
 				</span>
 			</div><!-- close empregadores -->
-		</div><!-- close ContatoPavilhao -->
-			
-			<div id="VagasPeloMundo">
-			</div><!-- VagasPeloMundo -->
-			
-			
-					
-		</div><!-- close ContentPavilhao-->
+		</div><!-- close ColunaFixaPavilhao -->	
 		
+		<div id="ContentExpo">
+			<span class="titulo_home">Unity</span>
+			<div class="ImgTopoPavilhao"><img src="img/pavilhao/banner-unity.jpg" alt="" /></div><!-- close ImgTopoPavilhao -->
+			<div class="ContentTextPavilhao"></div><!-- close ContentTextPavilhao -->
+		</div><!-- close ContenExpo -->
+			
+	</div><!-- close ContentPavilhao -->
+
 <?php include('include/rodape.php'); ?>
 
 </body>

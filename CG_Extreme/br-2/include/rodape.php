@@ -51,6 +51,8 @@
 				<span class="menu_rodape_top">EVENTO</span>
 				<ul>
 					<li class="menu_ropde_sub">Organizadores</li>
+					<li class="menu_ropde_sub">Pavilhão de Carreira</li>
+					<li class="menu_ropde_sub">Embarque na Seven</li>
 				</ul>
 			</div><!-- close menu rodape -->
 			
