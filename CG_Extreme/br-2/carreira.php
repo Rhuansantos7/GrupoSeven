@@ -2,7 +2,7 @@
 <html>
 <?php include('metas.php'); ?>
 
-<!-- teste -->
+<!-- teste -- 2>
 
 <body>
 <?php include('include/menu.php'); ?>
