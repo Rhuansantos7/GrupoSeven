@@ -7,7 +7,7 @@
 			<div class="content">
 				<div class="palestranteBanner chance">
 					
-				</div><!--close palestrante banner-->
+				</div><!--close palestrante banner teste-->
 				<div class="wrapper">
 					<div class="palestranteList">
 						<ul>
