@@ -2,6 +2,8 @@
 <html>
 <?php include('metas.php'); ?>
 
+<!-- teste -->
+
 <body>
 <?php include('include/menu.php'); ?>
 
