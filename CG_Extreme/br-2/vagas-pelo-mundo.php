@@ -6,6 +6,7 @@
 <?php include('include/menu.php'); ?>
 
 	<div class="banner_pavilhao"></div> <! close baner pavilhao -->
+	<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
 		
 	<div id="ContentPavilhao">
 		
@@ -93,16 +94,7 @@
 				<li>
 					<span>Empresa</span><span>Vaga</span><span>Site</span>
 				</li>
-				<li>
-					<span>Empresa</span><span>Vaga</span><span>Site</span>
-				</li>
-				<li>
-					<span>Empresa</span><span>Vaga</span><span>Site</span>
-				</li>
-				<li>
-					<span>Empresa</span><span>Vaga</span><span>Site</span>
-				</li>
-				
+
 			</ul>
 
 			

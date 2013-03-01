@@ -6,6 +6,7 @@
 <?php include('include/menu.php'); ?>
 		
 			<div class="banner_pavilhao"></div> <! close baner pavilhao -->
+			<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
 			
 	<div id="ContentPavilhao">
 		

@@ -43,6 +43,7 @@
 
 
 </div><!-- close banner_home -->
+<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
 	
 <div id="content_home">
 		
@@ -76,19 +77,52 @@
 		</div><!-- close videos_home -->
 <! --------------------------------------- GALLERY VIDEO ------------------------------->		
 
+
+<! ---------------------------------------  CG EXTREME NA MÍDIA ------------------------------->		
+
+
 		
 		<div id="HomeMidia">
+			<div id="LogoMidia">
+				</div><!-- close LogoMidia -->
 			
+			<div class="LogoM">
+				<div class="slideshow">
+					<img src="img/home/na-midia-jovempan.png" />
+					<img src="img/home/na-midia-tecmundo.png" />
+				</div><!-- close slideshow -->
+			</div><!-- close LogoM1 -->
+			
+			
+			<div class="LogoM" style="margin-left:50px;">
+				<div class="slideshow">
+					<img src="img/home/na-midia-jovempan.png" />
+					<img src="img/home/na-midia-tecmundo.png" />
+				</div><!-- close slideshow -->
+			</div><!-- close LogoM1 -->
+		
 		</div><!-- close home midia -->
 		
 		
 		<div class="redesHome">
 			<span class="titulo_home">TWEETS</span>
+				<div class="ContentSocial">
+			<a class="twitter-timeline" href="https://twitter.com/sevencg" data-widget-id="306856534745423873">Tweets de @sevencg</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+				
+				</div><!-- close ContentSocial -->
 		</div><!-- close redesHome -->
 		
 		
 		<div class="redesHome">
-			<span class="titulo_home">FACEBOOK</span>
+		<span class="titulo_home">FACEBOOK</span>
+			<div class="ContentSocial"> 
+			<div class="fb-like-box" data-href="http://www.facebook.com/sevencomputacaografica" data-width="292" data-height="360" data-show-faces="true" data-stream="false" data-header="false"></div>
+				<div id="fb-root"></div>
+			</div><!-- close ContentSocial -->
 		</div><!-- close redesHome -->
 		
 		
@@ -98,6 +132,28 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=405004916221406";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 <script type="text/javascript">
 
 $("#caminho").delay("1000").animate({

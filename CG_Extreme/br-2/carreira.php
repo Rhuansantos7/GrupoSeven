@@ -6,24 +6,53 @@
 <?php include('include/menu.php'); ?>
 
 	<div class="banner_pavilhao"></div> <! close baner pavilhao -->
+	<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
 	
 	
 		<div id="ContentPavilhao">
+			<div id="PavilhaoLeft">
+				<div id="IntroPavilhao">
+				<span class="titulo_home">Pavilhão</span>
+					<Span class="TextoPadraoPavilhao TextoIntroPavilhao">
+						Focando em ações colaborativas no mundo business, que possam ajudar o crescimento da indústria no País, o
+						departamento “OPPORTUNITY” do CGEXTREME esta juntando forças com empresas da indústria para montar um
+						pavilhão de carreira dentro do evento, onde a indústria irá prospectar sua marca para um público segmentado de
+						6000 pessoas e fazer o recrutamento de novos talentos para a indústria nacional.
+					</span>
+				</div><!-- close IntroPavilhao-->
+				
+				<div id="VideoPavilhao"></div><!-- close VideoPaviilhao -->
+				<div id="VagasPeloMundo">
+				</div><!-- close VagasPeloMundo -->
+			</div><!-- PavilhaoLeft -->
+			
+			
+			
+			
+			
+			<div id="PavilhaoMeio">
+				<div id="CharacterInk">
+				</div><!-- close CharacterInk -->
+				<div id="GuinnesPavilhaoHome">
+				</div><!-- close GuinnesPavilhaoHome -->
+				<div id="UnityPavilhao">
+				</div><!-- close UnityPavilhao -->
+				<div id="ExtremeOpportunity">
+				</div><!-- close ExtremeOpportunity -->
+			</div><!-- close PavilhaoMeio -->
+			
 		
-			<div id="IntroPavilhao">
-				<Span class="TextoPadraoPavilhao TextoIntroPavilhao">
-					Focando em ações colaborativas no mundo business, que possam ajudar o crescimento da indústria no País, o
-					departamento “OPPORTUNITY” do CGEXTREME esta juntando forças com empresas da indústria para montar um
-					pavilhão de carreira dentro do evento, onde a indústria irá prospectar sua marca para um público segmentado de
-					6000 pessoas e fazer o recrutamento de novos talentos para a indústria nacional.
-				</span>
-			</div><!-- close IntroPavilhao-->
-			
-			
-			
+		
+		
+		
+		
+		
+		
+		
+		
 			
 		<div id="ContentFixPavilhao">
-			<div id="Guinnes">
+			<div id="ExpoTalent">
 			</div><!-- close guines -->
 			
 			
@@ -54,8 +83,6 @@
 			</div><!-- close empregadores -->
 		</div><!-- close ContatoPavilhao -->
 			
-			<div id="VagasPeloMundo">
-			</div><!-- VagasPeloMundo -->
 			
 			
 					
