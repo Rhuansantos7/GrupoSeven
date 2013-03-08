@@ -1,60 +1,48 @@
-<script type="text/javascript">
+	<div id="topo" class="animatecss3">
+		<center>
+			<a href="index.php"><img src="img/topo/logo-cg-extreme.png"></a>
+		</center>
+	</div><!-- close topo -->
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37275959-2']);
-  _gaq.push(['_trackPageview']);
+<div id="menu_content">
+	<ul class="menu">
+		<li><a href="index.php">HOME</a></li>
+		<li><a href="evento.php">EVENTO</a>
+			<ul>
+	
+					<ul>
+						<li><a href="embarque.php">Embarque na Seven</a></li>
+						<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
+						<li><a href="unity.php">Campeonato Unity</a></li>
+						<li><a href="guinnes.php">Bússola do estudante</a></li>
+						<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
+					</ul>
+				</li>
+				
+				</ul>
+		</li>
+	
+	
+		<li><a href="palestrantes.php">PALESTRANTES</a>
+			<ul>
+				<li><a href="laurie_brugger.php">Laurie Brugger</a></li>
+				<li><a href="sebastian_krys.php">Sebastian Krys</a></li>
+				<li><a href="nathaniel_howe.php">Nathaniel Howe</a></li>
+				<li><a href="jayson_whitmore.php">Jayson Whitmore</a></li>
+				<li><a href="cordy_rierson.php">Cordy Rierson</a></li>
+				<li><a href="chance_glasco.php">Chance Glasco</a></li>
+			</ul>
+		</li>
+	
+		<li><a href="ingressos.php">INGRESSOS</a>
+			<ul>
+			</ul>
+		</li>
+		<li><a href="local.php">LOCAL</a>
+			<ul>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<div class="logos">
-  <div class="wrapper">
-    <ul>
-      <a href="http://www.sevencg.com.br" target="new"><li class="seven"><img src="img/pd/gruposeven.png" /></li></a>
-      <a href="http://www.fullsail.edu/" target="new"><li class="fullsail"><img src="img/pd/fullsail.png" /></li></a>
-    </ul>
-  </div>
-  <!--close wrapper-->
-  
-  <div class="clear"></div>
-</div>
-<!--close logos-->
-
-<div class="menu">
-  <div class="wrapper menuWrapper">
-    <ul class="leftMenu">
-      <li><a href="index.php" class="home"></a></li>
-      <li><a href="evento.php" class="evento"></a></li>
-      <li><a href="palestrantes.php" class="palestrante"></a></li>
-    </ul>
-    <!--close left menu-->
-    
-    <div class="extremeLogo"> <a href="index.php" class="bannerLogo"><img src="img/pd/logo_cgextreme.png" /></a> </div>
-    <!--close extreme logo-->
-    
-    <ul class="rightMenu">
-      <li><a href="ingressos.php" class="ingressos"></a></li>
-      <li><a href="local.php" class="local"></a></li>
-      <li><a href="contato.php" class="contato"></a></li>
-    </ul>
-    <!--close right menu-->
-    
-    <div class="brMenuFlag"> <img src="img/pd/br_menu_flag2.png" height="150"/> </div>
-    <!--close brMenuFlag-->
-    
-    <div class="languageSelect">
-      <ul>
-        <li class="align_sal"><img src="img/pd/brasil_flag.png" height="20"/></li>
-        <a href="../us/"><li class="align_sal"><img src="img/pd/usa_flag.png" height="20" /></li></a>
-      </ul>
-    </div>
-    <!--close language select--> 
-    
-  </div>
-  <!--close wrapper--> 
-</div>
-<!--close menu-->
+			</ul>
+		</li>
+		<li><a href="contato.php">CONTATO</a></li>
+	</ul> <!-- end .menu -->
+</div><!-- menu_content -->

@@ -1,27 +1,119 @@
-<div class="clear"></div>
-	<!--- rodape -->  
-	<div class="mainRodape">
-		<div class="rodape">
+<div class="clear"></div><!-- close clear -->
+	
+	<div id="content_rodape">
 		
-			<div class="apoio">
-			<a href="http://www.rio.rj.gov.br/" target="new"><img src="img/rodape/logo-prefeitura-rio.jpg" alt="" title=""></a>
+		<div id="logos" class="animatecss3">
+			
+			<div id="apoio" >
+				<a href="http://www.rio.rj.gov.br" target="new"><img src="img/rodape/logo-prefeitura-rio.png"></a>
+				<a href="http://www.wacom.com" target="new"><img src="img/rodape/logo-wacom.png"></a>
 			</div><!-- close apoio -->
 			
-			<div class="parceiros">
-			<a href="http://www.cvc.com.br/" target="new"><img src="img/rodape/logo-cvc.png" alt="" title=""></a>
+			<div id="parceiros">
+				<a href="http://www.cvc.com.br" target="new"><img src="img/rodape/logo-cvc2.png"></a>
 			</div><!-- close parceiros -->
+			
+			<div id="apoioMidias">
+				<a href="http://rederecord.r7.com" target="new"><img src="img/rodape/logo-record.png"></a>
+				<a href="http://www.r7.com" target="new"><img src="img/rodape/logo-r7.png"></a>
+				<a href="http://www.kinoplex.com.br" target="new"><img src="img/rodape/logo-kinoplex.png"></a>
+				<a href="http://www.sidneyrezende.com" target="new"><img src="img/rodape/logo-srzd.png"></a>
+			
+			</div><!-- close apoioMidias -->
+			
+			<div id="organizadores">
+				<a href="http://www.sevencg.com.br" target="new"><img src="img/rodape/logo-grupo-seven.png"></a>
+				<a href="http://www.fullsail.edu/" target="new"><img src="img/rodape/logo-fullsail.png"></a>
+			</div><!-- close apoioMidias -->
+			
+		</div><!-- close logos -->
 		
-		</div><!-- close rodape -->
-	</div><!-- mainRodape -->
 		
+		
+	<div id="mapa_site">
+		
+			<div class="menu_rodape" style="margin-left:20px;">
+				<span class="menu_rodape_top"><a href="index.php">HOME</a></span>
+				<ul>
+					<li class="menu_ropde_sub">News</li>
+					<br>
+					<li class="menu_ropde_sub">Vídeos</li>
+				</ul>
+			</div><!-- close menu rodape -->
+
+			
+			
+			<div class="menu_rodape" style="margin-left:-30px;">
+				<span class="menu_rodape_top"><a href="evento.php">EVENTO</a></span>
+				<ul>
+					<li class="menu_ropde_sub">Pavilhão de Carreira</li>
+					<li class="menu_ropde_sub">Embarque na Seven</li>
+				</ul>
+			</div><!-- close menu rodape -->
+			
+			
+			
+			<div class="menu_rodape" style="margin-left:20px;">
+				<span class="menu_rodape_top"><a href="palestrantes.php">PALESTRANTES</a></span>
+				<ul>
+					<a href="laurie_brugger.php"><li class="menu_ropde_sub">Laurie Brugger</li></a>
+					<a href="sebastian_krys.php"><li class="menu_ropde_sub">Sebastian Krys</li></a>
+					<a href="nathaniel_howe.php"><li class="menu_ropde_sub">Nathaniel Howe</li></a>
+					<a href="jayson_whitmore.php"><li class="menu_ropde_sub">Jayson Whitmore</li></a>
+					<a href="cordy_rierson.php"><li class="menu_ropde_sub">Cordy Rierson</li></a>
+					<br>
+					<a href="chance_glasco.php"><li class="menu_ropde_sub">Chance Glasco</li></a>
+				</ul>
+			</div><!-- close menu rodape -->
+			
+			
+			
+			<div class="menu_rodape">
+				<span class="menu_rodape_top"><a href="ingressos.php">INGRESSOS</a></span>
+				<ul>
+
+
+				</ul>
+			</div><!-- close menu rodape -->
+			
+			
+			
+			
+			<div class="menu_rodape" style="margin-left:10px;">
+				<span class="menu_rodape_top"><a href="local.php">LOCAL</a></span>
+				<ul>
+
+				</ul>
+			</div><!-- close menu rodape -->
+			
+			
+			
+			<div class="menu_rodape" style="margin-left:-10px;">
+				<span class="menu_rodape_top"><a href="contato.php">CONTATO</a></span>
+				<ul>
+				</ul>
+			</div><!-- close menu rodape -->
+	</div><!-- close mapa site -->
+		
+		
+		
+		<div id="direitos">
+			copyright©CGEXTREME - TODOS OS DIREITOS RESERVADOS
+			<div id="social">
+				<ul>
+					<a href="https://www.facebook.com/SevenComputacaoGrafica" target="new"><li><img src="img/rodape/icone-facebook.png" alt=""></li></a>
+					<a href="https://twitter.com/sevencg" target="new"><li><img src="img/rodape/icone-twitter.png" alt=""></li></a>
+					<a href="http://www.youtube.com/user/SEVEN7cg/featured" target="new"><li><img src="img/rodape/icone-youtube.png" alt=""></li></a>
+				</ul>
+			</div><!-- close social -->
+		</div><!-- close direitos-->
+		
+		
+		
+	</div><!-- close content rodape -->
 	
-	<div class="direitos">
-		<center>
-		<strong>copyright&copy;CGEXTREME - TODOS OS DIREITOS RESERVADOS</strong>
-		</center>
-	</div><! -- close direitos -- >
 	
-	
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

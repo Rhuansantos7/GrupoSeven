@@ -1,149 +1,213 @@
 ﻿<!doctype html>
 <html>
-<head>
-	<title>CG Extreme</title>
-	<link rel="icon" href="five.png" type="image/png" />
-	<link rel="stylesheet" href="style/main.css" />
-	<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-	<meta name="keywords" content="cgextreme, Seven, Fullsail, Citibank hall, Chance Glasco, Nathaniel Howe, Sebastian Krys, Cordy Rierson, Laurie Brugger, Jayson Whitmore">
-	<meta name="description" content="cgextreme web site">
-	<meta name="author" content="seven media">
-	<meta charset="utf-8">
-	<script type="text/javascript" src="js/jquery1.8.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<!-- include jQuery library -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-	<!-- include Cycle plugin -->
-	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-		    $('.slideshow').cycle({
-				fx: 'fade' // choose your transition teste type, ex: fade, scrollUp, shuffle, etc...
-			});
-		});
-	</script>
-
-	 <?php
-		$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-		$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-		$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-		$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-		$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-		$ipad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
-		
-		if ($iphone || $android || $palmpre || $ipod || $berry == true) 
-		{ 
-			echo "<script>window.location='http://m.cgextreme.com.br/'</script>";
-		}
-		
-		/*
-		if ($ipad == true) 
-		{ 
-			echo "<script>window.location='tablet/index.php'</script>";
-		}
-		*/
-	?>
-</head>
+<?php include('metas.php'); ?>
 
 <body>
-<?php include('include/menu.php'); ?>
-<div class="content"> 
-  <!--Slider-->
-  <center>
-    <div id="b-banner">
-      <div id="b-slide-list">
-        <div id="b-description">
-          <div id="b-delimiter">
-            <div id="b-left">
-              <h1></h1>
-              <h2></h2>
-            </div>
-            <div id="b-right">
-              <div id="b-slide-list-control">
-                <ul>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="b-slide">
-          <ul>
-          	<a href="ingressos.php"><li i='0' style="background:url(img/slider/01.jpg) no-repeat center top;"></li></a>
-            <li i='1' style="background:url(img/slider/02.jpg) no-repeat center top;"></li>
-           	<a href="local.php"><li i='2' style="background:url(img/slider/03.jpg) no-repeat center top;"></li></a>
-          	<a href="evento.php"><li i='3' style="background:url(img/slider/04.jpg) no-repeat center top;"></li></a>
-           	<a href="palestrantes.php"><li i='4' style="background:url(img/slider/05.jpg) no-repeat center top; display:block;"></li></a>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </center>
-  <!--Slider-->
- 	 <div id="content_home">
+<?php include('include/menu_animado.php'); ?>
 
-   	 <div id="news_home">
-     <span class="destaque_news">27 e 28 de Abril</span>
-     <span class="txt_pd_home"> 
-   <p>O primeiro espetáculo de entretenimento</p>
-   <p>digital do Brasil</p>
-   <p> vai acontecer no Citibank</p>
-   <p>Hall, a mais importante casa de</p>
-   <p>shows da América Latina.</p>
-   <p>Os ingressos já estão à venda! </p>     </span>
-     <br>
-     </div>
-     
-      	<a href="midia.php"><div id="midia_home"> 
-	    <div class="slideshow">
-		<img src="img/media/bric-financial-news-logo.png" />
-		<img src="img/media/daily-finance-logo.png"  />
-		<img src="img/media/yahoo-news-logo.png" />
-		<img src="img/media/animation-world-network-logo.png" />
-		<img src="img/media/cgw-logo.png" />
-		</div>
-	    
-    </div><!-- close midia home --></a>
-    <!--close news_home-->
-    <div id="video_home">
-    
-    <iframe width="500" height="330" src="http://www.youtube.com/embed/xA_WZHUghi8" frameborder="0" allowfullscreen></iframe>
 
-    </div>
-    <div id="wallpaper">
-     <span class="txt_wall">
-      <p class="downloads">DOWNLOADS</p>
-      <p class="donwload_sub">Baixe agora mesmo o wallpaper e a capa para Facebook. Entre no clima dessa experiência!</p>
-      </span>
-      <a href="download.php"><div id="bt_baixar"></div></a>
-      <!--close bt_baixar--> 
-    </div>
-    <!--close wallpaper--> 
-    
+<!-- <embed class="banner_swf" src="banner/banner-mists.swf" height="570" width="100%"> -->
+<div id="banner_home">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="banner_formacao" align="absmiddle">
+					<param name="movie" value="estrutura_pronta4.swf" />
+					<param name="quality" value="high" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+					<!--[if !IE]>-->
+					<object data="estrutura_pronta4.swf" type="application/x-shockwave-flash" width="100%" height="100%" align="absmiddle">
+						<param name="movie" value="estrutura_pronta4.swf" />
+						<param name="quality" value="high" />
+						<param name="play" value="true" />
+						<param name="loop" value="true" />
+						<param name="wmode" value="transparent" />
+						<param name="scale" value="showall" />
+						<param name="menu" value="true" />
+						<param name="devicefont" value="false" />
+						<param name="salign" value="" />
+						<param name="allowScriptAccess" value="sameDomain" />
+					<!--<![endif]-->
+						<a href="http://www.adobe.com/go/getflash">
+						<img src="img/tom-isaksen.jpg" alt="tom-isaksen" width="1920" height="500"> 
+						</a>
+					<!--[if !IE]>-->
+					</object>
+					<!--<![endif]-->
+				</object>
+
+
+
+</div><!-- close banner_home -->
+<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
 	
-		<div id="ingresso_home">
-		<p class="venda"><span class="red">2º lote</span> de ingressos à venda! </p>
-		<p class="venda"> <a href="ingressos.php"><img src="img/home/ingresso.png"></a></p>
-		<br><br>
-		<iframe width="500" height="330" src="http://www.youtube.com/embed/JQgpbLO0Kvo?fs=1" frameborder="0" allowfullscreen></iframe>
-		</div>
+<div id="content_home">
 		
+	<div id="news_home">
+			<span class="titulo_home">NEWS</span>
+	
+	
+<! --------------------------------------- NEWS ---------------------------------->			
 		
-		<div id="organizacao_home">
-		<p class="org">&nbsp;</p>
-		
-		<br />
-		<a href="http://www.sevencg.com.br" target="new"> <p class="grupo_seven"><img src="img/pd/gruposeven.png"></p></a>
-		<a href="http://www.fullsail.edu/" target="new"> <p class="fullsail"><img src="img/pd/fullsail.png"></p></a>
-		<Br>
-		<a href="evento.php"><img src="img/home/organizadores.png"></a>
-		</div>
+		<div id="view">
 			
-		</div>
-		<!--close content_home--> 
+			<ul>
+				<li>
+					<center>
+					<img src="img/home/hitman-absolution.jpg">
+					</center>
+					<span class="TexTnewDestaque">CONFIRMADO 7º PALESTRANTE DO <br>CG EXTREME! TOM ISAKSEN.</span>
+					<span class="TexTnew"><p>Tom Isaksen é o novo</p> palestrante confirmado para o CG Extreme</span>
+				</li>
+				
+				
+				
+				<li><img src="img/home/opportunity.jpg"></li>
+
+			</ul>
+			
+		</div><!-- close view -->
 		
-		<?php include('include/rodape.php'); ?>
-		</div>
+		<div id="op">
+			<div i="0" class="box" >
+			
+			<span class="TexTnew2" class="ativanews">7º PALESTRANTE DO CG EXTREME!</span>
+			
+			</div><! -- close i 0 --> <!-- <div i="1" class="box">equipe</div> -->
+			
+			
+			
+			
+			
+			
+		
+		</div><!-- close op -->
+		
+	</div><!-- close new_home -->
+	
+	
+
+<! --------------------------------------- GALLERY VIDEO ------------------------------->			
+		<div id="videos_home">
+			<span class="titulo_home">VÍDEOS</span>
+			
+				
+			<div id="content_video_home">
+				<!-- A wrapper DIV to center the Gallery -->
+				<div style="text-align:center;">
+				
+					<div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="370" data-height="250" data-autoplayvideo="false">
+					
+						<!-- Add Youtube video to Gallery -->
+						<a href="http://www.youtube.com/watch?v=urdS0fcLopc&feature=share&list=UUOCnRD7UIj34ZsxAOonqNlQ"><img src="http://i1.ytimg.com/vi/urdS0fcLopc/hqdefault.jpg" alt=""></a>
+						<a href="http://www.youtube.com/watch?v=7GeMovTmacE&list=HL1362443380"><img src="http://i1.ytimg.com/vi/7GeMovTmacE/default.jpg" alt=""></a>
+						<a href="http://www.youtube.com/watch?v=JQgpbLO0Kvo&list=UUOCnRD7UIj34ZsxAOonqNlQ&index=10"><img src="http://i1.ytimg.com/vi/JQgpbLO0Kvo/default.jpg" alt=""></a>
+						<a href="http://www.youtube.com/watch?v=xA_WZHUghi8&list=UUOCnRD7UIj34ZsxAOonqNlQ&index=12"><img src="http://img.youtube.com/vi/xA_WZHUghi8/2.jpg" alt=""></a>
+
+
+					</div>
+				
+				</div>
+			</div><!-- close content_video_home -->
+		</div><!-- close videos_home -->
+<! --------------------------------------- GALLERY VIDEO ------------------------------->		
+
+
+<! ---------------------------------------  CG EXTREME NA MÍDIA ------------------------------->		
+
+
+		
+		<a href="midia.php"><div id="HomeMidia">
+			<div id="LogoMidia">
+				</div><!-- close LogoMidia -->
+			
+			<div class="LogoM">
+				<div class="slideshow">
+					<img src="img/home/na-midia-jovempan.png" />
+					<img src="img/home/na-midia-tecmundo.png" />
+				</div><!-- close slideshow -->
+			</div><!-- close LogoM1 -->
+			
+			
+			<div class="LogoM" style="margin-left:50px;">
+				<div class="slideshow">
+					<img src="img/home/na-midia-uol.png" />
+					<img src="img/home/na-midia-yahoo.png" />
+				</div><!-- close slideshow -->
+			</div><!-- close LogoM1 -->
+		
+		</div><!-- close home midia -->
+		</a>
+		
+		
+		<div class="redesHome">
+			<span class="titulo_home">TWEETS</span>
+				<div class="ContentSocial">
+			<a class="twitter-timeline" href="https://twitter.com/sevencg" data-widget-id="306856534745423873">Tweets de @sevencg</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+				
+				</div><!-- close ContentSocial -->
+		</div><!-- close redesHome -->
+		
+		
+		<div class="redesHome">
+		m<span class="titulo_home">FACEBOOK</span>
+			<div class="ContentSocial"> 
+			<div class="fb-like-box" data-href="http://www.facebook.com/sevencomputacaografica" data-width="292" data-height="360" data-show-faces="true" data-stream="false" data-header="false"></div>
+				<div id="fb-root"></div>
+			</div><!-- close ContentSocial -->
+		</div><!-- close redesHome -->
+		
+		
+	</div><!-- close content home -->
+	
+<?php include('include/rodape.php'); ?>
 
 </body>
 </html>
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=405004916221406";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script type="text/javascript">
+
+$("#caminho").delay("1000").animate({
+		width: "980px"
+	},5000, function(){
+		$(this).fadeOut();
+	});
+
+		
+	
+	$("#aviao_top").animate({
+		marginLeft:"1000px"
+	},7000,function(){
+		$(this).fadeOut();
+	});
+
+	
+	$("#logo_top").delay(6000).animate({
+		marginTop: "0px"
+	},2000);
+	
+		$("#data_top").delay(7000).animate({
+		width: "332px"
+	},1500);
+	
+	$("#text_top").delay(8000).fadeIn("slow");
+
+</script>

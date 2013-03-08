@@ -1,35 +1,8 @@
 ﻿<!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		
-<title>CG Extreme</title>
-<link rel="icon" href="five.png" type="image/png" />
-		
-		<link rel="stylesheet" href="style/main.css" />
-	    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-	    <link href='http://fonts.googleapis.com/css?family=Keania+One' rel='stylesheet' type='text/css'>
-		
-		<script type="text/javascript" src="js/jquery1.8.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-		
-		<!-- Add mousewheel plugin (this is optional) -->
-		<script type="text/javascript" src="js//fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-		
-		<!-- Add fancyBox -->
-		<link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
-		<script type="text/javascript" src="js//fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
-		
-		<!-- Optionally add helpers - button, thumbnail and/or media -->
-		<link rel="stylesheet" href="js//fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-		<script type="text/javascript" src="js//fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-		<script type="text/javascript" src="js//fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
-		
-		<link rel="stylesheet" href="js//fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-		<script type="text/javascript" src="js//fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-	</head>
+	<?php include('metas.php'); ?>
 	
-	<body>
+		<body>
 			<?php include('include/menu.php'); ?>
 			
 			<div class="content">

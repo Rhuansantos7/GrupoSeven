@@ -91,8 +91,8 @@
 				headers  : { 'X-fancyBox': true }
 			},
 			iframe : {
-				scrolling : 'auto',
-				preload   : true
+				scrolling : 'no',
+				preload   : true,
 			},
 			swf : {
 				wmode: 'transparent',

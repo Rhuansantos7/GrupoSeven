@@ -1,0 +1,8 @@
+/* CSS Document */
+body{background:url(../images/fundo.jpg)}
+#view { width:1000px; height:500px; border:1px solid #F0F; margin-bottom:50px; }
+#view ul { margin:0; padding:0;}
+#view ul  li { margin:0; padding:0; list-style:none; width:1000px; height:500px; position:absolute; display:none;}
+.box { width:200px; height:200px; background:#FF0000; float:left; margin-left:10px;}
+.mostra{ margin:0; padding:0; list-style:none; width:1000px; height:500px; position:absolute; background:#FFF;}
+#op {margin:auto; width:1100px; height:200px;}

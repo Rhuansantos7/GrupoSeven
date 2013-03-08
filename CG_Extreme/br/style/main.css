@@ -2,18 +2,17 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;  }
 /* HTML5  reset*/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block;}
-body { line-height: 1.3; overflow-x: hidden;  background: url(../img/pd/background.jpg) center; letter-spacing:1px;}
+body { line-height: 1.3; overflow-x: hidden;  background: url(../img/pd/fundo.jpg) center; letter-spacing:1px;}
 ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
-a:link { text-decoration: none; color: #FFF; }
+a:link { text-decoration: none; color: #000; }
 a:active { text-decoration: none; }
-a:visited { text-decoration: none; color: #FFF; }
-a:hover { text-decoration: none; color: #FFF; }
+a:visited { text-decoration: none; color: #000; }
+a:hover { text-decoration: none; color: #000; }
 .clear{clear: both;}
 a{outline: none;}
-html{padding-bottom: 50px;}
 /* -------------------------------------------------------------------------- the end reset css -------------------------------------------------------------------------- */
 
 
@@ -21,330 +20,552 @@ html{padding-bottom: 50px;}
 .wrapper{
 	margin: 0 auto;
 	width: 960px;
- 
+
+}
+.MarcadorBanner{
+	width:100%;
+	height:6px;
+	background:url("../img/pd/bottom-bar.jpg");
+	
 }
 
-
-/* -------------- logos ------------ */
-.logos{
-	background-color: #000000;
-	padding: 5px 0;
+.ativanews{
+	width:230px;
+	height:110px;
+	border:solid red 1px;
+	background:url("../img/home/news-ativa.png");
 }
 
-.logos li{
-	display: block;
-	float: left;
-	height: 30px;
+/* -------------- Topo estático ------------ */
+#topo{
+	width:100%;
+	height:148px;
+	margin:auto;
+	background:url("../img/topo/fundo-estatico.jpg") 50% 0;
+	
+}
+#topo img{
+	left:10px;
+	position:relative;
+
 }
 
-.logos li.seven{
-	float: left;
-	margin-left: 160px;
+/* -------------- Topo animado ------------ */
+#topo_animado{
+	width:1920px;
+	height:148px;
+	margin:auto;
+	background:url("../img/topo/fundo-topo.jpg") 50% 0;
+	
+}
+#data_top{
+	width:0px;
+	height:93px;
+	position:absolute;
+	left:50%;
+	margin:30px 0px 0px -450px;
+	background:url("../img/topo/data-cg-extreme.png");
+}
+#text_top{
+	width:324px;
+	height:45px;
+	position:absolute;
+	left:50%;
+	margin:50px 0px 0px 100px;
+	display:none;
+	background:url("../img/topo/texto-topo.png");
+}
+#logo_top{
+	width:215px;
+	height:175px;
+	position:absolute;
+	left:50%;
+	margin:-200px 0px 0px -100px;
+	background:url("../img/topo/logo-cg-extreme.png");
+	
+}
+#caminho{
+	width:0px;
+	height:101px;
+	margin:auto;
+	background:url("../img/topo/caminho.png");
+	
 }
 
-.logos li.fullsail{
-	float: right;
-	margin-right: 160px;
+#aviao_top{
+	width:256px;
+	height:148px;
+	position:absolute;
+	left:50%;
+	margin:-100px 0px 0px -1300px;
+	background:url("../img//topo/aviao.png");
 }
-
 
 
 /* -------------- menu ------------ */
-.menu{
-	background: url("../img/pd/back_menu.jpg") no-repeat center;
-	width: 100%;
-	height: 97px;
-	padding-top: 5px;
-	z-index: 999;
+
+
+
+/* Reset */
+.menu,
+.menu ul,
+.menu li,
+.menu a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
 }
+#menu_content{
+	width:100%;
+	height:53px;
+	margin:auto;
+	
+	background:url("../img/menu/fundo-menu.jpg");
 
-.menu li{
-	float: left;
 }
+/* Menu */
+.menu {	
+	height: 53px;
+	width: 960px;
+	margin:auto;
+	}
 
-.menu a{
-	background: url("../img/pd/menu_sprite.png") repeat;
-	background-position: -30px -15px;
-	display: block;
-}
-
-
-.menu a.home{width: 80px; height: 95px;}
-.menu a.home:hover{background-position: -30px -117px;}
-.menu a.home:hover{background-position: -30px -117px;}
-
-.menu a.evento{width: 100px; height: 95px; background-position: -120px -15px;}
-.menu a.evento:hover{background-position: -120px -117px;}
-
-.menu a.palestrante{width: 200px; height: 95px; background-position: -230px -15px;}
-.menu a.palestrante:hover{background-position: -230px -117px;}
-
-.menu a.ingressos{width: 150px; height: 95px; background-position: -630px -15px;}
-.menu a.ingressos:hover{background-position: -630px -117px;}
-
-.menu a.local{width: 100px; height: 95px; background-position: -785px -15px;}
-.menu a.local:hover{background-position: -785px -117px;}
-
-.menu a.contato{width: 110px; height: 95px; background-position: -885px -15px;}
-.menu a.contato:hover{background-position: -885px -117px;}
-
-.menu a.bannerLogo{background-image: none;}
-
-
-.menuWrapper{
+.menu li {
 	position: relative;
-	height: 105px;
+	list-style: none;
+	float: left;
+	display: block;
+	height: 53px;
+	margin-left:40px;
 }
 
+/* Links */
 
-.leftMenu{
+.menu li a {
+	display: block;
+	padding: 0 14px;
+	margin: 6px 0;
+	line-height: 37px;
+	text-decoration: none;
+
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size:16px;
+
+	color: #f3f3f3;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.menu li:first-child a { border-left: none; }
+.menu li:last-child a{ border-right: none; }
+
+.menu li:hover > a {  
+	background:#2d4555;
+}
+
+/* Sub Menu */
+
+.menu ul {
 	position: absolute;
+	top: 53px;
 	left: 0;
-	top: 0;
+
+	opacity: 0;
+	
+	background: #1f2024;
+
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-o-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+	transition: opacity .25s ease .1s;
 }
 
-.rightMenu{
-	position: absolute;
-	right: 0;
-	top: 0;
+.menu li:hover > ul { opacity: 1; }
+
+.menu ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+	margin-left:-3px;
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+}
+
+.menu li:hover > ul li {
+	width:200px;
+	margin-left:-3px;
+	height: 36px;
+	overflow: visible;
+	padding: 0;
+	
+	
+}
+
+.menu ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+	margin-left:-3px;
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+}
+
+.menu li:hover > ul li ul {
+	float:left;
+	width:200px;
+	margin-left:203px;
+	margin-top:-90px;
+	height: 36px;
+	overflow: visible;
+	padding: 0;
+
+}
+
+.menu li:hover > ul li ul li{
+	width:250px;
+	background: #1f2024;
+	
+}
+.menu li:hover > ul li ul li a{
+	text-align:left;
+	padding-left:10px;
+	width:240px;
+}
+.menu ul li a {
+	width: 200px;
+	padding: 0px 0 0px 0px;
+	margin: 0;
+	border: none;
+	border-bottom: 1px solid #353539;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-align:center;
+}
+
+.menu ul li:last-child a { border: none; }
+
+
+/* ----------------------- HOME -----------------------------------*/
+#content_home{
+	width:1000px;
+	height:1150px;
+	position:relative;
+	top:50px;
+	margin:auto;
+}
+#banner_home{
+	width:1920px;
+	height:500px;
+}
+
+.banner_swf{
+	width:1920px;
+	height:500px;
+}  
+
+#view {
+	width:310px; 
+	height:330px;
+	margin-top:30px; 
+	margin-left:15px;
+	background:url("../img/home/white60.png");
+  }
+#view ul { 
+	margin:0; 
+	padding:0;
+}
+#view ul  li { 
+	margin:0;
+	padding:0; 
+	list-style:none;  
+	position:absolute; 
+	display:none;
+	}
+.box { 
+	width:230px; 
+	height:110px;
+	background:url("../img/home/news-ativa.png");
+	float:left; 
+	margin-left:-10px;
+	margin-top:0px;
+	cursor:pointer;
+	}
+.mostra{ 
+	margin:0; 
+	padding:0; 
+	list-style:none; 
+	width:1000px; 
+	height:500px; 
+	position:absolute; 
+	}
+
+#op {
+	margin:auto; 
+	width:219px; 
+	height:330px;
+	float:right;
+	margin-right:15px;
+	margin-top:-330px;
+	background:url("../img/home/fundo-news-side.jpg");
+	}
+#view ul li img {
+	margin-left:10px;
+	margin-top:10px;
+}	
+	
+
+.TexTnewDestaque{
+	width:270px;
+	height:70px;
+	display:block;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size:12px;
+	color:black;
+	margin-left:10px;
+	
+}
+.TexTnew{
+	display:block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	color:black;
+	position:relative;
+	margin-top:-30px;
+	margin-left:10px;
+	
+}
+
+.TexTnew2{
+	display:block;
+	padding-left:20px;
+	padding-top:20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+
+	
 }
 
 
-/* -------------- extreme logo ------------ */
-
-.extremeLogo{
-	position: absolute;
-	top: -40px;
-	left: 350px;
-	cursor: pointer;
-	z-index: 10;
+@media screen and (max-width: 1280px) {
+#banner_home{
+	width:1920px;
+	height:500px;
+	margin-left:-25%;
 }
 
-
-/* -------------- banner flag ------------ */
-.brMenuFlag{
-	position: absolute;
-	right: -100px;
-	top: -14px;
+	}
+	
+#news_home{
+	width:559px;
+	height:415px;
+	float:left;
+	background:url("../img/home/fundo-box-550.png");
 }
 
-
-
-/* -------------- banner language ------------ */
-.languageSelect{
-	position: absolute;
-	bottom: -25px;
-	right: 0;
- 	z-index:15;
+#videos_home{
+	width:390px;
+	height:415px;
+	margin-left:40px;
+	float:left;
+	background:url("../img/home/fundo-box-390.png");
 }
-.languageSelect ul a{
+.titulo_home{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size:24px;
+	position:relative;
+	top:7px;
+	margin-left:50px;
+	color:#1c252a;	
+}
+#content_video_home{
+	width:370px;
+	height:290px;
+	margin-top:15px;
+	margin-left:-5px;
+	
+	
+}
+.redesHome{
+	width:319px;
+	height:420px;
+	float:left;
+	position:relative;
+	top:60px;
+	background:url("../img/home/fundo-box-310.png");
+}
+
+#HomeMidia{
+	width:990px;
+	height:204px;
+	clear:both;
+	position:relative;
+	top:30px;
+	background:url("../img/home/fundo-box-960.png");
+	
+}
+	
+.ContentSocial{
+	width:280px;
+	height:270px;
+	margin-top:20px;
+	margin-left:15px;
+}
+#LogoMidia{
+	width:130px;
+	height:133px;
+	float:left;
+	margin-top:40px;
+	margin-left:30px;
+	background:url("../img/home/cg-extreme-midia.png");
+}
+.LogoM{
+	width:340px;
+	height:140px;
+	float:left;
+	margin-top:50px;
+	margin-left:90px;
+}
+.LogoM img{
+	margin-top:-125px;
+}
+
+/* ----------------------- HOME -----------------------------------*/
+
+
+/* ----------------------------- rodape --------------------------------------------*/
+#content_rodape{
+	width:100%;
+	height:430px;
+	margin-top:100px;
+	background:url("../img/rodape/fundo-rodape.jpg") center;
+}
+/* ----------------------------- rodape logos --------------------------------------------*/
+
+#logos{
+	width:1000px;
+	height:150px;
+	margin:auto;
+}
+#apoio{
+	width:210px;
+	height:60px;
+	margin-top:40px;
+	margin-left:20px;
+	float:left;	
+}
+#apoio img{
+	margin-left:20px;
+}
+#parceiros{
+	width:130px;
+	height:60px;
+	margin-top:40px;
+	margin-left:10px;
+	float:left;
+}
+#parceiros img{
+
+	margin-left:20px;
+}
+
+#apoioMidias{
+	width:355px;
+	height:60px;
+	margin-left:10px;
+	margin-top:40px;
+	float:left;
+	
+}
+#apoioMidias img{
+	margin-left:8px;	
+}
+
+#organizadores{
+	width:210px;
+	height:60px;
+	margin-top:40px;
+	margin-left:35px;
+	float:left;
+	
+}
+#organizadores img{
+	margin-left:5px;
+	
+}
+
+/* ----------------------------- rodape menu --------------------------------------------*/
+
+#mapa_site{
+	width:1000px;
+	height:180px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.menu_rodape{
+	width:150px;
+	height:190px;
+	float:left;
+	margin-left:40px;
+
+}
+.menu_rodape ul{
+	margin-top:10px;
+}
+.menu_rodape ul li{
 	display:inline;
 }
+.menu_rodape_top{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size:18px;
+	color:black;	
+}
+.menu_ropde_sub{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color:black;
+	margin-top:200px;
+}
+/* ----------------------------- rodape direitos--------------------------------------------*/
 
-.languageSelect img{
-	margin: 4px 2px;
- 
-}
-.brMenuFlag{
-	z-index:16;
-}
-
-/* ----------------------- Slider -----------------------------------*/
-
-#b-banner {
-	width: 100%;
-	height: 500px;
-	background: #000;
-}
-#b-slide-list {
-	width: 100%;
-	height: 500px;
-}
-#b-slide-list #b-slide ul {
-	margin: 0;
-	padding: 0;
-}
-#b-slide-list #b-slide ul li {
-	width: 100%;
-	height: 500px;
-	position: absolute;
-	left: 50%;
-	margin-left: -50%;
-	list-style: none;
-	display: none;
-}
-#b-slide-list #b-slide ul li:first-child {
-	display: block;
-}
-#b-slide-list-control {
-	width: 100%;
-	height: 100%;
-	margin-top: 1px;
-}
-#b-slide-list-control ul {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	margin-left: -360px;
-	margin-top: 20px;
-}
-#b-slide-list-control ul li {
-	width: 47px;
-	float: right;
-	cursor: pointer;
-	list-style: none;
-	color: #fff;
-	margin-left: -15px;
-	padding-top: 45px;
-	background: url(../img/slider/bullets.png) no-repeat;
-}
-#b-slide-list-control ul li:hover {
-	background: url(../img/slider/bullets_hover.png) no-repeat;
-}
-#b-description {
-	width: 1920px;
-	height: 105px;
-	position: absolute;
-	z-index: 200;
-	left: 50%;
-	margin-top: 451px;
-	margin-left: -960px;
-	background: url(../img/slider/slider_bar.png) no-repeat;
-}
-#b-delimiter {
-	width: 1000px;
-	height: 100%;
-}
-#b-left {
-	width: 600px;
-	float: left;
-}
-#b-description h1 {
-	width: 100%;
-	font-size: 20px;
-	color: #fff;
-	text-align: left;
-}
-#b-description h2 {
-	width: 100%;
-	font-size: 12px;
-	padding: 0;
-	margin: 0;
-	color: #ccc;
-	text-align: left;
-}
-#b-right {
-	width: 300px;
-	height: 100%;
-	float: right;
-}
-/* ----------------------- HOME -----------------------------------*/
-
-#content_home {
-	width: 960px;
-	height: 1000px;
-	margin: auto;
-	margin-top: 50px;
-	font-family: Arial, Helvetica, sans-serif;
-}
-#news_home {
-	width: 500px;
-	height: 200px;
-}
-.destaque_news {
-	font-size: 40px;
-	color: #FFF;
-}
-.sub_news {
-cursive;
-	font-size: 15px;
-	color: #FFF;
-}
-#wallpaper {
-	width: 497px;
-	height: 317px;
-	background: url(../img/home/Downloads.png) no-repeat;
-	margin-left: 500px;
-	margin-top: -30px;
-}
-#bt_baixar {
-	width: 213px;
-	height: 70px;
-	background: url(../img/home/baixar-agora.png) no-repeat;
-	position: absolute;
-	z-index: 10;
-	top: 1070px;
-	margin-left: 200px;
-}
-.txt_wall {
-	width: 250px;
-	height: 50px;
-	position: absolute;
-	z-index: 10;
-	top: 950px;
-	margin-left: 100px;
-}
-.downloads {
-	font-size: 40px;
-	color: #950000;
-	font-size: 24px;
-	font-weight: bold;
-}
-.donwload_sub {
-	color: #07474e;
-	font-size: 18px;
-	font-weight: bold;
-}
-.red {
-	color: #F90
-}
-#video_home {
-	width: 500px;
-	height: 300px;
-	float: left;
-	background: #000;
-}
-#ingresso_home {
-	width: 450px;
-	height: 300px;
-	float: left;
-	margin-left: -500px;
-	margin-top: 150px;
-}
-#organizacao_home {
-	width: 450px;
-	height: 350px;
-	float: right;
-	margin-top: 100px;
-}
-.venda {
-	font-size: 25px;
-	text-align: center;
-}
-.org {
-	font-size: 30px;
-	text-align: center;
-}
-.grupo_seven {
-	float: left;
-	margin-left: 70px;
-}
-.fullsail {
-	float: right;
-	margin-right: 70px;
-}
-.center_org {
-	margin-left: 50px;
-	margin-top: 20px;
-}
-.txt_pd_home {
+#direitos{
+	width:1000px;
+	height:30px;
+	margin:0 auto;
+	margin-top:40px;
+	color:white;
+	text-align:center;
 	font-family: 'Poiret One', arial;
-	font-size: 16px;
-	color: #FFF;
 }
-/* ----------------------- HOME -----------------------------------*/
 
+#social{
+	width:400px;
+	height:30px;
+	float:right;
+}
+#social ul li{
+	display:inline;
+	margin-left:10px;
+
+}
 
 /* ----------------------- Evento -----------------------------------*/
 #logo_evento {
@@ -353,11 +574,13 @@ cursive;
 #banner_evento {
 	height: 573px;
 	background: url("../img/evento/evento.jpg") no-repeat 50% 0;
+
 }
 #content_evento {
 	width: 960px;
-	height: 500px;
-	margin: auto;
+	height: 1500px;
+	margin: 0 auto;
+
 }
 .evento_d {
 	text-align: center;
@@ -445,46 +668,7 @@ cursive;
 	/* this will work for QtWebKit in future */
 	-webkit-user-drag: none;
 }
-/* ----------------------------- rodape --------------------------------------------*/
-.mainRodape{
-	width: 100%;
-	height: 145px;
-	position:absolute;
-	left:0;
-	margin:200px 0px 0px 0px;
-	background: url(../img/rodape/fundo-rodape.jpg) no-repeat 50% 0;
-}
-.rodape{
-	width:960px;
-	height:140px;
-	margin:auto;
-}
-.apoio{
-	width:500px;
-	height:70px;
-	position:relative;
-	left:45px;
-	top:50px;
-}
-.parceiros{
-	width:230px;
-	height:70px;
-	position:relative;
-	right:130px;
-	top:-20px;
-	float:right;
-}
-.direitos{
-	background:black;
-	color:white;
-	font-family: 'Poiret One', arial;
-	padding-top:20px;
-	position:absolute;
-	left:0;
-	margin: 345px 0px 0px;
-	width:100%;
-	height:30px;
-}
+
 /* ------------------------------------- contato ------------------------------------*/
 .destaque_contato {
 	font-family: 'Poiret One', arial;
@@ -519,7 +703,7 @@ cursive;
 
 /* ----------------------- Content -----------------------------------*/
 .content{
-	color: white;
+	color:white;
 }
 
 /* ----------------------- Palestrante -----------------------------------*/
@@ -592,8 +776,13 @@ cursive;
 .palestranteList a:hover, .palestranteList a.active{
 	color: #1c4977;
 }
-
-
+#content_palestrantes{
+	width:1000px;
+	height:700px;
+}
+.txt_pd_home{
+	font-family: 'Poiret One', cursive;
+}
 /* ----------------------- Palestrante Gallery -----------------------------------*/
 .galleryDetail{
 	width: 480px;
@@ -686,6 +875,9 @@ cursive;
 }
 
 /* ----------------------- contact form -----------------------------------*/
+
+
+
 .content .contactForm{
 	width: 520px;
 	height: 700px;
@@ -756,12 +948,6 @@ cursive;
 .content .contactForm .formInput textarea.passVerif{
 	background-color: #deffdb;
 }
-
-
-
-
-
-
 
 .content .maisInformacoes{
 	width: 300px;
@@ -972,184 +1158,6 @@ input.blueBtn:hover{
   0px 1px 0px rgba(255,255,255,0.3);
   cursor: pointer;
 }
-/* ----------------------- Download -----------------------------------*/
-/* 
-Este css é protegido por leis internacionais de web
-e pela lei de Deus.
-
-Afinal de contas, só Deus sabe como isso aqui funciona
-favor nāo alterar desta linha para baixo 
-*/
-
-#topo_download {
-	height: 500px;
-	background:url("../img/download/banner.png") no-repeat 50% 0;
-	}
-#content1 {
-	width: 1300px;
-	height: 1500px;
-	margin: auto;
-	color:#000;
-}
-#wp1 {
-	width: 950px;
-	height: 400px;
-	border:solid # 4px;
-	margin-top: 50px;
-	margin-left: 50px;
-}
-#wp1_texto ul li {
-	margin-left: 650px;
-	margin-top: -5px;
-	color: #FFF;
-	font-size: 30px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp1_imagem ul li {
-	margin-top: -350px;
-}
-#wp2 {
-	width: 310px;
-	height: 175px;
-	border:solid # 4px;
-	margin-top: 50px;
-	margin-left: 50px;
-}
-#wp2_texto ul li {
-	margin-left: 0px;
-	margin-top: -40px;
-	color: #FFF;
-	font-size: 24px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp2_imagem ul li {
-	margin-top: 10px;
-}
-#wp2_texto2 ul li {
-	margin-left: 5px;
-	margin-top: 0px;
-	color: #FFF;
-	font-size: 16px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp3 {
-	width: 310px;
-	height: 175px;
-
-	margin-top: -135px;
-	margin-left: 370px;
-}
-#wp3_texto ul li {
-	margin-left: 5px;
-	margin-top: 0px;
-	color: #FFF;
-	font-size: 16px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp4 {
-	width: 310px;
-	height: 175px;
-border:solid # 4px;
-	margin-top: -175px;
-	margin-left: 690px;
-}
-#wp4_texto ul li {
-	margin-left: 5px;
-	margin-top: 0px;
-	color: #FFF;
-	font-size: 16px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp5 {
-	width: 310px;
-	height: 175px;
-border:solid # 4px;
-	margin-top: 80px;
-	margin-left: 50px;
-}
-#wp5_texto ul li {
-	margin-left: 5px;
-	margin-top: 0px;
-	color: #FFF;
-	font-size: 16px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp6 {
-	width: 310px;
-	height: 175px;
-border:solid # 4px;
-	margin-top: -175px;
-	margin-left: 370px;
-}
-#wp6_texto ul li {
-	margin-left: 5px;
-	margin-top: 0px;
-	color: #FFF;
-	font-size: 16px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp7 {
-	width: 310px;
-	height: 175px;
-border:solid # 4px;
-	margin-top: -175px;
-	margin-left: 690px;
-}
-#wp7_texto ul li {
-	margin-left: 5px;
-	margin-top: 0px;
-	color: #FFF;
-	font-size: 16px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#wp8 {
-	width: 950px;
-	height: 310px;
-border:solid # 4px;
-	margin-top: 150px;
-	margin-left: 50px;
-	overflow: hidden;
-}
-#wp8_texto ul li {
-	margin-left: 0px;
-	margin-top: 0px;
-	color: #FFF;
-	font-size: 22px;
-	font-weight: 500;
-	font-family: Verdana, Geneva, sans-serif;
-}
-#content2 {
-	width: 1920px;
-	height: 20px;
-	background: #000;
-	margin: auto;
-}
-#rodape_download {
-	width: 1920px;
-	height: 70px;
-	background: url(../img/pd/rodape.jpg) no-repeat;
-	margin: auto;
-}
-.principal {
-	font-size: 16px;
-	color: #FFF;
-	margin-left: 650px;
-	padding-top: 5px;
-	font-family: Verdana, Geneva, sans-serif;
-}
-.mae {
-	font-size: 24px;
-		color: #FFF;
-	margin-left: 650px;
-}
 
 
 /*--------------------------------- CG EXTREME NA MIDIA -------------------------------------------------- */
@@ -1177,6 +1185,7 @@ border:solid # 4px;
 .info_midia{
 	width:400px;
 	float:left;
+	color:white;
 	margin-left:300px;
 	margin-top:-150px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -1200,36 +1209,458 @@ border:solid # 4px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 }
-/* ----------------- video - home -------------------------*/
-#center_video{
-	margin-left:-80px;
+
+/* ----------------------------------- PAVAILHAO HOME ---------------------------------------*/
+@-webkit-keyframes spaceboots {
+    0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+    30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+    80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+    90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+    100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+    
+   
+}
+
+
+.animatecss3 img:hover,
+.animatecss3 img:focus {
+    -webkit-animation-name: spaceboots;
+    -webkit-animation-duration: 0.8s;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: infinite;
+
+/* mozilla */
+
+    -moz-animation-name: spaceboots;
+    -moz-animation-duration: 0.8s;
+    -moz-transform-origin:50% 50%;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+.animatecss3 img {
+    display:inline-block
+}
+
+
+.animatecss3 img {
+
+
+}
+
+
+.banner_pavilhao{
+	height:500px;
+	background: url("../img/pavilhao/banner-pavilhao.jpg") 50% 0;
+}
+
+#PavilhaoLeft{
+	width:440px;
+	height:900px;
+	float:left;
+}
+#PavilhaoMeio{
+	width:269px;
+	height:800px;
+	float:left;
+
+}
+#ContentFixPavilhao{
+	width:245px;
+	height:900px;
+	float:left;
+
+}
+
+#ContentPavilhao{
+	width:960px;
+	height:1000px;
+	margin:0 auto;
 	margin-top:50px;
 
 }
-#mask {
-  position:absolute;
-  width:100%;
-  left:0;
-  top:0;
-  z-index:9000;
-  background:#000;
-  display:none;
+#IntroPavilhao{
+	width:439px;
+	height:207px;
+	float:left;
+	background:url("../img/pavilhao/fundo-introducao-pavilhao.png");
 }
+
+#ExpoTalent{
+	width:230px;
+	height:200px;
+	margin-right:7px;
+	float:right;
+	background:url("../img/pavilhao/button-expo-talentos.jpg");
+}
+
+#ContatoPavilhao{
+	width:239px;
+	height:172px;
+	float:right;
+	margin-right:2px;
+	margin-top:20px;
+	background:url("../img/pavilhao/fundo-contatos-sidebar.png") no-repeat ;
+}
+#TextoContantoPavilhao{
+	width:210px;
+	height:100px;
+	margin-left:10px;
+	margin-top:50px;
+}
+
+#Empregadores{
+	width:239px;
+	height:404px;
+	float:right;
+	margin-top:12px;
+	background:url("../img/pavilhao/fundo-empregadores-sidebar.png");
+}
+.TextoPavilhao{	
+	width:210px;
+	height:300px;
+	display:block;
+	margin-left:10px;
+	margin-top:70px;
+
+}
+#BtEmpregadores{
+	width:210px;
+	height:70px;
+	margin-top:50px;
+	
+}
+#VideoPavilhao{
+	width:430px;
+	height:300px;
+	margin-top:10px;
+	float:left;
+	
+}
+#CharacterInk{
+	width:260px;
+	height:200px;
+	background:url("../img/pavilhao/button-character-ink.jpg");
+}
+#GuinnesPavilhaoHome{
+	width:260px;
+	height:170px;
+	margin-top:15px;
+	background:url("../img/pavilhao/button-expo-talentos.jpg");
+}
+
+#UnityPavilhao{
+	width:260px;
+	height:116px;
+	margin-top:15px;
+	background:url("../img/pavilhao/button-unity.jpg");
+}
+
+#ExtremeOpportunity{
+	width:260px;
+	height:170px;
+	margin-top:15px;
+	background:url("../img/pavilhao/button-opportunity.jpg");
+	
+}
+#VagasPeloMundo{
+	width:430px;
+	height:170px;
+	float:left;
+	margin-top:15px;
+	background:url("../img/pavilhao/em-breve-vagas.jpg");
+}
+#embarquenaseven{
+	width:260px;
+	height:120px;
+	margin-top:15px;
+	background:url("../img/pavilhao/button-embarque-seven.jpg");
+}
+#bussulaPavilhao{
+	width:210px;
+	height:120px;
+	margin-top:15px;
+	float:left;
+	background:url("../img/pavilhao/button-bussola.jpg");
+	clear:both;
+}
+#PlantaPavilhao{
+	width:210px;
+	height:120px;
+	margin-top:15px;
+	margin-left:10px;
+	background:url("../img/pavilhao/button-planta.jpg");
+	float:left;
+}
+/* ----------------------------------- PAVAILHAO ---------------------------------------*/
+.ImgTopoPavilhao{
+	width:680px;
+	height:200px;
+	margin-top:60px;
+}
+
+
+.ContentTextPavilhao {
+	width:630px;
+	height:550px;
+	margin-top:30px;
+	margin-left:12px;
+	padding-right:13px;
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	font-weight: 100; 
+	color:black;
+	
+	
+}
+.TextoPadraoPavilhao{	
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size:12px;
+	color:black;
+	
+	}
+
+.TextoIntroPavilhao{	
+	width:400px;
+	height:100px;
+	display:block;
+	margin-left:10px;
+	margin-top:30px;
+
+}
+#rodapePavilhao{
+	width:959px;
+	height:123px;
+	
+	background:url("../img/pavilhao/fundo-rodape-pavilhao.png");
+	clear:both;
+}
+#rodapePavilhaoLogos{
+	width:950px;
+	height:70px;
+	position:absolute;
+	margin-top:50px;
+}
+
+#rodapePavilhaoLogos img{
+	margin-left:10px;
+}
+
+/* ----------------------------------- PAVAILHAO - menu ---------------------------------------*/
+
+
+#ColunaFixaPavailhao{
+
+	width:250px;
+	height:1000px;
+	float:right;
+}
+#MenuPavilhao{
+	width:239px;
+	height:209px;
+	margin-left:5px;
+	background:url("../img/pavilhao/fundo-menu-sidebar.png");
+}
+
+#MenuPavilhao ul{
+	width:210px;
+	height:130px;
+	margin-left:3px;
+	position:relative;
+	top:40px;
+}
+
+#MenuPavilhao ul li{
+	width:228px;
+	height:20px;
+	margin-top:1px;
+	padding-left:15px;
+	color:black;
+	background:url("../img/pavilhao/item-sidemenu.jpg") no-repeat;
+
+}
+
+#MenuPavilhao ul li:hover{
+	width:237px;
+	height:20px;
+	margin-left:-7px;
+	color:white !important;
+	padding-left:22px;
+	margin-top:1px;
+	background:url("../img/pavilhao/item-sidemenu-active.png") no-repeat;
+	-webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	transition: all 300ms linear;
+	
+
+}
+
+.AtivoMenuPavilhao{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	width:237px;
+	height:20px;
+	color:white;
+	margin-left:-7px;
+	padding-left:15px;
+	margin-top:1px;
+	background:url("../img/pavilhao/item-sidemenu-active.png") no-repeat !important;
+	
+}
+
+
+.VagasContent{
+	width:680px;
+	height:700px;
+	margin-top:-15px;
+	background:url("../img/pavilhao/fundo-conteudo.png") no-repeat;
+	float:left;
+}
+
+
+.VagasContent ul{
+	margin-top:50px;
+}
+
+
+.VagasContent ul li{
+	width:680px;
+	height:30px;
+	background:url("../img/pavilhao/fundo-item-vagas.png");
+}
+
+.VagasContent ul li span{
+	margin-left:130px;
+	position:relative;
+	top:5px;
+	font-family: 'Poiret One', cursive;
+	font-size:18px;
+	color:black;
+}
+
+/* ----------------------------------- PAVAILHAO - EMPREGADORES ---------------------------------------*/
+
+#ConteudoEmpregadores{
+	width:689px;
+	height:870px;
+	margin-top:-15px;
+	float:left;
+	background:url("../img/pavilhao/fundo-conteudo.png");
+	
+}
+
+/* ----------------------------------- PAVAILHAO - EXPO ---------------------------------------*/
+
+
+#ContentExpo{
+	width:680px;
+	height:976px;
+	margin-top:-15px;
+	float:left;
+	background:url("../img/pavilhao/fundo-conteudo.png") no-repeat;
+}
+
+/* ----------------------------------- PAVAILHAO - unity ---------------------------------------*/
+
+
+.DestaqueText{
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	font-weight: 400; 
+	color:black;
+}
+DestaqueTextRed{
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	font-weight: 400; 
+	color:red !important;
+	
+}
+/* ----------------------------------- PAVAILHAO - FORMULARIO ---------------------------------------*/
+
+    
+.TextFormPavilhao{
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	font-weight:400px;
+
+}
+
+.Textpavilhao{
+	 min-height: 200px;
+	 max-height: 200px;
+	 min-width: 500px;
+	 max-width: 200px;
+ 	border:solid 1px red;
  
-#boxes .window {
-  position:absolute;
-  width:800px;
-  height:600px;
-  display:none;
-  z-index:9999;
-  
+ 
+ }
+ 
+ .content .contactForm .formInputPavilhao input{
+	width: 460px;
+	padding: 5px 50px 5px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 2px 2px 3px 0px #313131;
+	box-shadow: inset 2px 2px 3px 0px #313131;
+	border: 1px solid #000;
+	font-family: 'Poiret One', arial;
+	font-size: 18px;
+	color: #313131;
+	margin-bottom: 10px;
 }
 
-#boxes #dialog2 {
-  background:transparent; 
-  width:650px;
-  margin:0 auto;
-  margin-top:-160px;
+ .content .contactForm .formInputPavilhao textarea{
+	width: 460px;
+	padding: 5px 10px 5px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 2px 2px 3px 0px #313131;
+	box-shadow: inset 2px 2px 3px 0px #313131;
+	border: 1px solid #000;
+	font-family: 'Poiret One', arial;
+	font-size: 18px;
+	color: #313131;
+ }
+
+ .content .contactForm .formInputPavilhao textarea{
+	 min-height: 50px;
+	 max-height: 50px;
+	 min-width: 500px;
+	 max-width: 500px;
+ }
+
+.content .contactForm .formInputPavilhao input.passVerif{
+	background: #deffdb url("../img/icon/formVerif.png") no-repeat 480px 5px;
+	background-size: 40px;
 }
 
-.close{display:block; text-align:right; 	margin-top:50px;}
+
+.content .contactForm .formInputPavilhao input.failVerif{
+	background: #ffdcdc url("../img/icon/formVerif.png") no-repeat 480px -25px;
+	background-size: 40px;
+	color: #ff0000;
+}
+
+.content .contactForm .formInputPavilhao textarea.failVerif{
+	background-color: #ffdcdc;
+	color: #ff0000;
+}
+
+.content .contactForm .formInputPavilhao textarea.passVerif{
+	background-color: #deffdb;
+}
+
+    
