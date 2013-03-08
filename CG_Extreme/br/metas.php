@@ -28,7 +28,13 @@
 	<! --------- -VÍDEO GALLERY ---->
 	<script type="text/javascript" src="js/html5gallery/html5gallery.js"></script>    
 	
-		
+	
+	
+		<!---- validação de formulario ---->
+		<script type="text/javascript" src="js/validation.js"></script>  
+	
+	
+	
 		<!---- FANCY BOX ---->
 	
 	

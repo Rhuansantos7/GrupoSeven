@@ -103,6 +103,7 @@
 					<div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="370" data-height="250" data-autoplayvideo="false">
 					
 						<!-- Add Youtube video to Gallery -->
+						<a href="http://www.youtube.com/watch?v=CWNpj88lvJE"><img src="http://i1.ytimg.com/vi/CWNpj88lvJE/default.jpg" alt=""></a>
 						<a href="http://www.youtube.com/watch?v=urdS0fcLopc&feature=share&list=UUOCnRD7UIj34ZsxAOonqNlQ"><img src="http://i1.ytimg.com/vi/urdS0fcLopc/hqdefault.jpg" alt=""></a>
 						<a href="http://www.youtube.com/watch?v=7GeMovTmacE&list=HL1362443380"><img src="http://i1.ytimg.com/vi/7GeMovTmacE/default.jpg" alt=""></a>
 						<a href="http://www.youtube.com/watch?v=JQgpbLO0Kvo&list=UUOCnRD7UIj34ZsxAOonqNlQ&index=10"><img src="http://i1.ytimg.com/vi/JQgpbLO0Kvo/default.jpg" alt=""></a>
@@ -121,9 +122,9 @@
 
 
 		
-		<a href="midia.php"><div id="HomeMidia">
-			<div id="LogoMidia">
-				</div><!-- close LogoMidia -->
+		<div id="HomeMidia">
+			<a href="midia.php"><div id="LogoMidia">
+				</div><!-- close LogoMidia --></a>
 			
 			<div class="LogoM">
 				<div class="slideshow">
@@ -141,7 +142,7 @@
 			</div><!-- close LogoM1 -->
 		
 		</div><!-- close home midia -->
-		</a>
+		
 		
 		
 		<div class="redesHome">
@@ -158,7 +159,7 @@
 		
 		
 		<div class="redesHome">
-		m<span class="titulo_home">FACEBOOK</span>
+			<span class="titulo_home">FACEBOOK</span>
 			<div class="ContentSocial"> 
 			<div class="fb-like-box" data-href="http://www.facebook.com/sevencomputacaografica" data-width="292" data-height="360" data-show-faces="true" data-stream="false" data-header="false"></div>
 				<div id="fb-root"></div>

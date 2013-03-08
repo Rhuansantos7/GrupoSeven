@@ -20,23 +20,59 @@
 				<form action="<? $PHP_SELF; ?>" method="POST">
 
 					<div class="formSection">
+					<p class="TextFormPavilhao">Nome</p>
 						<div class="formInput">
-						
 							<input type="text" name="nome" placeholder="Nome" class="userInput_name">
 						</div><!--close form input-->
 					</div><!--close formSection-->
 					
 					<div class="formSection">
+					<p class="TextFormPavilhao">E-mail</p>
 						<div class="formInput">
 							<input type="text" name="email" placeholder="E-mail" class="userInput_email">
 						</div><!--close form input-->
 					</div><!--close formSection-->
 					
+					
+					
+					
+					
+					
 					<div class="formSection">
+						<p class="TextFormPavilhao">Ramo de atuação</p>
 						<div class="formInput">
-							<input type="text" name="assunto" placeholder="Assunto" class="userInput_subject">
+							<input type="text" name="assunto" placeholder="" class="userInput_subject">
 						</div><!--close form input-->
 					</div><!--close formSection-->
+					
+					
+						<div class="formSection">
+						<p class="TextFormPavilhao">Telefone</p>
+						<div class="formInput">
+							<input type="text" name="assunto" placeholder="" class="userInput_subject">
+						</div><!--close form input-->
+					</div><!--close formSection-->
+					
+					
+						<div class="formSection">
+						<p class="TextFormPavilhao">Skype</p>
+						<div class="formInput">
+							<input type="text" name="assunto" placeholder="" class="userInput_subject">
+						</div><!--close form input-->
+					</div><!--close formSection-->
+					
+					
+					<div class="formSection">
+					<p class="TextFormPavilhao">Site</p>
+						<div class="formInput">
+							<input type="text" name="assunto" placeholder="Ex:www.cgextreme.com.br" class="userInput_subject">
+						</div><!--close form input-->
+					</div><!--close formSection-->
+					
+					
+					
+					
+					
 					
 					<div class="formSectionPavilhao">
 					<p class="TextFormPavilhao">Como ficou sabendo sobre o evento ?</p>
