@@ -55,6 +55,6 @@ $(document).ready(function (e) {
   $('#video_banner').bind('hover', function() {
       alert($(this).text());
     });
-    $('#video_banner').trigger('click');
+   // $('#video_banner').trigger('click');
 
 });

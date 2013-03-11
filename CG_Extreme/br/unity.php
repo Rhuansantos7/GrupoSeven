@@ -30,21 +30,24 @@ Pensando em ajudar os novos desenvolvedores de Games no Brasil, a gigantesca emp
 <br>
 <p class="DestaqueText"><span class="DestaqueTextRed">OBS</span>: Com a licença PRO o desenvolvedor campeão poderá publicar seus games para PC, MAC, LINUX e WEB.</p>
 				
+									<a class="fancybox fancybox.iframe" href="unity_contato.php">
+      Iframe
+    </a>
+				
 			</div><!-- close ContentTextPavilhao -->
 		</div><!-- close ContenExpo -->
 		
-		<!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
+<!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
 	
 			<div id="ContentFixPavilhao">
 					<div id="MenuPavilhao">
 						<ul class="TextoPadraoPavilhao">
-							<li><a href="carreira.php">O Pavilhão de Carreira</a></li>
+							<li class="AtivoMenuPavilhao"><a href="carreira.php">O Pavilhão de Carreira</a></li>
 							<li><a href="embarque.php">Embarque na Seven</a></li>
 							<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
 							<li class="AtivoMenuPavilhao"><a href="unity.php">Campeonato Unity</a></li>
-							<li><a href="bussula.php">Bússola do estudante</a></li>
-							<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
-							<li><a class="fancybox fancybox.iframe" href="empregadores_light.php">Empregadores</a></li>
+							<li><a href="bussola.php">Bússola do estudante</a></li>
+							<li><a href="empregadores.php">Empregadores</a></li>
 						</ul>
 				</div><!-- close Menupavilhao -->
 				
@@ -68,11 +71,18 @@ Pensando em ajudar os novos desenvolvedores de Games no Brasil, a gigantesca emp
 					
 						<div id="BtEmpregadores">
 							<img src="img/pavilhao/seta-azul.png" alt=""/>
-							QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA
+							<a href="carreira.php">QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA</a>
 						</div><!-- close BtEmpregadores -->
 					</span>
+					
+					
+
+					
 				</div><!-- close empregadores -->
 			</div><!-- close ContatoPavilhao -->
+				
+				
+				
 		</div><!-- close ContentFixPavilhao -->	
 			
 <!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->

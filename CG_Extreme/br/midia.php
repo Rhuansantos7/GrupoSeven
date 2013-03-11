@@ -47,14 +47,14 @@
 					
 
 					
-					<ul class="op_seven_na_midia">
+					<!-- <ul class="op_seven_na_midia">
 					
 					<center>
 						<li><a href="#">1</a></li>
 						<li><a href="midia-2.php">2</a></li>
 					</center>
 					<hr>
-					</ul>
+					</ul> -->
 					
 				</div><! close content midia -- >
 

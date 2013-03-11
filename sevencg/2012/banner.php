@@ -38,17 +38,23 @@
 			<li i='3' style="background:url(img/content/home/banner/jan_2013/4.jpg) no-repeat center top;" t='Seven Cada Vez Maior' d='Em 2013 conquistando 6 novos territórios'></li>
 		</a>
 		
-		<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREU13" target="new">
-			<li i='4' style="background:url(img/content/home/banner/jan_2013/2.jpg) no-repeat center top;" t='CG Extreme na Tickets For Fun' d='Garanta já o seu ingresso pelo site da Tickets For Fun!'></li>
-		</a>
+		<li '4'  id="video_banner" style="background:url(iframe/banner-formacao.jpg) no-repeat center top;" t='Conheça nossa formação' d=''></li>
 		
-		<a href="http://www.youtube.com/watch?v=3opX3Fo6IJY" target="new">
+		
+		
+		
+			<a href="http://www.youtube.com/watch?v=3opX3Fo6IJY" target="new">
 			<li i='5' style="background:url(img/content/home/banner/jan_2013/fim.jpg) no-repeat center top;" t='Orgulho de ser Seven !' d='Venha fazer parte desse time!'></li>
 		</a>
+
+		<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREU13" target="new">
+			<li i='6' style="background:url(img/content/home/banner/jan_2013/2.jpg) no-repeat center top; display:block;" t='CG Extreme na Tickets For Fun' d='Garanta já o seu ingresso pelo site da Tickets For Fun!'></li>
+		</a>
 		
-		<!-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=cUxXd86ERS4" target="new"> -->
-			<li '6'  id="video_banner" style="background:url(iframe/banner-formacao.jpg) no-repeat center top; display:block" t='Conheça nossa formação' d=''></li>
-	<! -- 	</a>
+		
+
+		
+
     </ul>
    </div>
   </div>

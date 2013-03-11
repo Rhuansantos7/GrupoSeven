@@ -32,9 +32,9 @@
 						<param name="salign" value="" />
 						<param name="allowScriptAccess" value="sameDomain" />
 					<!--<![endif]-->
-						<a href="http://www.adobe.com/go/getflash">
+						
 						<img src="img/tom-isaksen.jpg" alt="tom-isaksen" width="1920" height="500"> 
-						</a>
+						
 					<!--[if !IE]>-->
 					</object>
 					<!--<![endif]-->
@@ -148,8 +148,12 @@
 		<div class="redesHome">
 			<span class="titulo_home">TWEETS</span>
 				<div class="ContentSocial">
-			<a class="twitter-timeline" href="https://twitter.com/sevencg" data-widget-id="306856534745423873">Tweets de @sevencg</a>
+<a class="twitter-timeline" href="https://twitter.com/sevencg" data-widget-id="306856534745423873">Tweets de @sevencg</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
 
 
 

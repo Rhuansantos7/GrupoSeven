@@ -16,8 +16,8 @@
 			<span class="titulo_home">Embarque</span>
 			<div class="ImgTopoPavilhao"><img src="img/pavilhao/banner-embarque-seven.jpg"</div><!-- close ImgTopoPavilhao -->
 			<div class="ContentTextPavilhao">
-				O GRUPO SEVEN não para de crescer e esse ano será um ano de muita expansão junto com a maior universidade de entretenimento do mundo, a FULL SAIL. Iremos abrir mais 6 unidades pelo Brasil, 3 em São Paulo, +1 Belo Horizonte, 1 em Goiânia  e +1 no Rio de Janeiro. 
-Para esse projeto de expansão o GRUPO SEVEN esta abrindo suas portas para receber novos talentos que queiram fazer parte dessa família que não para de crescer e se espalhar pelo Brasil. Se você se identifica com a nossa empresa e deseja adicionar forças ao grupo usando o seu talento, estaremos recebendo currículos e fazendo processo seletivo no PAVILHÃO DE CARREIRA do CGEXTREME.
+O Grupo Seven não pára de crescer e 2013 será um ano de muita expansão junto à uma das maiores universidades de entretenimento do mundo, a Full Sail. Iremos abrir mais seis unidades pelo Brasil: três em São Paulo, mais uma em  Belo Horizonte, uma em Goiânia  e  mais uma no Rio de Janeiro. 
+Para esse projeto de expansão o Grupo Seven está abrindo suas portas para receber talentos que queiram fazer parte dessa família. Se você se identifica com a nossa empresa e deseja somar forças ao grupo usando o seu talento, estaremos recebendo currículos e fazendo processo seletivo no Pavilhão de Carreira do CG Extreme.
 <br><br>
 <iframe width="630" height="400" src="http://www.youtube.com/embed/3opX3Fo6IJY" frameborder="0" allowfullscreen></iframe>
 				
@@ -30,7 +30,7 @@ Para esse projeto de expansão o GRUPO SEVEN esta abrindo suas portas para receb
 	
 	
 	
-	<!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
+<!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
 	
 			<div id="ContentFixPavilhao">
 					<div id="MenuPavilhao">
@@ -39,9 +39,8 @@ Para esse projeto de expansão o GRUPO SEVEN esta abrindo suas portas para receb
 							<li class="AtivoMenuPavilhao"><a href="embarque.php">Embarque na Seven</a></li>
 							<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
 							<li><a href="unity.php">Campeonato Unity</a></li>
-							<li><a href="bussula.php">Bússola do estudante</a></li>
-							<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
-							<li><a class="fancybox fancybox.iframe" href="empregadores_light.php">Empregadores</a></li>
+							<li><a href="bussola.php">Bússola do estudante</a></li>
+							<li><a href="empregadores.php">Empregadores</a></li>
 						</ul>
 				</div><!-- close Menupavilhao -->
 				
@@ -65,11 +64,14 @@ Para esse projeto de expansão o GRUPO SEVEN esta abrindo suas portas para receb
 					
 						<div id="BtEmpregadores">
 							<img src="img/pavilhao/seta-azul.png" alt=""/>
-							QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA
+							<a href="carreira.php">QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA</a>
 						</div><!-- close BtEmpregadores -->
 					</span>
 				</div><!-- close empregadores -->
 			</div><!-- close ContatoPavilhao -->
+				
+				
+				
 		</div><!-- close ContentFixPavilhao -->	
 			
 <!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->

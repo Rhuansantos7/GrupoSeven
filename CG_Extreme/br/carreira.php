@@ -38,8 +38,8 @@
 			
 			
 			<div id="PavilhaoMeio">
-				<div id="CharacterInk">
-				</div><!-- close CharacterInk -->
+				<a class="fancybox fancybox.iframe" href="characterink.php"><div id="CharacterInk">
+				</div><!-- close CharacterInk --></a>
 				<div id="GuinnesPavilhaoHome">
 				</div><!-- close GuinnesPavilhaoHome -->
 				<a href="unity.php"><div id="UnityPavilhao">
@@ -62,8 +62,7 @@
 							<li><a href="embarque.php">Embarque na Seven</a></li>
 							<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
 							<li><a href="unity.php">Campeonato Unity</a></li>
-							<li><a href="bussula.php">Bússola do estudante</a></li>
-							<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
+							<li><a href="bussola.php">Bússola do estudante</a></li>
 							<li><a href="empregadores.php">Empregadores</a></li>
 						</ul>
 				</div><!-- close Menupavilhao -->
@@ -88,7 +87,7 @@
 					
 						<div id="BtEmpregadores">
 							<img src="img/pavilhao/seta-azul.png" alt=""/>
-							QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA
+							<a href="carreira.php">QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA</a>
 						</div><!-- close BtEmpregadores -->
 					</span>
 				</div><!-- close empregadores -->

@@ -12,10 +12,17 @@
 		
 	<div id="ConteudoEmpregadores">
 		<span class="titulo_home">Empregadores</span>
-		<div class="ImgTopoPavilhao"><img src="img/pavilhao/banner-opportunity.jpg" alt="" /></div><!-- close ImgTopoPavilhao -->
+		<div class="ImgTopoPavilhao"><img src="img/pavilhao/banner-empregadores.jpg" alt="" /></div><!-- close ImgTopoPavilhao -->
 			<div class="ContentTextPavilhao">
 				<div class="content">
 					<div class="contactForm">
+					
+					<span class="TextoPadraoPavilhao">
+						Um dos principais objetivos do pavilhão é atender as necessidades das empresas com mão de obra qualificada e
+						direcionada para o universo de computação gráfica. Se você quer prospectar sua marca, ou esta em busca de novos
+						talentos para expandir seus negócios e a demanda atual em grandes projetos, o pavilhão de carreira é o lugar para
+						se estar.</span>
+						<br><br><br>
 
 				<form action="<? $PHP_SELF; ?>" method="POST">
 
@@ -33,11 +40,7 @@
 						</div><!--close form input-->
 					</div><!--close formSection-->
 					
-					
-					
-					
-					
-					
+
 					<div class="formSection">
 						<p class="TextFormPavilhao">Ramo de atuação</p>
 						<div class="formInput">
@@ -69,11 +72,7 @@
 						</div><!--close form input-->
 					</div><!--close formSection-->
 					
-					
-					
-					
-					
-					
+
 					<div class="formSectionPavilhao">
 					<p class="TextFormPavilhao">Como ficou sabendo sobre o evento ?</p>
 						<div class="formInputPavilhao">
@@ -111,22 +110,6 @@
 						</div><!--close form input-->
 					</div><!--close formSection-->
 
-
-
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					<input type="submit" name="BTEnvia" value="Enviar" class="blueBtn sendContactFormBtn">
 				</form> 				
 					
@@ -136,8 +119,7 @@
 		</div><!-- close ConteudoEmpregadores-->
 			
 			
-			
-				<!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
+<!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
 	
 			<div id="ContentFixPavilhao">
 					<div id="MenuPavilhao">
@@ -146,9 +128,8 @@
 							<li><a href="embarque.php">Embarque na Seven</a></li>
 							<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
 							<li><a href="unity.php">Campeonato Unity</a></li>
-							<li><a href="bussula.php">Bússola do estudante</a></li>
-							<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
-								<li><a class="fancybox fancybox.iframe" href="empregadores_light.php">Empregadores</a></li>
+							<li><a href="bussola.php">Bússola do estudante</a></li>
+							<li class="AtivoMenuPavilhao"><a href="empregadores.php">Empregadores</a></li>
 						</ul>
 				</div><!-- close Menupavilhao -->
 				
@@ -163,20 +144,11 @@
 				</div><!-- ContatoPavilhao -->
 				
 				
-				<div id="Empregadores">
-					<span class="TextoPavilhao TextoPadraoPavilhao">
-						Um dos principais objetivos do pavilhão é atender as necessidades das empresas com mão de obra qualificada e
-						direcionada para o universo de computação gráfica. Se você quer prospectar sua marca, ou esta em busca de novos
-						talentos para expandir seus negócios e a demanda atual em grandes projetos, o pavilhão de carreira é o lugar para
-						se estar.
-					
-						<div id="BtEmpregadores">
-							<img src="img/pavilhao/seta-azul.png" alt=""/>
-							QUERO BUSCAR TALENTOS NO PAVILHAO DE CARREIRA
-						</div><!-- close BtEmpregadores -->
-					</span>
-				</div><!-- close empregadores -->
+			
 			</div><!-- close ContatoPavilhao -->
+				
+				
+				
 		</div><!-- close ContentFixPavilhao -->	
 			
 <!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
