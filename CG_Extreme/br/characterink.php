@@ -1,5 +1,60 @@
 <?php include('metas.php'); ?>
 
+<?php
+if (isset($_POST['BTEnvia'])){
+ 
+	//REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
+ 	//====================================================
+	$email_remetente = "opportunity@cgextreme.com.br"; // deve ser um email do dominio
+	//====================================================
+ 
+ 
+	//Configurações do email, ajustar conforme necessidade
+	//====================================================
+	$email_destinatario = "opportunity@cgextreme.com.br"; // qualquer email pode receber os dados
+	$email_reply = "$email";
+	$email_assunto = "Contato CG Extreme - Capeonato unity";
+	//====================================================
+ 
+ 
+	//Variaveis de POST, Alterar somente se necessário
+	//====================================================
+	$nome = $_POST['nome'];
+	$nome = $_POST['email'];
+	$nome = $_POST['assunto'];
+	$nome = $_POST['portifolio'];
+	$nome = $_POST['mensagem'];
+
+	//====================================================
+ 
+	//Monta o Corpo da Mensagem
+	//====================================================
+	$email_conteudo = "Nome = $nome \n"; 
+	$email_conteudo = "Email = $email \n"; 
+	$email_conteudo = "assunto = $assunto \n"; 
+	$email_conteudo = "portifolio = $portifolio\n"; 
+	$email_conteudo .=  "Fala ingles ? = $group1 \n ";
+
+ 	//====================================================
+ 
+	//Seta os Headers (Alerar somente caso necessario)
+	//====================================================
+	$email_headers = implode ( "\n",array ( "From: $email_remetente", "Reply-To: $email_reply", "Subject: $email_assunto","Return-Path:  $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
+	//====================================================
+ 
+ 
+	//Enviando o email
+	//====================================================
+	if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){
+		echo "</b>E-Mail enviado com sucesso!</b>"; 
+	}
+  	else{
+		echo "</b>Falha no envio do E-Mail!</b>";
+	}
+	//====================================================
+}	
+?>
+
 <div id="contentUnityContact">
 <div class="content">
 					<div class="contactForm">
@@ -40,7 +95,7 @@
 						<div class="formSectionPavilhao">
 					<p class="TextFormPavilhaoUnity">Link do Portfolio</p>
 						<div class="formInputPavilhao">
-							<textarea placeholder="" name="mensagem" class="userInput_comment"></textarea>
+							<textarea placeholder="" name="portifolio" class="userInput_comment"></textarea>
 						</div><!--close form input-->
 					</div><!--close formSection-->
 					
@@ -49,7 +104,7 @@
                	<fieldset>
               	  <legend class="TextFormPavilhaoUnity">Fala ingles?</legend>
                         <input type="radio" name="group1" value="sim" /<span class="TextFormPavilhaoUnity2">Sim</span><br />
-                        <input type="radio" name="group2" value="nao" /><span class="TextFormPavilhaoUnity2">Não</span><br />
+                        <input type="radio" name="group1" value="nao" /><span class="TextFormPavilhaoUnity2">Não</span><br />
                 </fieldset>
                 <br>
                 						<div class="formSection">

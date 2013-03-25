@@ -20,6 +20,7 @@
 				          <li><a href="chance_glasco.php">Chance <br/> Glasco</a></li>
 				          <li><a href="laurie_brugger.php">Laurie <br/> Brugger</a></li>
 				          <li><a href="jayson_whitmore.php">Jayson <br/> Whitmore</a></li>
+				          <li><a href="tom_isaksen.php">Tom <br/> Isaksen</a></li>
 						</ul>
 					</div><!--close palestranteList-->
 				

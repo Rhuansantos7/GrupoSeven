@@ -15,7 +15,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Keania+One' rel='stylesheet' type='text/css'>
 	
 	<!-- metas tag -->
-	<meta name="keywords" content="cgextreme, Seven, Fullsail, Citibank hall, Chance Glasco, Nathaniel Howe, Sebastian Krys, Cordy Rierson, Laurie Brugger, Jayson Whitmore">
+	<meta name="keywords" content="cgextreme, cg extreme, Seven, Fullsail, Citibank hall, Chance Glasco, Nathaniel Howe, Sebastian Krys, Cordy Rierson, Laurie Brugger, Jayson Whitmore, grupo seven">
 	<meta name="description" content="cgextreme web site">
 	<meta name="author" content="seven media">
 	<meta charset="utf-8">
@@ -39,7 +39,7 @@
 	
 		if ($ipad == true) 
 		{ 
-			echo "<script>window.location='http://cgextreme.com.br/br/evento.php'</script>";
+			echo "<script>window.location='http://m.cgextreme.com.br/'</script>";
 		}
 		
 	?> 

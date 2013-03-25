@@ -9,17 +9,14 @@
 		<li><a href="index.php">HOME</a></li>
 		<li><a href="evento.php">EVENTO</a>
 			<ul>
-	
-					<ul>
-						<li><a href="embarque.php">Embarque na Seven</a></li>
-						<li><a href="oportunidade.php">Oportunidade para os alunos</a></li>
-						<li><a href="unity.php">Campeonato Unity</a></li>
-						<li><a href="guinnes.php">Bússola do estudante</a></li>
-						<li><a href="expo.php">Exposição de Talentos da Seven</a></li>
-					</ul>
-				</li>
-				
-				</ul>
+				<li><a href="evento.php">O CG Extreme</a></li>
+				<li><a href="carreira.php">Pavilhão de carreira</a></li>
+				<li><a href="download.php">Downloads</a></li>
+			</ul>
+		</li>
+			<ul>
+			<!-- 	<li><a href="embarque.php">Embarque na Seven</a></li> -->
+			</ul>
 		</li>
 	
 	
@@ -31,6 +28,7 @@
 				<li><a href="jayson_whitmore.php">Jayson Whitmore</a></li>
 				<li><a href="cordy_rierson.php">Cordy Rierson</a></li>
 				<li><a href="chance_glasco.php">Chance Glasco</a></li>
+				<li><a href="tom_isaksen.php">Tom Isaksen</a></li>
 			</ul>
 		</li>
 	

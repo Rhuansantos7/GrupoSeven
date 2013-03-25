@@ -101,6 +101,18 @@ a{outline: none;}
 	background:url("../img//topo/aviao.png");
 }
 
+.sucessEmail{
+	font-family: 'Allerta Stencil', sans-serif;
+	color:white;
+	position:relative;
+	display:block;
+	top:10px;
+	left:10px;
+	text-align:center;
+	font-size:16px;
+
+}
+
 
 /* -------------- menu ------------ */
 
@@ -413,6 +425,15 @@ a{outline: none;}
 	background:url("../img/home/fundo-box-310.png");
 }
 
+.HomePavilhao{
+	width:313px;
+	height:475px;
+	float:left;
+	position:relative;
+	top:10px;
+	background:url("../img/home/banner-pavilhao-de-carreira.png");
+}
+
 #HomeMidia{
 	width:990px;
 	height:204px;
@@ -446,7 +467,12 @@ a{outline: none;}
 }
 .LogoM img{
 }
-
+.TituloVideoPavilhao{
+	font-family:arial;
+	font-size:16px;
+	
+	
+}
 /* ----------------------- HOME -----------------------------------*/
 
 
@@ -588,6 +614,7 @@ a{outline: none;}
 }
 .txt_evento {
 	font-family: 'Poiret One', arial;
+	font-size:14px;
 }
 #content_txt_evento {
 	width: 700px;
@@ -627,90 +654,99 @@ a{outline: none;}
 }
 /* ----------------------- Evento ----------------------------------*/
 
-/* ----------------------- ingresso ---------------------------------*/
+/* ----------------------- ingresso - ocimar ---------------------------------*/
 #banner_ingresso {
 	height: 600px;
 	background: url("../img/ingresso/ingresso-banner.jpg") no-repeat 50% 0;
 }
 #IngressosContent {
-	width: 1000px;
+	width: 1042px;
 	height: 1000px;
 	margin: auto;
-}
-#TrabalhoSabado{
-	width:203px;
-	height:353px;
-	margin-top:80px;
-	float:left;
-	background:url("../img/ingresso/trabalhos-sabado.png");
-}
+	}
 
-#TrabalhoDomingo{
-	width:199px;
-	height:353px;
-	margin-top:80px;
-	float:right;
-	background:url("../img/ingresso/trabalhos-domingo.png");
-}
-#LiRacejada{
+#abril27{
+	width:450px;
+	height:430px;
+	background: url("../img/ingresso/black20.png");
+	float:left;
+	}
+#separador{
 	width:3px;
-	height:814px;
-	position:absolute;
-	left:50%;
-	margin:0px 0px 0px 0px;
-	background:url("../img/ingresso/ingressos-linha-tracejada.png");
-}
-#IngressosMeia{
-	width:456px;
-	height:256px;
-	position:absolute;
-	left:50%;
-	margin:510px 0px 0px -200px;
-	background:url("../img/ingresso/ingresso-meia-entrada.png");
-}
-.infoSabado{
-	width:270px;
-	height:300px;
-	margin-top:90px;
+	height:426px;
+	margin:0 68px 0 68px;
+	background: url("../img/ingresso/ingressos-linha-tracejada.png") no-repeat 50% 0;
 	float:left;
-}
-.infoSabado img{
-	margin-top:50px;
+	}	
+	
+
+#abril28{
+	width:450px;
+	height:430px;
+	background: url("../img/ingresso/black20.png");
+	float:left;
+	}
+#garanta{
+	width:1042px;
+	height:180px;
+	margin-top:80px;
+	}
+#garanta{
+	float:left;
+	}
+#clear{
+	clear:both;
+	}
+.titulo_h1{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size:30px;
+	color:white;
+	float:left;
 	margin-left:50px;
-
-}
-.infoSabado span p{
-	font-family: 'Roboto', sans-serif;
-	font-size:14px;
-	font-weight: 100; 
-	color:white;
-	margin-left:60px;
-}
-#Combo{
-	width:280px;
-	height:148px;
-	position:absolute;
-	left:50%;
-	margin:840px 0px 0px -140px;
-	background:url("../img/ingresso/button-combo.png");
-}
-.diasEvento1{
-	position:absolute;
-	left:50%;
-	margin:0px 0px 0px -400px;
+	margin-top:10px;
+	}
+.titulo_h2{
 	font-family: 'Allerta Stencil', sans-serif;
-	font-size:24px;
+	font-size:20px;
 	color:white;
-}
-
-.diasEvento2{
-	position:absolute;
-	left:50%;
-	margin:0px 0px 0px 60px;
+	float:left;
+	margin-top:18px;
+	margin-left:10px;
+	}
+.titulo_h3{
 	font-family: 'Allerta Stencil', sans-serif;
-	font-size:24px;
+	font-size:16px;
 	color:white;
-}
+	float:left;
+	position:absolute;
+	margin-top:40px;
+	margin-left:50px;
+	}
+.paragrafo{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size:12px;
+	color:white;
+	float:left;
+	position:absolute;
+	margin-top:60px;
+	margin-left:50px;
+	}
+.imagem_right{
+	margin-left:220px;
+	}
+	
+.valor{
+	position:absolute;
+	margin-top:-250px;
+	margin-left:20px;
+	}
+	
+.comprar{
+	position:absolute;
+	margin-top:-120px;
+	margin-left:50px;
+	}
+	
 /* ------------------------------------- contato ------------------------------------*/
 .destaque_contato {
 	font-family: 'Poiret One', arial;
@@ -790,13 +826,17 @@ a{outline: none;}
 	background: url("../img/pd/palestrantes/nathanielhowe.jpg") no-repeat 50% 0;
 	height: 525px;
 }
+.palestranteBanner.tomisaksen{
+	background: url("../img/pd/palestrantes/tomisaksen.jpg") no-repeat 50% 0;
+	height: 525px;
+}
 
 .palestranteList{
 	height: 150px;
 	width: 960px;
 	margin: 20px auto 0 auto;
-	font-family: 'Keania One', cursive;
-	font-size: 25px;
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;	
 }
  
 .palestranteList a{
@@ -806,17 +846,29 @@ a{outline: none;}
 
 .palestranteList ul{
 	height: 150px;
+	margin-left:30px;
 }
 
 .palestranteList li{
 	float: left;
-	width: 150px;
+	width: 100px;
+	height:64px;
+	background:url("../img/pd/palestrantes/button-palestrante.png");
 	text-align: center;
+	margin-left:20px;
 	cursor: pointer;
 }
+.palestranteList li:hover{
+	float: left;
+	width: 100px;
+	height:64px;
+	background:url("../img/pd/palestrantes/button-palestrante-active.png");
+	text-align: center;
+	cursor: pointer;
 
+}
 .palestranteList a:hover, .palestranteList a.active{
-	color: #1c4977;
+	color: #66b2d3;
 }
 #content_palestrantes{
 	width:1000px;
@@ -898,10 +950,6 @@ a{outline: none;}
 	margin-bottom: 25px;
 	font-family: 'Poiret One', arial;
 }
-
-
-
-
 
 /* ----------------------- Contact Page -----------------------------------*/
 
@@ -1312,14 +1360,22 @@ input.blueBtn:hover{
 }
 #ContentFixPavilhao{
 	width:245px;
-	height:900px;
+	height:1000px;
 	float:left;
 
 }
 
 #ContentPavilhao{
 	width:960px;
-	height:1000px;
+	height:1200px;
+	margin:0 auto;
+	margin-top:50px;
+
+}
+
+#ContentPavilhaoBussola{
+	width:960px;
+	height:1600px;
 	margin:0 auto;
 	margin-top:50px;
 
@@ -1413,7 +1469,6 @@ input.blueBtn:hover{
 	height:170px;
 	float:left;
 	margin-top:15px;
-	background:url("../img/pavilhao/em-breve-vagas.jpg");
 }
 #embarquenaseven{
 	width:260px;
@@ -1443,16 +1498,22 @@ input.blueBtn:hover{
 	height:200px;
 	margin-top:60px;
 }
+.destaqueBussola{
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	
+}
 
 
 .ContentTextPavilhao {
 	width:630px;
 	height:550px;
-	margin-top:30px;
+	margin-top:10px;
 	margin-left:12px;
 	padding-right:13px;
-	font-family: 'Roboto', sans-serif;
-	font-size:13px;
+	font-family: arial;
+	font-size:12px;
 	font-weight: 100; 
 	color:black;
 	
@@ -1460,11 +1521,9 @@ input.blueBtn:hover{
 }
 .TextoPadraoPavilhao{	
 
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-family: arial;
 	font-size:12px;
 	color:black;
-	
 	}
 
 .TextoIntroPavilhao{	
@@ -1473,12 +1532,41 @@ input.blueBtn:hover{
 	display:block;
 	margin-left:10px;
 	margin-top:30px;
-
+}
+.TextoIntroPavilhaoBussola{	
+	width:450px;
+	height:100px;
+	float:right;
+	margin-right:10px;
+	font-family: arial;
+	font-size:12px;
+	color:black;
+}
+.ImgIntroPavilhaoBussola{
+	width:200px;
+	height:800px;
+	margin-left:20px;
+	float:left;
+	
+}
+.ImgIntroPavilhaoBussola img{
+	margin-top:100px;
+}
+.topoTextBussola{
+	width:500px;
+	height:140px;
+	margin:auto;
+	margin-top:40px;
+	display:block;
+	font-family: arial;
+	font-size:12px;
+	color:black;
 }
 #rodapePavilhao{
 	width:959px;
-	height:123px;
-	
+	height:203px;
+	position:relative;
+	top:50px;
 	background:url("../img/pavilhao/fundo-rodape-pavilhao.png");
 	clear:both;
 }
@@ -1486,18 +1574,26 @@ input.blueBtn:hover{
 	width:950px;
 	height:70px;
 	position:absolute;
-	margin-top:50px;
+	margin-top:10px;
 }
 
 #rodapePavilhaoLogos img{
-	margin-left:10px;
+	margin-left:60px;
+	margin-top:7px;
 }
-
+/* ---------------------  PAVILHAO EMPREGADORES ------------------*/
+#ConteudoOportunidades{
+	width:680px;
+	height:1050px;
+	margin-top:-15px;
+	float:left;
+	background:url("../img/pavilhao/fundo-formulario.png");
+	
+}
 /* ----------------------------------- PAVAILHAO - menu ---------------------------------------*/
 
 
 #ColunaFixaPavailhao{
-
 	width:250px;
 	height:1000px;
 	float:right;
@@ -1591,7 +1687,7 @@ input.blueBtn:hover{
 
 #ConteudoEmpregadores{
 	width:680px;
-	height:1470px;
+	height:1350px;
 	margin-top:-15px;
 	float:left;
 	background:url("../img/pavilhao/fundo-formulario.png");
@@ -1614,7 +1710,7 @@ input.blueBtn:hover{
 
 .DestaqueText{
 	font-family: 'Roboto', sans-serif;
-	font-size:13px;
+	font-size:10px;
 	font-weight: 400; 
 	color:black;
 }
@@ -1802,5 +1898,4 @@ DestaqueTextRed{
 #capa_face img{
 	margin:10px;
 	}
-	
     

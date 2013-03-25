@@ -96,6 +96,7 @@ if (isset($_POST['BTEnvia'])){
 							</div><!--close form input-->
 						</div><!--close formSection-->
 						
+						
 						<input type="submit" name="BTEnvia" value="Enviar" class="blueBtn sendContactFormBtn">
 					</form> 	
 				</div><!--close contactForm-->		

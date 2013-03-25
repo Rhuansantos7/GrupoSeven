@@ -60,7 +60,11 @@ $(document)
    
 $(".fancybox").fancybox();
 
+
+
 });
+
+
 
 
 $(document).ready(function() {
@@ -88,8 +92,3 @@ $(document).ready(function(e) {
     });
 
 });
-		
-		
-		$(documment).ready(function(e){
-			$("#")
-		});

@@ -33,7 +33,7 @@
 						<param name="allowScriptAccess" value="sameDomain" />
 					<!--<![endif]-->
 						
-						<img src="img/tom-isaksen.jpg" alt="tom-isaksen" width="1920" height="500"> 
+						<center><img src="img/banner-cg-extreme-home.jpg" alt="banner-cg-extreme-home" width="1920" height="500"></center>
 						
 					<!--[if !IE]>-->
 					</object>
@@ -66,7 +66,12 @@
 				
 				
 				
-				<li><img src="img/home/opportunity.jpg"></li>
+				<li><img src="img/home/opportunity.jpg">
+					</center>
+					<span class="TexTnewDestaque">CONFIRMADO 7º PALESTRANTE DO <br>CG EXTREME! TOM ISAKSEN.</span>
+					<span class="TexTnew"><p>Tom Isaksen é o novo</p> palestrante confirmado para o CG Extreme</span>
+
+				</li>
 
 			</ul>
 			
@@ -77,7 +82,9 @@
 			
 			<span class="TexTnew2" class="ativanews">7º PALESTRANTE DO CG EXTREME!</span>
 			
-			</div><! -- close i 0 --> <!-- <div i="1" class="box">equipe</div> -->
+			</div><! -- close i 0 --> 
+			
+			<!-- <div i="1" class="box"><span class="TexTnew2" class="ativanews">Conheça o Pavilhão de carreira do CG Extreme</span></div> -->
 			
 			
 			
@@ -169,6 +176,10 @@
 				<div id="fb-root"></div>
 			</div><!-- close ContentSocial -->
 		</div><!-- close redesHome -->
+		
+			<a href="carreira.php"><div class="HomePavilhao">
+				</div></a><!-- close redesHome -->
+
 		
 		
 	</div><!-- close content home -->

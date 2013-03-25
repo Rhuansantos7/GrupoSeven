@@ -30,8 +30,8 @@
 			<li i='1' style="background:url(img/content/home/banner/jan_2013/7.jpg) no-repeat center top;" t='Seven Game' d='Agora em 3 estados do Brasil'></li>
 		</a>
 		
-		<a href="#">
-			<li i='2' style="background:url(img/content/home/banner/jan_2013/3.jpg) no-repeat center top;" t='Seven Magazine' d='Nova edição da revista Seven Magazine Vem aí!'></li>
+		<a href="https://www.facebook.com/SevenComputacaoGrafica" target="new">
+			<li i='2' style="background:url(img/content/home/banner/jan_2013/70likes.jpg) no-repeat center top;" t='' d=''></li>
 		</a>
 		
 		<a href="#">

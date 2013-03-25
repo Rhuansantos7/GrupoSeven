@@ -46,8 +46,7 @@
 			<div class="menu_rodape" style="margin-left:-30px;">
 				<span class="menu_rodape_top"><a href="evento.php">EVENTO</a></span>
 				<ul>
-					<li class="menu_ropde_sub">Pavilhão de Carreira</li>
-					<li class="menu_ropde_sub">Embarque na Seven</li>
+
 				</ul>
 			</div><!-- close menu rodape -->
 			
@@ -63,6 +62,8 @@
 					<a href="cordy_rierson.php"><li class="menu_ropde_sub">Cordy Rierson</li></a>
 					<br>
 					<a href="chance_glasco.php"><li class="menu_ropde_sub">Chance Glasco</li></a>
+					<br>
+					<li class="menu_ropde_sub"><a href="tom_isaksen.php">Tom Isaksen</a></li>
 				</ul>
 			</div><!-- close menu rodape -->
 			
@@ -160,3 +161,4 @@
 		
 		<link rel="stylesheet" href="js//fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 		<script type="text/javascript" src="js//fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		
