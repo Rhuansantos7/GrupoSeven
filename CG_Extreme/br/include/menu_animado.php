@@ -33,6 +33,7 @@
 				<li><a href="cordy_rierson.php">Cordy Rierson</a></li>
 				<li><a href="chance_glasco.php">Chance Glasco</a></li>
 				<li><a href="tom_isaksen.php">Tom Isaksen</a></li>
+				<li><a href="ed_jones.php">Ed Jones</a></li>
 			</ul>
 		</li>
 	

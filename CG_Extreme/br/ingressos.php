@@ -24,7 +24,7 @@
 				<img src="img/ingresso/ingresso-valores.png">
 			</div><!--close imagem meio--><br/>
 			<div id="imagem_baixo"class="comprar">
-				<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREU13" target="blank"><img src="img/ingresso/button-comprar.png"></a>
+				<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREM12" target="blank"><img src="img/ingresso/button-comprar.png"></a>
 			</div><!--close imagem meio--><br/>
 		</div><!--close 27 abril-->
 		<div id="separador"></div>
@@ -43,14 +43,14 @@
 				<img src="img/ingresso/ingresso-valores.png">
 			</div><!--close imagem meio-->
 			<div id="imagem_baixo" class="comprar">
-				<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREU13" target="blank" ><img src="img/ingresso/button-comprar.png"></a>
+				<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREM12" target="blank" ><img src="img/ingresso/button-comprar.png"></a>
 			</div><!--close imagem meio--><br/>
 		</div>
 		<div id="clear"></div>
 		<div id="garanta">
-			<img src="img/ingresso/ingresso-meia.png">
-			<img src="img/ingresso/ingresso-combo.png">
-			<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREU13" target="blank"><img src="img/ingresso/compre-t4f.png"></a>
+			<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG" target="blank"><img src="img/ingresso/ingresso-meia.png"></a>
+			<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG" target="blank"><img src="img/ingresso/ingresso-combo.png"></a>
+			<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG" target="blank"><img src="img/ingresso/compre-t4f.png"></a>
 		</div><!--close garanta-->
 				
 	</div><!-- close #IngressosContent -->

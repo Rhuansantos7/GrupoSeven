@@ -19,6 +19,7 @@
           <li><a href="#" class="active">Laurie <br/> Brugger</a></li>
           <li><a href="jayson_whitmore.php">Jayson <br/> Whitmore</a></li>
            <li><a href="tom_isaksen.php">Tom <br/> Isaksen</a></li>
+            <li><a href="ed_jones.php">Ed<br/> Jones</a></li>
 						</ul>
 					</div><!--close palestranteList-->
 					

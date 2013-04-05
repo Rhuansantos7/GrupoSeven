@@ -22,6 +22,7 @@
 			<img src="images/banner/03.jpg" alt="" />
 			<img src="images/banner/04.jpg" alt=""  />
 			<img src="images/banner/05.jpg" alt=""  />
+			<img src="images/banner/06.jpg" alt=""  />
 			
                       
              

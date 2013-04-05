@@ -1,10 +1,13 @@
 ﻿<?php require_once('funcao.php'); ?>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 <title>Documento sem título</title>
+<link rel="stylesheet" href="style/main.css">
 
 
 <script>
@@ -77,23 +80,71 @@ if (form.arquivo.value=="") {
 </head>
 
 <body>
-<form method="POST" action="" enctype="multipart/form-data" onsubmit="return valida(this);">
-Nome: 		<input type="text" name="nome"><br />
-Telefone:   <input type="text" name="telefone"><br />
-E-mail: 	<input type="text" name="email"><br />
-empresa <input type="text" name="empresa"><br />
-Data de nascimento: 		<input type="text" name="datanasc"><br />
 
-Sexo: <input type="radio" value="masculino" name="sexo">Masculino <br />
-	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" value="feminino" name="sexo"> Feminino <br />
+	<div id="Topo">
+		<span>Credenciamento</span>
+		<img src="img/cg-extreme-logo.png" alt="cg-extreme-logo" width="71" height="55">
+	</div><!-- close topo -->
+	
+	
+	<form method="POST" action="" enctype="multipart/form-data" onsubmit="return valida(this);">
+		<span class="DadosPrenS">Nome:</span>
+				<br /> 
+			<input type="text" name="nome" class="InputCadastro">
+				<br />
+				
+		<span class="DadosPrenS">Numero do Ingresso:</span>
+				<br />
+			<input type="text" name="num_ingresso" class="InputCadastro">
+				<br />	
+				
+		<span class="DadosPrenS">Data de nascimento:</span>
+				<br />
+			<input type="text" name="datanasc" class="InputCadastro">
+				<br />
+				
+		<span class="DadosPrenS">Sexo:</span> 
+				<br />
+			<input type="radio" value="masculino" name="sexo">Masculino <br />
+			<input type="radio" value="feminino" name="sexo">Feminino <br />
+				<br />	
+				
+		<span class="DadosPrenS">Rede social (Facebook):</span>
+				<br />
+			<input type="text" name="rede_social" class="InputCadastro">
+		 		<br />						
 
-Rede social (Facebook): <input type="text" name="rede_social"><br />
-RG:  <input type="text" name="rg"><br />
-Foto: <input name="arquivo" type="file"><br />
-Onde comprou seu ingresso? <input type="text" name="ingresso"><br />
-Numero do Ingresso: <input type="text" name="num_ingresso">
-<input type="submit" value="enviar" >
-</form>
+		<span class="DadosPrenS">E-mail:</span>
+				<br />
+			<input type="text" name="email" class="InputCadastro">
+				<br />
+			
+		<span class="DadosPrenS">Empresa:</span>
+				<br />
+			<input type="text" name="empresa" class="InputCadastro">
+				<br />
+
+		<span class="DadosPrenS">RG:</span>
+				<br />
+			<input type="text" name="rg" class="InputCadastro">
+				<br />
+		<span class="DadosPrenS">Foto:</span>
+				<br />
+			<input name="arquivo" type="file" >
+				<br />
+			
+		<span class="DadosPrenS">Telefone:</span>
+					<br />
+				<input type="text" name="telefone" class="InputCadastro">
+			  		<br />		
+				
+		<span class="DadosPrenS">Onde comprou seu ingresso?</span>
+				<br />
+			<input type="text" name="ingresso" class="InputCadastro">
+				<br />
+
+		<input type="submit" value="enviar" >
+	</form>
 
 
 <?php

@@ -23,7 +23,7 @@
 
 	
 
- <?php
+<?php
 		$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
 		$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
 		$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
@@ -36,12 +36,13 @@
 			echo "<script>window.location='http://m.cgextreme.com.br/'</script>";
 		}
 		
-	
+		/*
 		if ($ipad == true) 
 		{ 
-			echo "<script>window.location='http://m.cgextreme.com.br/'</script>";
+			echo "<script>window.location='tablet/index.php'</script>";
 		}
-		
+		*/
 	?> 
+
 
 </head>

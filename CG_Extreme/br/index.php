@@ -3,8 +3,13 @@
 <?php include('metas.php'); ?>
 
 <body>
+<div id="OpTablet">
 <?php include('include/menu_animado.php'); ?>
+</div> <!-- close op tablet -->
 
+<div id="OpDesktop">
+ <?php include('include/menu.php'); ?>
+</div> <!-- close OpDesktop -->
 
 <!-- <embed class="banner_swf" src="banner/banner-mists.swf" height="570" width="100%"> -->
 <div id="banner_home">
@@ -41,9 +46,17 @@
 				</object>
 
 
-
+	<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
 </div><!-- close banner_home -->
-<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
+
+<div id="bannerHomeTablet">
+	</div><!-- close banner evento -->
+
+	
+	
+	
+	
+
 	
 <div id="content_home">
 		
@@ -56,13 +69,13 @@
 		<div id="view">
 			
 			<ul>
-				<li>
+				<a href="ed_jones.php"><li>
 					<center>
-					<img src="img/home/hitman-absolution.jpg">
+					<img src="img/home/edjones.jpg">
 					</center>
-					<span class="TexTnewDestaque">CONFIRMADO 7º PALESTRANTE DO <br>CG EXTREME! TOM ISAKSEN.</span>
-					<span class="TexTnew"><p>Tom Isaksen é o novo</p> palestrante confirmado para o CG Extreme</span>
-				</li>
+					<span class="TexTnewDestaque">CONFIRMADO 8º PALESTRANTE DO <br>CG EXTREME! Ed Jones</span>
+					<span class="TexTnew"><p>Três decadas dedicadas <br> a industria do entretenimento.</p>Ed Jones nosso 8 palestrante</span>
+				</li></a>
 				
 				
 				
@@ -80,7 +93,7 @@
 		<div id="op">
 			<div i="0" class="box" >
 			
-			<span class="TexTnew2" class="ativanews">7º PALESTRANTE DO CG EXTREME!</span>
+			<a href="ed_jones.php"><span class="TexTnew2" class="ativanews">8º PALESTRANTE DO CG EXTREME!</span></a>
 			
 			</div><! -- close i 0 --> 
 			

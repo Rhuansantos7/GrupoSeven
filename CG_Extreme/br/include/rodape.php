@@ -1,37 +1,64 @@
-<div class="clear"></div><!-- close clear -->
+ <div class="clear"></div><!-- close clear -->
 	
 	<div id="content_rodape">
 		
 		<div id="logos" class="animatecss3">
-			
-			<div id="apoio" >
-				<a href="http://www.rio.rj.gov.br" target="new"><img src="img/rodape/logo-prefeitura-rio.png"></a>
-				<a href="http://www.wacom.com" target="new"><img src="img/rodape/logo-wacom.png"></a>
-			</div><!-- close apoio -->
-			
-			<div id="parceiros">
-				<a href="http://www.cvc.com.br" target="new"><img src="img/rodape/logo-cvc2.png"></a>
-			</div><!-- close parceiros -->
-			
-			<div id="apoioMidias">
-				<a href="http://rederecord.r7.com" target="new"><img src="img/rodape/logo-record.png"></a>
-				<a href="http://www.r7.com" target="new"><img src="img/rodape/logo-r7.png"></a>
-				<a href="http://www.kinoplex.com.br" target="new"><img src="img/rodape/logo-kinoplex.png"></a>
-				<a href="http://www.sidneyrezende.com" target="new"><img src="img/rodape/logo-srzd.png"></a>
-			
-			</div><!-- close apoioMidias -->
-			
-			<div id="organizadores">
-				<a href="http://www.sevencg.com.br" target="new"><img src="img/rodape/logo-grupo-seven.png"></a>
-				<a href="http://www.fullsail.edu/" target="new"><img src="img/rodape/logo-fullsail.png"></a>
-			</div><!-- close apoioMidias -->
-			
-		</div><!-- close logos -->
-		
-		
+			<div id="ContentLogosRodape">
+				<div class="TituloLogosRealizacao">
+					<span>REALIZAÇÃO</span>
+						<div id="LogosRealizacao">																  
+							<a href="http://www.sevencg.com.br/" target="new"><img src="img/rodape/logo-grupo-seven.png" alt="logo-grupo-seven" width="113" height="110" /></a>
+							<a href="http://www.fullsail.edu/" target="new"><img src="img/rodape/logo-fullsail.png" alt="logo-fullsail" width="89" height="110" /></a>
+						</div><!-- LogosRealizacao -->															  
+				</div><!-- TituloLogos -->																		  
+																												  
+																												  
+				<div class="TituloLogosApoio">																	  
+					<span>APOIO</span>																			  
+						<div id="LogoApoio">																	  
+							<a href="http://www.rio.rj.gov.br/" target="new"><img src="img/rodape/logo-prefeitura-rio.png" alt="logo-prefeitura-rio" width="91" height="100" /></a>
+							<a href="http://www.wacom.com/" target="new"><img src="img/rodape/logo-wacom.png" alt="logo-wacom" width="50" height="100" /></a>
+						</div><!-- close LogoApoio -->															  
+				</div><!-- close TituloLogosApoio -->															  
+																												  
+																												  
+																												  
+				<div class="TituloLogosApoioMidia">																  
+						<span>APOIO DE MÍDIA</span>																  
+							<a href="http://rederecord.r7.com/" target="new"><img src="img/rodape/logo-record.png" alt="logo-record" width="64" height="100" /></a>
+							<a href="http://www.r7.com/" target="new"><img src="img/rodape/logo-r7.png" alt="logo-r7" width="55" height="100" /></a>
+							<a href="http://www.uol.com.br/" target="new"><img src="img/rodape/logo-uol.png" alt="logo-uol" width="92" height="100" /></a>
+							<a href="http://www.kinoplex.com.br/" target="new"><img src="img/rodape/logo-kinoplex.png" alt="logo-kinoplex" width="114" height="100" /></a>
+							<a href="http://www.sidneyrezende.com/" target="new"><img src="img/rodape/logo-srzd.png" alt="logo-srzd" width="80" height="100" /></a>
+																												  
+				</div><!-- close TituloLogosApoio -->															  
+																												  
+																												  
+				<div class="TituloLogosParceiros">																  
+					<span>PARCEIROS</span>																		  
+						<div id="LogosParceiros">																  
+							<a href="http://www.thermaltakeusa.com/" target="new"><img src="img/rodape/logo-thermaltake.png" alt="logo-thermaltake" width="46" height="100" /></a>
+							<a href="http://www.gunnars.com/" target="new"><img src="img/rodape/logo-gunnar.png" alt="logo-gunnar" width="78" height="80" /></a>
+							<a href="http://www.cvc.com.br/" target="new"><img src="img/rodape/logo-cvc.png" alt="logo-cvc" width="64" height="80" /></a>
+						</div>	<! -- close LogoParceiros -->													  
+																												  
+				</div><! -- close TituloLogosApoioMidia -->														  
+																												  
+																												  
+				<div class="TituloLogosRadio">																	  
+					<span>RADÍO OFICIAL</span>																	  
+					<center>																					  
+						<a href="http://www.sevencg.com.br/" target="new"><img src="img/rodape/logo-fm-odia.png" alt="logo-fm-odia" width="64" height="80" /></a>
+					</center>
+				</div><!-- TituloLogosRadio -->
+				
+				
+			</div><!-- ContentLogosRodape -->
+		</div><!-- close logos --> 
 		
 	<div id="mapa_site">
-		
+		<br>
+		<div id="MapaCenter">
 			<div class="menu_rodape" style="margin-left:20px;">
 				<span class="menu_rodape_top"><a href="index.php">HOME</a></span>
 				<ul>
@@ -51,7 +78,7 @@
 			</div><!-- close menu rodape -->
 			
 			
-			
+		
 			<div class="menu_rodape" style="margin-left:20px;">
 				<span class="menu_rodape_top"><a href="palestrantes.php">PALESTRANTES</a></span>
 				<ul>
@@ -94,6 +121,7 @@
 				<ul>
 				</ul>
 			</div><!-- close menu rodape -->
+		</div><!-- MapaCenter -->	
 	</div><!-- close mapa site -->
 		
 		

@@ -13,19 +13,19 @@
 	<div id="ContentPavilhao">
 		
 				
-		<div id="ContentExpo">
+		<div id="ContentExpoUnity">
 			<span class="titulo_home">Unity</span>
 			<div class="ImgTopoPavilhao"><img src="img/pavilhao/banner-unity.jpg" alt="" /></div><!-- close ImgTopoPavilhao -->
 			<div class="ContentTextPavilhao">
-Pensando em ajudar os novos desenvolvedores de games no Brasil, a Unity, em parceria com a Studica, irá promover uma competição entre os desenvolvedores do Grupo Seven no mês de março. O campeão será premiado com incentivos para dar os primeiros passos como um profissional independente, podendo desenvolver e publicar seus games para diversos consoles. Além dos prêmios, os três primeiros colocados terão uma máquina no estande da Unity/Studica para expor seu projeto.
-<br><br>
+Pensando em ajudar os novos desenvolvedores de games no Brasil, a Unity, em parceria com a Studica, irá promover uma competição entre os desenvolvedores do Grupo Seven no mês de março. O campeão será premiado com incentivos para dar os primeiros passos como um profissional independente, podendo desenvolver e publicar seus games para diversos consoles. Além dos prêmios, os três primeiros colocados terão uma máquina no estande da Unity/Studica para expor seu projeto.<a href="img/pavilhao/campeonato_unity.jpg"> (Leia o Briefing)</a>
+<br><br><br>
 	<h2 class="TituloVideoPavilhao">Campeonato Unity</h2><br>
-
-<iframe width="630" height="300" src="https://www.youtube.com/embed/lEMJgtMVsj8" frameborder="0" allowfullscreen></iframe>
+<br><br>
+<iframe width="630" height="300" src="https://www.youtube.com/embed/lEMJgtMVsj8" frameborder="0" allowfullscreen></iframe><br><br><br>
 <p class="destaqueBussola">CRONOGRAMA DA COMPETIÇÃO:</p>
 <br>
 <p>Inscrições - 16/03 a 23/03</p>
-<p>Envio do briefing - 25/03 (via e-mail apenas para os inscritos)</p>
+<p>Envio do <a class="fancybox" rel="group" href="img/pavilhao/campeonato_unity.jpg">briefing</a> - 25/03 (via e-mail apenas para os inscritos)</p>
 <p>Data de envio do projeto - 22/04</p>
 <p>Resultado - dia 27/04 no Stand da Unity</p>
 <br>
@@ -37,9 +37,11 @@ Pensando em ajudar os novos desenvolvedores de games no Brasil, a Unity, em parc
 <p class="DestaqueText"><span class="DestaqueTextRed">OBS</span>: Com a licença Pro o desenvolvedor campeão poderá publicar seus games para PC, Mac, Linux e WEB.</p>
 				
 				<br>
-<a class="fancybox fancybox.iframe" href="unity_contato.php" style="position:absolute; margin:-555px 0px 0px -300px; left:50%;">
-      <img src="img/pavilhao/botao2.png"
+<a class="fancybox fancybox.iframe" href="unity_contato.php" style="position:absolute; margin:-615px 0px 0px -300px; left:50%;">
+      <img src="img/pavilhao/botao2.png"/>
     </a>
+   <span style="top:50px; position:relative;"><a href="img/pavilhao/campeonato_unity.jpg"><img src="img/pavilhao/briefing-saiba-mais.png" alt="briefing-saiba-mais" width="660" height="52"></a></span>
+
 
 												
 			</div><!-- close ContentTextPavilhao -->
@@ -104,7 +106,7 @@ Pensando em ajudar os novos desenvolvedores de games no Brasil, a Unity, em parc
 <!-------------------------------------------------------------- ContentFixPavilhao ----------------------------------------------->
 			
 	</div><!-- close ContentPavilhao -->
-
+	<div style="margin-top:300px;"></div>
 <?php include('include/rodape.php'); ?>
 
 </body>

@@ -14,6 +14,48 @@ a:hover { text-decoration: none; color: #000; }
 .clear{clear: both;}
 a{outline: none;}
 /* -------------------------------------------------------------------------- the end reset css -------------------------------------------------------------------------- */
+ @viewport {
+	width: device-width;
+}
+ 
+ @media screen and (max-width: 1000px) {
+#banner_home{
+	display:none;
+}
+#OpTablet{
+	display:none;
+}
+#OpDesktop{
+		display:block !important;
+	} 
+#MarcadorBanner{
+	display:none !important;
+}
+
+#bannerHomeTablet{
+	height: 573px;
+	background: url("../img/banner-cg-extreme-home.jpg") no-repeat 50% 0;
+}
+ }
+ 
+ @media screen and (max-width: 1280px) {
+	#banner_home{
+		width:1920px;
+		height:500px;
+		margin-left:-25%;
+	}
+	#OpDesktop{
+		display:none;
+	} 
+	
+}
+@media screen and (min-width : 1280px) {
+
+	#OpDesktop{
+		display:none;
+	} 
+	
+}/* close media screen */
 
 
 /* -------------- wrapper -------------- */
@@ -25,6 +67,7 @@ a{outline: none;}
 .MarcadorBanner{
 	width:100%;
 	height:6px;
+	margin-top: -5px;
 	background:url("../img/pd/bottom-bar.jpg");
 	
 }
@@ -377,14 +420,7 @@ a{outline: none;}
 }
 
 
-@media screen and (max-width: 1280px) {
-#banner_home{
-	width:1920px;
-	height:500px;
-	margin-left:-25%;
-}
 
-	}
 	
 #news_home{
 	width:559px;
@@ -481,68 +517,128 @@ a{outline: none;}
 	width:100%;
 	height:430px;
 	margin-top:100px;
-	background:url("../img/rodape/fundo-rodape.jpg") center;
+	color: black;
 }
 /* ----------------------------- rodape logos --------------------------------------------*/
 
 #logos{
-	width:1000px;
-	height:135px;
+	width:100%;
+	height:424px;
 	margin:auto;
+	background:url("../img/rodape/fundo-rodape-logos.jpg");
 }
-#apoio{
-	width:210px;
-	height:60px;
-	margin-top:40px;
-	margin-left:20px;
-	float:left;	
+#ContentLogosRodape{
+	width: 1000px;
+	height: 300px;
+	position: relative;
+	top:10px;
+	margin: auto;
 }
-#apoio img{
-	margin-left:20px;
+.TituloLogosRealizacao{
+	width: 1000px;
+	height: 34px;
+	background:url("../img/rodape/titulo-logos-rodape.png");
 }
-#parceiros{
-	width:130px;
-	height:60px;
-	margin-top:40px;
-	margin-left:10px;
-	float:left;
+.TituloLogosRealizacao span{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 16px;
+	text-align:center;
+	display: block;
+	padding-top: 7px;
 }
-#parceiros img{
+.TituloLogosRealizacao img{
+	margin-left: 80px;
+}
+#LogosRealizacao{
+	width: 370px;
+	margin-left: 270px;
 
-	margin-left:35px;
 }
-
-#apoioMidias{
-	width:355px;
-	height:60px;
-	margin-left:10px;
-	margin-top:40px;
-	float:left;
+.TituloLogosApoio{
+	width: 240px;
+	height: 34px;
+	float: left;
+	margin-top: 100px;
+	background:url("../img/rodape/titulo-logos-rodape.png");	
+}
+.TituloLogosApoio span{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 16px;
+	text-align:center;
+	display: block;
+	padding-top: 7px;
+}
+.TituloLogosApoio img{
+	margin-left: 40px;
+}
+.TituloLogosApoioMidia{
+	width: 745px;
+	height: 34px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 100px;
+	background:url("../img/rodape/titulo-logos-rodape.png");	
+}
+.TituloLogosApoioMidia span{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 16px;
+	text-align:center;
+	display: block;
+	padding-top: 7px;
+}
+.TituloLogosApoioMidia img{
+	margin-left: 50px;
 	
 }
-#apoioMidias img{
-	margin-left:8px;	
+#LogoApoio{
+	margin-left: -25px;
+	width: 250px;
 }
 
-#organizadores{
-	width:210px;
-	height:60px;
-	margin-top:40px;
-	margin-left:35px;
-	float:left;
-	
+.TituloLogosParceiros{
+	width: 470px;
+	height: 34px;
+	margin-top: 230px;
+	background:url("../img/rodape/titulo-logos-rodape.png");
 }
-#organizadores img{
-	margin-left:5px;
-	
+.TituloLogosParceiros span{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 16px;
+	text-align:center;
+	display: block;
+	padding-top: 7px;
+}
+.TituloLogosParceiros img{
+	margin-left: 80px;
+}
+#LogosParceiros{
+	width: 500px;
+	margin-left: -30px;
+}
+
+.TituloLogosRadio{
+	width: 450px;
+	height: 34px;
+	float: right;
+	margin-left: 15px;
+	margin-top: -33px;
+	background:url("../img/rodape/titulo-logos-rodape.png");	
+}
+.TituloLogosRadio span{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 16px;
+	text-align:center;
+	display: block;
+	padding-top: 7px;	
 }
 
 /* ----------------------------- rodape menu --------------------------------------------*/
 
 #mapa_site{
-	width:1000px;
-	height:220px;
+	width:100%;
+	height:270px;
 	margin:0 auto;
+	background:url("../img/rodape/fundo-rodape-mapa.jpg");
 }
 .menu_rodape{
 	width:150px;
@@ -550,6 +646,10 @@ a{outline: none;}
 	float:left;
 	margin-left:40px;
 
+}
+#MapaCenter{
+	width: 960px;
+	margin: auto;
 }
 .menu_rodape ul{
 	margin-top:10px;
@@ -591,7 +691,7 @@ a{outline: none;}
 
 }
 
-/* ----------------------- Evento -----------------------------------*/
+/* ----------------------- Evento modificado  25/03 ocimar-----------------------------------*/
 #logo_evento {
 	text-align: center;
 }
@@ -601,57 +701,87 @@ a{outline: none;}
 
 }
 #content_evento {
-	width: 960px;
+	width: 1000px;
 	height: 1500px;
 	margin: 0 auto;
-
+	
 }
+
+#content_evento_esquerdo{
+	width:680px;
+	height:1500px;
+	float:left;
+}
+	
+#content_evento_direito{
+	width:290px;
+	height:1500px;
+	float:right;
+}
+
 .evento_d {
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 50px;
-	margin-left: 290px;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 30px;
+	
 }
-.txt_evento {
-	font-family: 'Poiret One', arial;
-	font-size:14px;
-}
-#content_txt_evento {
-	width: 700px;
-	height: 200px;
-	margin: auto;
-}
-#content_evento2 {
-	width: 960px;
-	height: 500px;
-}
-#evento_left {
-	width: 480px;
-	height: 300px;
-	float: left;
-}
-#evento_right {
-	width: 480px;
-	height: 300px;
-	float: right;
-}
-.center_img {
+#evento_left{
+	width:320px;
+	float:left;
+	}
+#evento_left img{
+	margin-left:50px;
+	}
+
+#evento_right img{
+	margin-left:50px;
+	}
+#evento_right{
+	width:320px;
+	float:right;
+	}
+.evento_cronograma {
 	text-align: center;
-}
-.text_right {
-	display: block;
-	width: 300px;
-	margin-left: 90px;
-	font-family: 'Poiret One', arial;
-	font-size: 15px;
-	text-indent: 50px;
-}
-#video_evento {
-	width: 800px;
-	height: 500px;
-	margin: auto;
-	margin-top: 50px;
-}
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 20px;
+	}
+	
+.marcador{
+	
+	width:300px;
+	height:29px;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size:16px;
+	background:url("../img/evento/back_marcador.png");
+	padding: 10px;
+	}
+.txt_evento{
+
+	font-family: Arial, sans-serif;
+	font-size:14px;
+	
+	}
+.text_right{
+
+	font-family: Arial, sans-serif;
+	font-size:14px;
+	
+	}
+	
+.text_left{
+
+	font-family: Arial, sans-serif;
+	font-size:14px;
+	}
+	
+.list{
+	font-family: Arial, sans-serif;
+	font-size:14px;
+	}
+
+
+
+
 /* ----------------------- Evento ----------------------------------*/
 
 /* ----------------------- ingresso - ocimar ---------------------------------*/
@@ -831,10 +961,15 @@ a{outline: none;}
 	height: 525px;
 }
 
+.palestranteBanner.edjones{
+	background: url("../img/pd/palestrantes/edjones.jpg") no-repeat 50% 0;
+	height: 525px;
+}
+
 .palestranteList{
 	height: 150px;
-	width: 960px;
-	margin: 20px auto 0 auto;
+	width: 1000px;
+	margin:0 auto;
 	font-family: 'Poiret One', cursive;
 	font-size: 20px;	
 }
@@ -846,7 +981,6 @@ a{outline: none;}
 
 .palestranteList ul{
 	height: 150px;
-	margin-left:30px;
 }
 
 .palestranteList li{
@@ -921,6 +1055,7 @@ a{outline: none;}
 	opacity:0.75;
 	filter:alpha(opacity=75); /* For IE8 and earlier */
 }
+
 
 .galleryThumb li:hover{
 	-webkit-box-shadow:  0px 0px 5px 0px #ffffff;
@@ -1705,6 +1840,16 @@ input.blueBtn:hover{
 	background:url("../img/pavilhao/fundo-conteudo.png") no-repeat;
 }
 
+
+#ContentExpoUnity{
+	width:680px;
+	height:1227px;
+	clear:both;
+	margin-top:-15px;
+	float:left;
+	background:url("../img/pavilhao/fundo-unity.png") no-repeat;
+}
+
 /* ----------------------------------- PAVAILHAO - unity ---------------------------------------*/
 
 
@@ -1898,4 +2043,7 @@ DestaqueTextRed{
 #capa_face img{
 	margin:10px;
 	}
+    
+ 
+    
     

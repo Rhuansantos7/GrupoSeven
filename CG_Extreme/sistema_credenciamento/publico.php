@@ -1,8 +1,11 @@
 ﻿<?php require_once('funcao.php'); ?>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 <title>Documento sem título</title>
+<link rel="stylesheet" href="style/main.css">
 
 
 <script>
@@ -75,26 +78,75 @@ if (form.num_ingresso.value=="") {
 </head>
 
 <body>
+
+	<div id="Topo">
+		<span>Credenciamento</span>
+		<img src="img/cg-extreme-logo.png" alt="cg-extreme-logo" width="71" height="55">
+	</div><!-- close topo -->
+	
+	<div id="content">
 <form method="POST" action="" enctype="multipart/form-data" onsubmit="return valida(this);">
-Nome: 		<input type="text" name="nome"><br />
-Telefone:   <input type="text" name="telefone"><br />
-E-mail: 	<input type="text" name="email"><br />
-Data de nascimento: <input type="text" name="datanasc"><br />
+		<span class="TextoPadraoTm2">Nome:</span>
+				<br /> 
+			<input type="text" name="nome" class="InputCadastro">
+				<br />
+				
+		<span class="TextoPadraoTm2">Numero do Ingresso:</span>
+				<br />
+			<input type="text" name="num_ingresso" class="InputCadastro">
+				<br />	
+				
+		<span class="TextoPadraoTm2">Data de nascimento:</span>
+				<br />
+			<input type="text" name="datanasc" class="InputCadastro">
+				<br />
+				
+		<span class="TextoPadraoTm2">Sexo:</span> 
+				<br />
+			<input type="radio" value="masculino" name="sexo" class="TextoPadraoTm2">Masculino <br />
+			<input type="radio" value="feminino" name="sexo" class="TextoPadraoTm2">Feminino <br />
+				<br />	
+				
+		<span class="TextoPadraoTm2">Rede social (Facebook):</span>
+				<br />
+			<input type="text" name="rede_social" class="InputCadastro">
+		 		<br />						
 
+		<span class="TextoPadraoTm2">E-mail:</span>
+				<br />
+			<input type="text" name="email" class="InputCadastro">
+				<br />
+			
+		<span class="TextoPadraoTm2">Habilidade:</span>
+				<br />
+			<input type="text" name="habilidade" class="InputCadastro"><br />
+				<br />
 
-Sexo: <input type="radio" value="masculino" name="sexo">Masculino <br />
-	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" value="feminino" name="sexo"> Feminino <br />
+		<span class="TextoPadraoTm2">RG:</span>
+				<br />
+			<input type="text" name="rg" class="InputCadastro">
+				<br />
+		<span class="TextoPadraoTm2">Foto:</span>
+				<br />
+			<input name="arquivo" type="file" >
+				<br />
+				
+				
+				
+		<span class="TextoPadraoTm2">Telefone:</span>
+					<br />
+				<input type="text" name="telefone" class="InputCadastro">
+			  		<br />		
+				
+		<span class="TextoPadraoTm2">Onde comprou seu ingresso?</span>
+				<br />
+			<input type="text" name="ingresso" class="InputCadastro">
+				<br />
 
-Habilidade: <input type="text" name="habilidade"><br />
-Rede social (Facebook): <input type="text" name="rede_social"><br />
-RG:			 <input type="text" name="rg"><br />
-Foto:		 <input type="file" name="arquivo"><br />
-Onde comprou seu ingresso? <input type="text" name="ingresso"><br />
-Numero do Ingresso: <input type="text" name="num_ingresso">
-<input type="submit" value="enviar" >
-</form>
-
-
+		<input type="submit" value="" class="ButtonConsulta">
+	</form>
+	
+	</div><!-- close content -->
 <?php
 
 
