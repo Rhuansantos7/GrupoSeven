@@ -37,10 +37,7 @@
 							
 							<div class="imgDetail">
               <p><strong>CEO Reel FX</strong></p>
-								<p>O vencedor do Oscar Edward Jones destaca-se nas últimas três décadas na indústria do entretenimento e mídia e é considerado por muitos especialistas como pioneiro da mídia digital, especializando-se em animação e efeitos visuais 2D e 3D.
- 
- 
-Tendo contribuido com mais de 200 projeto, ele não só tem a habilidade criativa para construir imagens como também imprime sua visão de negócios num modelo palpável e em oportunidades tangíveis.</p>
+								<p>Vencedor de 2 Academy Awards (Oscar), Edward Jones é destaque nas últimas três décadas na indústria do entretenimento e mídia, e é considerado por muitos especialistas como pioneiro da mídia digital, especializado em animação e efeitos visuais 2D e 3D. Tendo participado e contribuído com mais de 200 projetos, ele não só tem a habilidade criativa para construir imagens como também imprime sua visão de negócios num modelo palpável e em oportunidades tangíveis.</p>
 								
 								<p><strong>ALGUNS DE SEUS TRABALHOS</strong></p>
 								<ul>
@@ -94,6 +91,19 @@ Tendo contribuido com mais de 200 projeto, ele não só tem a habilidade criativ
 										<img src="img/pd/portfolios/ed-jones/miniaturas/7.jpg" />
 									</a>
 								</li><!--close list item-->
+								
+								<li>
+									<a class="fancybox" rel="group" href="img/pd/portfolios/ed-jones/8.jpg">
+										<img src="img/pd/portfolios/ed-jones/miniaturas/8.jpg" />
+									</a>
+								</li><!--close list item-->
+								
+								<li>
+									<a class="fancybox" rel="group" href="img/pd/portfolios/ed-jones/9.jpg">
+										<img src="img/pd/portfolios/ed-jones/miniaturas/9.jpg" />
+									</a>
+								</li><!--close list item-->
+
 			
 								</li><!--close list item-->
 							</ul><!--close unordered list-->

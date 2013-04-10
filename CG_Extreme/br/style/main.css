@@ -789,6 +789,10 @@ a{outline: none;}
 	height: 600px;
 	background: url("../img/ingresso/ingresso-banner.jpg") no-repeat 50% 0;
 }
+#banner_Video {
+	height: 600px;
+	background:red;
+}
 #IngressosContent {
 	width: 1042px;
 	height: 1000px;
@@ -2043,7 +2047,45 @@ DestaqueTextRed{
 #capa_face img{
 	margin:10px;
 	}
-    
+
+/* ----------------------- Página de Vídeos ---------------------------------*/
+
+#ContentVideos{
+	width:1000px;
+	height:1200px;
+	margin:auto;
+	margin-top:20px;
+}
+#VideoDestaque{
+	width:1000px;
+	height:500px;
+	margin:auto;
+
+}
+#UltimosVideos{
+	Width:1000px;
+	height:500px;
+	margin:auto;
+	margin-top:20px;
+
+}
+.MiniaturasVideos{
+	width:220px;
+	height:140px;
+	float:left;
+	margin-left:22px;
+	margin-top:20px;
+}
+.VideosDestaques { 
+	height: 232px; 
+	width: 232px;
+	margin: auto 
+}
+.VideosDestaques img { 
+	padding: 15px; 
+	border: 1px solid #ccc; 
+	background-color: #eee;
+}
  
     
     

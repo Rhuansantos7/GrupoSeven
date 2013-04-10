@@ -38,7 +38,7 @@
 					<span>PARCEIROS</span>																		  
 						<div id="LogosParceiros">																  
 							<a href="http://www.thermaltakeusa.com/" target="new"><img src="img/rodape/logo-thermaltake.png" alt="logo-thermaltake" width="46" height="100" /></a>
-							<a href="http://www.gunnars.com/" target="new"><img src="img/rodape/logo-gunnar.png" alt="logo-gunnar" width="78" height="80" /></a>
+							<a href="http://www.gunnarsbrasil.com.br/" target="new"><img src="img/rodape/logo-gunnar.png" alt="logo-gunnar" width="78" height="80" /></a>
 							<a href="http://www.cvc.com.br/" target="new"><img src="img/rodape/logo-cvc.png" alt="logo-cvc" width="64" height="80" /></a>
 						</div>	<! -- close LogoParceiros -->													  
 																												  
@@ -48,7 +48,7 @@
 				<div class="TituloLogosRadio">																	  
 					<span>RADÍO OFICIAL</span>																	  
 					<center>																					  
-						<a href="http://www.sevencg.com.br/" target="new"><img src="img/rodape/logo-fm-odia.png" alt="logo-fm-odia" width="64" height="80" /></a>
+						<a href="http://www.fmodia.com.br/" target="new"><img src="img/rodape/logo-fm-odia.png" alt="logo-fm-odia" width="64" height="80" /></a>
 					</center>
 				</div><!-- TituloLogosRadio -->
 				
@@ -73,7 +73,9 @@
 			<div class="menu_rodape" style="margin-left:-30px;">
 				<span class="menu_rodape_top"><a href="evento.php">EVENTO</a></span>
 				<ul>
-
+					<li class="menu_ropde_sub"><a href="evento.php">O CG Extreme</a></li>
+					<li class="menu_ropde_sub"><a href="carreira.php">Pavilhão de carreira</a></li>
+					<li class="menu_ropde_sub"><a href="download.php">Downloads</a></li>
 				</ul>
 			</div><!-- close menu rodape -->
 			
@@ -91,6 +93,8 @@
 					<a href="chance_glasco.php"><li class="menu_ropde_sub">Chance Glasco</li></a>
 					<br>
 					<li class="menu_ropde_sub"><a href="tom_isaksen.php">Tom Isaksen</a></li>
+					<br>
+					<li class="menu_ropde_sub"><a href="ed_jones.php">Ed Jones</a></li>
 				</ul>
 			</div><!-- close menu rodape -->
 			
@@ -170,7 +174,12 @@
 		<!---- validação de formulario ---->
 		<script type="text/javascript" src="js/validation.js"></script>  
 	
-	
+		
+		
+		
+		<!-- include Cycle plugin -->
+		<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+
 	
 		<!---- FANCY BOX ---->
 	
@@ -189,4 +198,7 @@
 		
 		<link rel="stylesheet" href="js//fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 		<script type="text/javascript" src="js//fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-		
+
+		<!-- Add Media helper (this is optional) -->
+		<script type="text/javascript" src="js//fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+			

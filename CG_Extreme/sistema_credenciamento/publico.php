@@ -4,8 +4,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-<title>Documento sem título</title>
+<title>Sistema De Credenciamento - Cadastrar</title>
 <link rel="stylesheet" href="style/main.css">
+<link rel="stylesheet" href="style/Menu.css">
+	
+	<!-- fonts used -->
+	<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Keania+One' rel='stylesheet' type='text/css'>
 
 
 <script>
@@ -79,69 +87,88 @@ if (form.num_ingresso.value=="") {
 
 <body>
 
+	<div id="Alternativo">
+		<?php include("include/menu.php")?>
+	</div><!-- close Alternativo -->
+	
 	<div id="Topo">
 		<span>Credenciamento</span>
-		<img src="img/cg-extreme-logo.png" alt="cg-extreme-logo" width="71" height="55">
+		<img src="img/cg-extreme-logo.png" alt="cg-extreme-logo" width="71">
 	</div><!-- close topo -->
+
+	<div id="Topo2">
+		<span>
+			<br />Preencha seus Dados
+		</span>
+	</div><!-- close Topo2 -->
 	
 	<div id="content">
+	<br />
 <form method="POST" action="" enctype="multipart/form-data" onsubmit="return valida(this);">
-		<span class="TextoPadraoTm2">Nome:</span>
+
+
+
+	<div id="ContentPublic">
+		<div id="PublicLeft">
+			<span class="TextoPadraoTm2 TituloDados">Nome:</span>
 				<br /> 
-			<input type="text" name="nome" class="InputCadastro">
+			<input type="text" class="DadosPren" name="nome" placeholder="Seu Nome" class="InputCadastro">
 				<br />
 				
-		<span class="TextoPadraoTm2">Numero do Ingresso:</span>
+		<span class="TextoPadraoTm2 TituloDados" >Numero do Ingresso:</span>
 				<br />
-			<input type="text" name="num_ingresso" class="InputCadastro">
+			<input type="text" class="DadosPren" placeholder="Ex:1234567890" name="num_ingresso" class="InputCadastro">
 				<br />	
 				
-		<span class="TextoPadraoTm2">Data de nascimento:</span>
+		<span class="TextoPadraoTm2 TituloDados">Data de nascimento:</span>
 				<br />
-			<input type="text" name="datanasc" class="InputCadastro">
+			<input type="text" class="DadosPren" placeholder="Ex: 19/04/1994" name="datanasc" class="InputCadastro">
 				<br />
 				
-		<span class="TextoPadraoTm2">Sexo:</span> 
+		<span class="TextoPadraoTm2 TituloDados">Sexo:</span> 
 				<br />
 			<input type="radio" value="masculino" name="sexo" class="TextoPadraoTm2">Masculino <br />
 			<input type="radio" value="feminino" name="sexo" class="TextoPadraoTm2">Feminino <br />
 				<br />	
 				
-		<span class="TextoPadraoTm2">Rede social (Facebook):</span>
+		<span class="TextoPadraoTm2 TituloDados">Rede social (Facebook):</span>
 				<br />
-			<input type="text" name="rede_social" class="InputCadastro">
-		 		<br />						
+			<input type="text" class="DadosPren" placeholder="Ex:Facebook/SeuPerfil123" name="rede_social" class="InputCadastro">
+		 		<br />
+		 </div><!-- close PublicLeft -->
 
-		<span class="TextoPadraoTm2">E-mail:</span>
-				<br />
-			<input type="text" name="email" class="InputCadastro">
-				<br />
-			
-		<span class="TextoPadraoTm2">Habilidade:</span>
-				<br />
-			<input type="text" name="habilidade" class="InputCadastro"><br />
-				<br />
 
-		<span class="TextoPadraoTm2">RG:</span>
-				<br />
-			<input type="text" name="rg" class="InputCadastro">
-				<br />
-		<span class="TextoPadraoTm2">Foto:</span>
-				<br />
-			<input name="arquivo" type="file" >
-				<br />
-				
-				
-				
-		<span class="TextoPadraoTm2">Telefone:</span>
+		 <div id="PublicRight">
+
+			<span class="TextoPadraoTm2 TituloDados">E-mail:</span>
 					<br />
-				<input type="text" name="telefone" class="InputCadastro">
-			  		<br />		
+				<input type="text" class="DadosPren" name="email" class="InputCadastro" placeholder="email@bláblá.com.br">
+					<br />
 				
-		<span class="TextoPadraoTm2">Onde comprou seu ingresso?</span>
-				<br />
-			<input type="text" name="ingresso" class="InputCadastro">
-				<br />
+			<span class="TextoPadraoTm2 TituloDados">Habilidade:</span>
+					<br />
+				<input type="text" class="DadosPren" name="habilidade" placeholder="Ex: Programação Web" class="InputCadastro"><br />
+					<br />
+	
+			<span class="TextoPadraoTm2 TituloDados">RG:</span>
+					<br />
+				<input type="text" class="DadosPren" name="rg" class="InputCadastro" placeholder="Ex: 0000000000">
+					<br />
+			<span class="TextoPadraoTm2 TituloDados">Foto:</span>
+					<br />
+				<input name="arquivo" type="file" >
+					<br />		
+			<span class="TextoPadraoTm2 TituloDados">Telefone:</span>
+						<br />
+					<input type="text" class="DadosPren" name="telefone" class="InputCadastro">
+				  		<br />		
+					
+			<span class="TextoPadraoTm2 TituloDados">Onde comprou seu ingresso?</span>
+					<br />
+				<input type="text" class="DadosPren" name="ingresso" class="InputCadastro">
+					<br /><br />
+					
+			</div><!-- close PublicRight -->		
 
 		<input type="submit" value="" class="ButtonConsulta">
 	</form>
@@ -169,7 +196,7 @@ if (form.num_ingresso.value=="") {
 	
 		
 $arquivo = $_FILES['arquivo'];
-					if ($arquivo['type'] == "image/jpeg" || $arquivo['type']== "image/pjpeg")
+					if ($arquivo['type'] == "image/jpeg" || $arquivo['type']== "image/jpeg")
 						{
 								   
 									    if (!empty($arquivo["name"])) {
@@ -221,6 +248,6 @@ $arquivo = $_FILES['arquivo'];
 	
 ?>
 
-
+<div id="Rodape"></div><!-- close Rodape -->
 </body>
 </html>

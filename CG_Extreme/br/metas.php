@@ -15,9 +15,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Keania+One' rel='stylesheet' type='text/css'>
 	
 	<!-- metas tag -->
-	<meta name="keywords" content="cgextreme, cg extreme, Seven, Fullsail, Citibank hall, Chance Glasco, Nathaniel Howe, Sebastian Krys, Cordy Rierson, Laurie Brugger, Jayson Whitmore, grupo seven">
+	<meta name="keywords" content="cgextreme, cg extreme, Seven, Fullsail, Citibank hall, Chance Glasco, Nathaniel Howe, Sebastian Krys, Cordy Rierson, Laurie Brugger, Jayson Whitmore, grupo seven, pavilhão de carreira">
 	<meta name="description" content="cgextreme web site">
 	<meta name="author" content="seven media">
+	<!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"> -->
 	<meta charset="utf-8">
 	
 

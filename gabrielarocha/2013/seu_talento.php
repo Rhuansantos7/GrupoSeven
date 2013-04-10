@@ -43,7 +43,7 @@
 			*Os participantes da campanha deverão gravar um vídeo, tocando qualquer instrumento musical, as músicas do CD Jesus da Gabriela Rocha ou qualquer música que esteja no canal oficial dela no YouTube.(www.youtube.com/gabrielarochaoficial). <br> 
 			 Não tem necessidade ser a musica toda pois o participante pode ter criatividade para fazer um solo com o instrumento dele.<br><br>
 
-			*O vídeo terá no mínimo 2 minutos e no Maximo 8 minutos. Por exemplo se o participante quiser fazer só um trecho da música "Creio que Tu És a Cura" e emendar no solo que o próprio já faz, será permitido.<br><br>
+			*O vídeo terá no mínimo 2 minutos e no Maximo 8 minutos. Por exemplo se o participante quiser fazer só um trecho de uma das Musicas de Gabriela Rocha e emendar no solo que o próprio já faz, será permitido.<br><br>
 
 			*Caso mais de uma pessoa participe do vídeo a ser enviado, tocando os instrumentos, cada participante deverá ser destacado no email.<br><br>
 
@@ -65,7 +65,7 @@
         
 </div><!-- Fim do Container Geral -->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 <?php include('includes/rodape.php'); ?>
 </body>
 </html>

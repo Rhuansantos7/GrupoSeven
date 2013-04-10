@@ -46,6 +46,9 @@
 
 			</ul>
 		</li>
-		<li><a href="contato.php">CONTATO</a></li>
+		<li><a href="#">CONTATO</a>
+			<ul>
+			</ul>	
+		</li>
 	</ul> <!-- end .menu -->
 </div><!-- menu_content -->

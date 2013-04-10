@@ -32,7 +32,6 @@ a{text-decoration: none;}
 /* ---------------- CSS MOBILE ---------------- */
 
 
-
 @media screen and (max-width:600px) {
 
 body{
@@ -57,9 +56,9 @@ body{
     border:0;
 }
 .ButtonConsulta{
-	background:url("../img/nova-consulta.png")no-repeat;
-	width:150px;
-	height:26px;
+	background:url("../img/botao-cadastrar.png")no-repeat;
+	width:161px;
+	height:29px;
 	border:0;
 	margin-left:0.625em;
 }
@@ -142,9 +141,14 @@ body{
 }
 #content{
 	margin:auto;
+	width:15.625em;
+	height:auto;
+	margin-left:3.0em;
 
 }
-
+.TituloDados{
+	padding-left:0.625em;
+}
 #FotoPerfil{
 	width:8.375em;
 	height:10.125em;
@@ -199,7 +203,6 @@ body{
 	height:85px;
 	margin-top: 7.5em;
 	background:url("../img/line-old-paper.jpg");
-	
 }
 
 /* --------------------- PÁGINA DE CADASTRO ----------------- */
@@ -242,9 +245,9 @@ body{
     border:0;
 }
 .ButtonConsulta{
-	background:url("../img/nova-consulta.png")no-repeat;
-	width:150px;
-	height:26px;
+	background:url("../img/botao-cadastrar.png")no-repeat;
+	width:161px;
+	height:29px;
 	border:0;
 	margin-left:0.625em;
 }
@@ -401,6 +404,18 @@ body{
     padding-left: 8px;
     padding-right: 8px;
 }
+#PublicLeft{
+	width:250px;
+	height:400px;
+	float:left;
+	border:solid 1px red;
+}
+#PublicRight{
+	width:250px;
+	height:400px;
+	float: left;
+	border:solid 1px red;
+}
 
 }/* -------- close media queries -----------------*/
 
@@ -456,9 +471,9 @@ body{
     border:0;
 }
 .ButtonConsulta{
-	background:url("../img/nova-consulta.png")no-repeat;
-	width:150px;
-	height:26px;
+	background:url("../img/botao-cadastrar.png")no-repeat;
+	width:161px;
+	height:29px;
 	border:0;
 	margin-left:0.625em;
 }
