@@ -60,13 +60,13 @@
 	
 <div id="content_home">
 		
-	<div id="news_home">
+	<a href="http://www.sevencg.com.br/2012/unidades.php" target="new"><div id="news_home">
 			<span class="titulo_home">NEWS</span>
 	
 	
 <! --------------------------------------- NEWS ---------------------------------->			
 		
-		<div id="view">
+	<!--	<div id="view">
 			
 			<ul>
 				<a href="ed_jones.php"><li>
@@ -88,16 +88,16 @@
 
 			</ul>
 			
-		</div><!-- close view -->
+		</div> close view
 		
-		<div id="op">
+		 <div id="op">
 			<div i="0" class="box" >
 			
 			<a href="ed_jones.php"><span class="TexTnew2" class="ativanews">8º PALESTRANTE DO CG EXTREME!</span></a>
 			
 			</div><! -- close i 0 --> 
 			
-			<!-- <div i="1" class="box"><span class="TexTnew2" class="ativanews">Conheça o Pavilhão de carreira do CG Extreme</span></div> -->
+			<!-- <div i="1" class="box"><span class="TexTnew2" class="ativanews">Conheça o Pavilhão de carreira do CG Extreme</span></div>
 			
 			
 			
@@ -105,15 +105,15 @@
 			
 			
 		
-		</div><!-- close op -->
+		</div> close op -->
 		
-	</div><!-- close new_home -->
+	</div></a><!-- close new_home -->
 	
 	
 
 <! --------------------------------------- GALLERY VIDEO ------------------------------->			
 		<div id="videos_home">
-			<span class="titulo_home">VÍDEOS</span>
+			<span class="titulo_home"><a href="Videos.php">VÍDEOS</a></span>
 			
 				
 			<div id="content_video_home">
@@ -237,6 +237,6 @@ $("#caminho").delay("1000").animate({
 		width: "332px"
 	},1500);
 	
-	$("#text_top").delay(8000).fadeIn("slow");
+		$("#text_top").delay(8000).fadeIn("slow");
 
 </script>

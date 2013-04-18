@@ -16,75 +16,13 @@
 		</div>
 			
 			<div id="content_ingressos">
-				<div class="text_data">
-					DIA <span class="bigTxt">27</span> DE <span class="medTxt">ABRIL</span> <span class="redTxt">(S&#193;BADO)</span>
-				</div><!-- close text data -->
-				
-				<div class="content_lista_ingressos firstChild">
-					<ul class="lista_ingressos">
-						<a href="laurie-brugger.php"><li><img src="images/ingressos/ingressos-laurie-brugger.png" alt="" title="" /></li></a>
-						<a href="sebastian-krys.php"><li><img src="images/ingressos/ingressos-sebastian-krys.png" alt="" title="" /></li></a>
-						<a href="jayson-whitmore.php"><li><img src="images/ingressos/ingressos-jayson-whitmore.png" alt="" title="" /></li></a>
-					</ul>
-					
-					<div class="priceInfo">
-						Interia <span class="redTxt">R$800.00</span> - Meia <span class="redTxt">R$400.00</span>
-						
-						<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREM12">
-							<img src="images/ingressos/ticketsforfun.png" />
-						</a>
-					</div>
-				</div><!-- close lista ingressos -->
-				
-				
-				<div class="text_data">
-					DIA <span class="bigTxt">28</span> DE <span class="medTxt">ABRIL</span> <span class="redTxt">(DOMINGO)</span>
-				</div><!-- close text data -->
-				
-				<div class="content_lista_ingressos firstChild">
-					<ul class="lista_ingressos">
-						<a href="nathaniel-howe.php"><li><img src="images/ingressos/ingressos-nathaniel-howe.png" alt="" title="" /></li></a>
-						<a href="cordy-rierson.php"><li><img src="images/ingressos/ingressos-cordy-rierson.png" alt="" title="" /></li></a>
-						<a href="chance-glasco.php"><li><img src="images/ingressos/ingressos-chance-glasco.png" alt="" title="" /></li></a>
-					</ul>
-					
-					<div class="priceInfo">
-						Interia <span class="redTxt">R$800.00</span> - Meia <span class="redTxt">R$400.00</span>
-						
-						<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREM12">
-							<img src="images/ingressos/ticketsforfun.png" />
-						</a>
-					</div>
-				</div><!-- close lista ingressos -->
-				
-				
-				<div class="text_data">
-					DIA <span class="bigTxt">27</span> & <span class="bigTxt">28</span> DE <span class="medTxt">ABRIL</span> 
-					
-					<br/ > 
-					
-					<span class="redTxt">(S&#193;BADO & DOMINGO)</span>
-				</div><!-- close text data -->
-				
-				<div class="content_lista_ingressos">
-					<ul class="lista_ingressos">
-						<a href="laurie-brugger.php"><li><img src="images/ingressos/ingressos-laurie-brugger.png" alt="" title="" /></li></a>
-						<a href="sebastian-krys.php"><li><img src="images/ingressos/ingressos-sebastian-krys.png" alt="" title="" /></li></a>
-						<a href="jayson-whitmore.php"><li><img src="images/ingressos/ingressos-jayson-whitmore.png" alt="" title="" /></li></a>
-						<a href="nathaniel-howe.php"><li><img src="images/ingressos/ingressos-nathaniel-howe.png" alt="" title="" /></li></a>
-						<a href="cordy-rierson.php"><li><img src="images/ingressos/ingressos-cordy-rierson.png" alt="" title="" /></li></a>
-						<a href="chance-glasco.php"><li><img src="images/ingressos/ingressos-chance-glasco.png" alt="" title="" /></li></a>
-					</ul>
-					
-					<div class="priceInfo">
-						Interia <span class="redTxt">R$1,400.00</span> - Meia <span class="redTxt">R$700.00</span>
-						
-						<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG">
-							<img src="images/ingressos/ticketsforfun.png" />
-						</a>
-					</div>
-				</div><!-- close lista ingressos -->
-				
+				<center>
+					<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREM12"><img src="images/ingressos/dia-27.png" alt="dia-27" width="310" height="172" /></a>
+					<br><br><br><br>
+					<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREM12"><img src="images/ingressos/dia-28.png" alt="dia-28" width="310" height="172" /></a>
+					<br><br><br><br>
+					<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG"><img src="images/ingressos/combo.png" alt="combo" width="310" height="172" /></a>
+				</center>	
 			</div><!-- close div content ingressos -->
 			
 		<?php include('include/footer.php');?>

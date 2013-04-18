@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿ <!doctype html>
 <html>
 <?php include('metas.php');?>
 
@@ -29,7 +29,7 @@
 				<div class="slideshow">
 					<a href=" http://www.abragames.org/banco_de_talentos/" target="new"><img src="img/pavilhao/news-abragames.jpg" /></a>
 					<a href="http://competitions.gettyimages.com/pt/competitions/fotografeobrasil/the-brief" target="new"><img src="img/pavilhao/news-istock.jpg" /></a>
-					<a href="http://vimeo.com/35497080" target="new"><img src="img/pavilhao/news-joox.jpg" /></a>
+					<a href="http://www.pagepersonnel.com.br/" target="new"><img src="img/pavilhao/banner-cgextremePP.jpg" alt="banner-cgextremePP" width="430" height="171"></a>
 
 				</div><!-- close slideshow -->
 				</div><!-- close VagasPeloMundo -->
@@ -45,8 +45,8 @@
 			<div id="PavilhaoMeio">
 				<a class="fancybox fancybox.iframe" href="characterink.php"><div id="CharacterInk">
 				</div><!-- close CharacterInk --></a>
-				<div id="GuinnesPavilhaoHome">
-				</div><!-- close GuinnesPavilhaoHome -->
+				<a href="http://www.joox.com.br/cg-extreme" target="new"><div id="GuinnesPavilhaoHome">
+				</div></a><!-- close GuinnesPavilhaoHome -->
 				<a href="unity.php"><div id="UnityPavilhao">
 				</div><!-- close UnityPavilhao --></a>
 				<a href="oportunidade.php"><div id="ExtremeOpportunity">
@@ -109,6 +109,8 @@
 						<a href="http://unity3d.com/" target="new"><img src="img/pavilhao/logo-unity.png"></a>
 						<a href="http://www.wedologos.com.br/" target="new"><img src="img/pavilhao/logo-wedologos.png"></a>
 						<a href="http://www.agenciacravo.com.br/default.php" target="new"><img src="img/pavilhao/logo-agencia-cravo.png"></a>
+						<a href="http://www.pagepersonnel.com.br/" target="new"><img src="img/pavilhao/logo-page-personnel.png" alt="logo-page-personnel" width="99" height="81">
+						<a href="http://www.sebrae.com.br/" target="new"><img src="img/pavilhao/logo-sebrae.png" alt="logo-sebrae" width="84" height="81"></a>
 					</div><!-- close rodapePavilhaoLogos -->
 				</div><!-- close rodapePavilhao -->
 				

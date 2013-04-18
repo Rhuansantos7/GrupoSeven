@@ -97,6 +97,46 @@
 					</div><!-- close text -->
 				</div><!-- close content palestrantes -->
 			</a>
+			
+			
+			
+			<a href="Tom.php">			
+				<div class="content_palestrantes">
+					<div class="photo">
+						<img src="images/palestrantes/tom_isaksen.png" alt="" title=""/>
+					</div> <!-- close photo -->
+					
+					<div class="text">
+						<h2>Tom Isaksen</h2>
+						<h3>Character Designer</h3>
+						<p>Saiba mais...</p>
+					</div><!-- close text -->
+				</div><!-- close content palestrantes -->
+			</a>
+			
+			
+			
+			
+			
+			<a href="ed.php">			
+				<div class="content_palestrantes">
+					<div class="photo">
+						<img src="images/palestrantes/ed_jones.png" alt="" title=""/>
+					</div> <!-- close photo -->
+					
+					<div class="text">
+						<h2>Ed Jones</h2>
+						<h3>CEO Reel FX</h3>
+						<p>Saiba mais...</p>
+					</div><!-- close text -->
+				</div><!-- close content palestrantes -->
+			</a>
+			
+			
+			
+			
+			
+			
 		</div><!--close lista de palestrantes-->
 		
 		<?php include('include/footer.php');?>

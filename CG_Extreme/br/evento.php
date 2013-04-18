@@ -77,16 +77,16 @@
 			<br>
 			<ul class="list">
 					<li>8:00 - Credenciamento</li>
-					<li>9:30 - Abertura do Evento</li>
-					<li>10:00 - Primeiro Palestrante</li>
-					<li>12:00 - Segundo Palestrante</li>
-					<li>13:30 - Break e Pavilhão de Carreira</li>
-					<li>15:00 - Segunda Abertura do Dia</li>
-					<li>15:30 - Terceiro Palestrante</li>
-					<li>17:00 - Momento Seven e Full Sail</li>
-					<li>18:00 - Quarto Palestrante</li>
-					<li>19:30 - Encerramento</li>
-					<li>20:00 - Fim </li>
+					<li>9:00 - Abertura</li>
+					<li>10:00 - Laurie Brugger</li>
+					<li>11:30 - Sebastian Krys</li>
+					<li>13:10 - Intervalo e Pavilhão de Carreiras</li>
+					<li>14:40 - Retorno</li>
+					<li>15:00 - (ESPN)</li>
+					<li>15:30 - Tom Isaksen</li>
+					<li>17:00 - Jayson Whitmore</li>
+					<li>18:30 - Cerimonial Seven e Full Sail</li>
+					<li>19:00 - Encerramento </li>
 			</ul>
 			<br><br>
 			<div class="marcador">
@@ -97,16 +97,16 @@
 			<br>
 			<ul class="list">
 					<li>8:00 - Credenciamento</li>
-					<li>9:30 - Abertura do Evento</li>
-					<li>10:00 - Primeiro Palestrante</li>
-					<li>12:00 - Segundo Palestrante</li>
-					<li>13:30 - Break e Pavilhão de Carreira</li>
-					<li>15:00 - Segunda Abertura do Dia</li>
-					<li>15:30 - Revelação Surpresa</li>
-					<li>17:00 - Momento Seven e Full Sail</li>
-					<li>18:00 - Terceiro Palestrante</li>
-					<li>19:30 - Encerramento </li>
-					<li>20:00 - Fim </li>
+					<li>9:00 - Abertura</li>
+					<li>10:00 - Nathaniel Howe</li>
+					<li>11:30 - Cordy Rierson</li>
+					<li>13:10 - Intervalo e Pavilhão de Carreiras</li>
+					<li>14:40 - Retorno</li>
+					<li>15:00 - (ESPN)</li>
+					<li>15:30 - Chance Glasco</li>
+					<li>17:00 - Ed Jones</li>
+					<li>18:30 - Cerimonial Seven e Full Sail </li>
+					<li>19:00 - Encerramento </li>
 			</ul>
 			
 		

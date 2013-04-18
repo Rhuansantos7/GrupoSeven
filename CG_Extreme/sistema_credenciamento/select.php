@@ -41,6 +41,7 @@
 	<div class="ColRg">
 		<select name="banco" class="SelectOption">
 			<option value="publico">Publico
+			<option value="publico">Vip
 			<!-- <option value="imprensa">Imprensa
 			<option value="vip">Vip -->
 		</select>	

@@ -4,8 +4,43 @@
 <body>
 <?php include('include/menu.php'); ?>
 
-<div id="banner_ingresso"> </div>
+<div id="banner_home">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="500" id="banner_formacao" align="absmiddle">
+				<param name="movie" value="Ingressos.swf" />
+				<param name="quality" value="high" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object data="Ingressos.swf" type="application/x-shockwave-flash" width="100%" height="500" align="absmiddle">
+					<param name="movie" value="Ingressos.swf" />
+					<param name="quality" value="high" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<img src="img/content/home/banner/jan_2013/2.jpg">
+						
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
 
+	<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
+</div>
+
+<br><br><br>
 	
 	<div id="IngressosContent">
 		<div id="abril27">
@@ -34,7 +69,8 @@
 			<h3 class="titulo_h3">PALESTRANTES</h3><br/>
 			<p class="paragrafo">Nathaniel Howe<br />
 			Cordy Rierson<br />
-			Chance Glasco<br />		
+			Chance Glasco<br />
+			Ed Jones<br />	
 			</p><br/>
 			<div id="imagen_right" class="imagem_right">
 				<span style="margin-left:20px;"><img src="img/ingresso/trabalhos-domingo.png"><span>
@@ -48,9 +84,9 @@
 		</div>
 		<div id="clear"></div>
 		<div id="garanta">
-			<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG" target="blank"><img src="img/ingresso/ingresso-meia.png"></a>
-			<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG" target="blank"><img src="img/ingresso/ingresso-combo.png"></a>
-			<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=ERCB0000027CG" target="blank"><img src="img/ingresso/compre-t4f.png"></a>
+			<a href="http://www.sevencg.com.br/2012/unidades.php" target="blank"><img src="img/ingresso/ingresso-meia.png"></a>
+			<a href="http://www.sevencg.com.br/2012/unidades.php" target="blank"><img src="img/ingresso/ingresso-combo.png"></a>
+			<a href="http://www.sevencg.com.br/2012/unidades.php" target="blank"><img src="img/ingresso/compre-seven.png"></a>
 		</div><!--close garanta-->
 				
 	</div><!-- close #IngressosContent -->

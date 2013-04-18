@@ -426,7 +426,7 @@ a{outline: none;}
 	width:559px;
 	height:415px;
 	float:left;
-	background:url("../img/home/fundo-box-550.png");
+	background:url("../img/home/banner-meia-entrada.png") no-repeat;
 }
 
 #videos_home{
@@ -528,7 +528,7 @@ a{outline: none;}
 	background:url("../img/rodape/fundo-rodape-logos.jpg");
 }
 #ContentLogosRodape{
-	width: 1000px;
+	width: 1200px;
 	height: 300px;
 	position: relative;
 	top:10px;
@@ -537,6 +537,7 @@ a{outline: none;}
 .TituloLogosRealizacao{
 	width: 1000px;
 	height: 34px;
+	margin-left: 40px;
 	background:url("../img/rodape/titulo-logos-rodape.png");
 }
 .TituloLogosRealizacao span{
@@ -555,9 +556,10 @@ a{outline: none;}
 
 }
 .TituloLogosApoio{
-	width: 240px;
+	width: 350px;
 	height: 34px;
 	float: left;
+	margin-left: 50px;
 	margin-top: 100px;
 	background:url("../img/rodape/titulo-logos-rodape.png");	
 }
@@ -569,13 +571,13 @@ a{outline: none;}
 	padding-top: 7px;
 }
 .TituloLogosApoio img{
-	margin-left: 40px;
+	margin-left: 30px;
 }
 .TituloLogosApoioMidia{
-	width: 745px;
+	width: 700px;
 	height: 34px;
 	float: left;
-	margin-left: 15px;
+	margin-left:10px;
 	margin-top: 100px;
 	background:url("../img/rodape/titulo-logos-rodape.png");	
 }
@@ -592,12 +594,13 @@ a{outline: none;}
 }
 #LogoApoio{
 	margin-left: -25px;
-	width: 250px;
+	width: 350px;
 }
 
 .TituloLogosParceiros{
 	width: 470px;
 	height: 34px;
+	margin-left: 100px;
 	margin-top: 230px;
 	background:url("../img/rodape/titulo-logos-rodape.png");
 }
@@ -609,16 +612,17 @@ a{outline: none;}
 	padding-top: 7px;
 }
 .TituloLogosParceiros img{
-	margin-left: 80px;
+	margin-left: 70px;
 }
 #LogosParceiros{
 	width: 500px;
-	margin-left: -30px;
+	margin-left: -10px;
 }
 
 .TituloLogosRadio{
 	width: 450px;
 	height: 34px;
+	margin-right: 100px;
 	float: right;
 	margin-left: 15px;
 	margin-top: -33px;
@@ -629,14 +633,21 @@ a{outline: none;}
 	font-size: 16px;
 	text-align:center;
 	display: block;
-	padding-top: 7px;	
+	padding-top: 7px;
 }
+
+.TituloLogosRadio img{
+margin-top: 10px;
+	margin-left: 50px;
+	}
 
 /* ----------------------------- rodape menu --------------------------------------------*/
 
 #mapa_site{
 	width:100%;
 	height:270px;
+	position: relative;
+	top: 10px;
 	margin:0 auto;
 	background:url("../img/rodape/fundo-rodape-mapa.jpg");
 }
@@ -787,7 +798,6 @@ a{outline: none;}
 /* ----------------------- ingresso - ocimar ---------------------------------*/
 #banner_ingresso {
 	height: 600px;
-	background: url("../img/ingresso/ingresso-banner.jpg") no-repeat 50% 0;
 }
 #banner_Video {
 	height: 600px;
@@ -1586,7 +1596,7 @@ input.blueBtn:hover{
 	width:260px;
 	height:170px;
 	margin-top:15px;
-	background:url("../img/pavilhao/button-expo-talentos.jpg");
+	background:url("../img/pavilhao/button-conheca-joox.jpg");
 }
 
 #UnityPavilhao{
@@ -1717,7 +1727,7 @@ input.blueBtn:hover{
 }
 
 #rodapePavilhaoLogos img{
-	margin-left:60px;
+	margin-left:40px;
 	margin-top:7px;
 }
 /* ---------------------  PAVILHAO EMPREGADORES ------------------*/
@@ -2058,24 +2068,56 @@ DestaqueTextRed{
 }
 #VideoDestaque{
 	width:1000px;
-	height:500px;
+	height:400px;
 	margin:auto;
 
 }
 #UltimosVideos{
-	Width:1000px;
-	height:500px;
+	Width:800px;
+	height:900px;
 	margin:auto;
 	margin-top:20px;
 
 }
-.MiniaturasVideos{
-	width:220px;
-	height:140px;
+.MiniaturasVideos
+{
+	width:240px;
+	height:257px;
 	float:left;
 	margin-left:22px;
-	margin-top:20px;
+	margin-top:10px;
+	background:url("../img/videos/video-skin.png");
 }
+
+.TxtVideos{
+
+	width:180px;
+	height: 80px;
+	display: block;
+	font-family: arial;
+	font-size: 12px;
+	padding-top:10px;
+	margin-left: 30px;
+	
+}
+.MiniaturasVideos a img{
+	margin-left:8px;
+	margin-top:7px;
+	
+}
+.PlayVideos{
+	width:60px;
+	height:60px;
+	position:relative;
+	top:50px;
+	left:80px;
+	display: none;
+	z-index:10;
+	border:solid 1px red;
+	background:url("../img/videos/play-icon.png");	
+}
+
+
 .VideosDestaques { 
 	height: 232px; 
 	width: 232px;

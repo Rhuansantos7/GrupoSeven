@@ -17,6 +17,7 @@
 					<span>APOIO</span>																			  
 						<div id="LogoApoio">																	  
 							<a href="http://www.rio.rj.gov.br/" target="new"><img src="img/rodape/logo-prefeitura-rio.png" alt="logo-prefeitura-rio" width="91" height="100" /></a>
+							<a href="http://rio-negocios.com/" target="new"><img src="img/rodape/logo-rio-negocios.png" alt="logo-rio-negocios" width="91" height="100" /></a>
 							<a href="http://www.wacom.com/" target="new"><img src="img/rodape/logo-wacom.png" alt="logo-wacom" width="50" height="100" /></a>
 						</div><!-- close LogoApoio -->															  
 				</div><!-- close TituloLogosApoio -->															  
@@ -32,7 +33,7 @@
 							<a href="http://www.sidneyrezende.com/" target="new"><img src="img/rodape/logo-srzd.png" alt="logo-srzd" width="80" height="100" /></a>
 																												  
 				</div><!-- close TituloLogosApoio -->															  
-																												  
+							<br>																				  
 																												  
 				<div class="TituloLogosParceiros">																  
 					<span>PARCEIROS</span>																		  
@@ -48,13 +49,16 @@
 				<div class="TituloLogosRadio">																	  
 					<span>RADÍO OFICIAL</span>																	  
 					<center>																					  
-						<a href="http://www.fmodia.com.br/" target="new"><img src="img/rodape/logo-fm-odia.png" alt="logo-fm-odia" width="64" height="80" /></a>
+						<a href="http://sulamericaparadiso.uol.com.br/" target="new"><img src="img/rodape/logo-sulamerica-paradiso.png" alt="logo-sulamerica-paradiso" width="87" height="80" /></a>
+						<a href="http://mixriofm.uol.com.br/" target="new"><img src="img/rodape/logo-mix-fm.png" alt="logo-mix-fm" width="81" height="80" /></a>
+						
 					</center>
 				</div><!-- TituloLogosRadio -->
 				
 				
 			</div><!-- ContentLogosRodape -->
 		</div><!-- close logos --> 
+		
 		
 	<div id="mapa_site">
 		<br>
@@ -75,7 +79,8 @@
 				<ul>
 					<li class="menu_ropde_sub"><a href="evento.php">O CG Extreme</a></li>
 					<li class="menu_ropde_sub"><a href="carreira.php">Pavilhão de carreira</a></li>
-					<li class="menu_ropde_sub"><a href="download.php">Downloads</a></li>
+					<li class="menu_ropde_sub"><a href="download.php">Downloads</a></li><br>
+					<li class="menu_ropde_sub"><a href="Videos.php">Vídeos</a></li>
 				</ul>
 			</div><!-- close menu rodape -->
 			

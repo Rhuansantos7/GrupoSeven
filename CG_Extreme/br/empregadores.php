@@ -213,6 +213,9 @@ if (isset($_POST['BTEnvia'])){
 						<a href="http://unity3d.com/" target="new"><img src="img/pavilhao/logo-unity.png"></a>
 						<a href="http://www.wedologos.com.br/" target="new"><img src="img/pavilhao/logo-wedologos.png"></a>
 						<a href="http://www.agenciacravo.com.br/default.php" target="new"><img src="img/pavilhao/logo-agencia-cravo.jpg"></a>
+						<a href="http://www.pagepersonnel.com.br/" target="new"><img src="img/pavilhao/logo-page-personnel.png" alt="logo-page-personnel" width="99" height="81">
+						<a href="http://www.sebrae.com.br/" target="new"><img src="img/pavilhao/logo-sebrae.png" alt="logo-sebrae" width="84" height="81"></a>
+
 					</div><!-- close rodapePavilhaoLogos -->
 				</div><!-- close rodapePavilhao -->
 				

@@ -12,6 +12,7 @@
 				<li><a href="evento.php">O CG Extreme</a></li>
 				<li><a href="carreira.php">Pavilhão de carreira</a></li>
 				<li><a href="download.php">Downloads</a></li>
+				<li><a href="Videos.php">Vídeos</a></li>
 			</ul>
 		</li>
 			<ul>
@@ -42,7 +43,7 @@
 
 			</ul>
 		</li>
-		<li><a href="#">CONTATO</a>
+		<li><a href="contato.php">CONTATO</a>
 			<ul>
 
 			</ul>	

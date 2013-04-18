@@ -46,12 +46,22 @@ $(document).ready(function (e) {
       status = false;
     }
   });
-  $("#video_banner").hover(function (e) {
+  
+
+  $("#video_banner").click(function (e) {
  		 clearInterval(loop);
  		  		 $(this).html('<iframe src="iframe/formacao.html" width="100%"  height="500" style=" position:absolute; left:50%; margin-left:-50%; margin-right:50%; "></iframe>');
 		
-  })
+  });
   
+  
+    $("#CGExtreme").hover(function (e) {
+ 		 clearInterval(loop);
+ 		  		alert('ola');		
+  });
+  
+  $('#CGExtreme').triggerHandler('click');
+
 
 
 });

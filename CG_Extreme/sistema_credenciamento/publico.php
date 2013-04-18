@@ -174,6 +174,8 @@ if (form.num_ingresso.value=="") {
 	</form>
 	
 	</div><!-- close content -->
+
+
 <?php
 
 
@@ -196,7 +198,7 @@ if (form.num_ingresso.value=="") {
 	
 		
 $arquivo = $_FILES['arquivo'];
-					if ($arquivo['type'] == "image/jpeg" || $arquivo['type']== "image/jpeg")
+					if ($arquivo['type'] == "image/jpeg" || $arquivo['type']== "image/pjpeg")
 						{
 								   
 									    if (!empty($arquivo["name"])) {
@@ -219,7 +221,7 @@ $arquivo = $_FILES['arquivo'];
 							  }
 						  
 						  $novonome = md5(mt_rand(1,10000).$arquivo['name']).'.jpg'; //nome em md5
-						  $dir = "sistema_credenciamento/fotos/";
+						  $dir = "fotos/";
 						  
 								if (!file_exists($dir)){ //seta permissão de diretório
 									mkdir($dir, 0755);  

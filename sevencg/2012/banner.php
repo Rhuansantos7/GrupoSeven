@@ -38,7 +38,7 @@
 			<li i='3' style="background:url(img/content/home/banner/jan_2013/4.jpg) no-repeat center top;" t='Seven Cada Vez Maior' d='Em 2013 conquistando 6 novos territórios'></li>
 		</a>
 		
-		<li '4'  id="video_banner" style="background:url(iframe/banner-formacao.jpg) no-repeat center top;" t='Conheça nossa formação' d=''></li>
+		<li '4' style="background:url(iframe/banner-formacao.jpg) no-repeat center top;" t='Conheça nossa formação' d=''></li>
 		
 		
 		
@@ -47,9 +47,47 @@
 			<li i='5' style="background:url(img/content/home/banner/jan_2013/fim.jpg) no-repeat center top;" t='Orgulho de ser Seven !' d='Venha fazer parte desse time!'></li>
 		</a>
 
-		<a href="http://premier.ticketsforfun.com.br/shows/show.aspx?sh=CGEXTREU13" target="new">
-			<li i='6' style="background:url(img/content/home/banner/jan_2013/2.jpg) no-repeat center top; display:block;" t='CG Extreme na Tickets For Fun' d='Garanta já o seu ingresso pelo site da Tickets For Fun!'></li>
-		</a>
+
+			<li i='6' id="CGExtremeingressos" style="display:block;" t='' d=''>
+				
+				
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1920" height="500" id="banner_formacao" align="absmiddle">
+				<param name="movie" value="Ingressos.swf" />
+				<param name="quality" value="high" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object data="Ingressos.swf" type="application/x-shockwave-flash" width="1920" height="500" align="absmiddle">
+					<param name="movie" value="Ingressos.swf" />
+					<param name="quality" value="high" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<img src="img/content/home/banner/jan_2013/2.jpg">
+						
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+
+				
+				
+				
+			</li>
+		
 		
 		
 

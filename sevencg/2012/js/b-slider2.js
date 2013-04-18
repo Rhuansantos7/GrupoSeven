@@ -46,15 +46,13 @@ $(document).ready(function (e) {
       status = false;
     }
   });
-  $("#video_banner").click(function (e) {
- 		 clearInterval(loop);
-		 $(this).html('<iframe src="iframe/formacao.html" width="100%"  height="500" style=" position:absolute; left:50%; margin-left:-50%; margin-right:50%; "></iframe>');
-		
+  $("#CGExtremeingressos").click(function (e) {
+ 		 clearInterval(loop);		
   })
   
-  $('#video_banner').bind('hover', function() {
-      alert($(this).text());
+  $('#CGExtremeingressos').bind('click', function() {
+       
     });
-   // $('#video_banner').trigger('click');
+   $('#CGExtremeingressos').trigger('click');
 
 });

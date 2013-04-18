@@ -9,13 +9,12 @@ Email alternativo:Rhuansantos7@gmail.com
 $(function(){
 	
 	var note = $('#note'),
-		ts = new Date(2012, 11, 1),
+		ts = new Date(2013, 3, 1),
 		newYear = true;
 	
 	if((new Date()) > ts){
-		// The new year is here! Count towards something else.
-		// Notice the *1000 at the end - time must be in milliseconds
-		ts = (new Date()).getTime() + 7*24*60*60*1000;
+
+		ts = (new Date()).getTime() + 9*24*60*60*1000;
 		newYear = false;
 	}
 		

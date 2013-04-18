@@ -17,7 +17,7 @@
     </li>
     <li><a href='seven-na-media.php'>SEVEN NA MÍDIA</a> </li>
     <li><a href='http://sevencg.com.br/7blog/' target="_new">BLOG</a> </li>
-    <li><a href='contato.php'>CONTATO</a>     <span style="z-index:2; position:absolute; margin: 0px 0 0 50px; left:50%;"> <a href='galeria-estrutura.php'>Dúvidas e sugestões</a> | <a href='galeria-alunos.php'>Ouvidoria</a> </span>     	</li>
+    <li><a href='contato.php'>CONTATO</a>   <!--  <span style="z-index:2; position:absolute; margin: 0px 0 0 50px; left:50%;"> <a href='galeria-estrutura.php'>Dúvidas e sugestões</a> | <a href='galeria-alunos.php'>Ouvidoria</a> </span> -->    	</li>
     </li>
    </ul>
   </div>
