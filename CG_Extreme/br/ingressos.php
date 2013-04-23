@@ -29,7 +29,7 @@
 					<param name="salign" value="" />
 					<param name="allowScriptAccess" value="sameDomain" />
 				<!--<![endif]-->
-					<img src="img/content/home/banner/jan_2013/2.jpg">
+					<img src="img/ingresso/ingresso-banner.jpg" alt="ingresso-banner" width="1923" height="506">
 						
 					</a>
 				<!--[if !IE]>-->

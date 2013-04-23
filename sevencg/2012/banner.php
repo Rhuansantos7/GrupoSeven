@@ -75,8 +75,8 @@
 					<param name="salign" value="" />
 					<param name="allowScriptAccess" value="sameDomain" />
 				<!--<![endif]-->
-					<img src="img/content/home/banner/jan_2013/2.jpg">
-						
+					
+						<img src="img/ingressos.jpg" alt="ingressos" width="1923" height="500" />
 					</a>
 				<!--[if !IE]>-->
 				</object>

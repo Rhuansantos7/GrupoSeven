@@ -23,7 +23,7 @@
 				</div><!-- close IntroPavilhao-->
 				
 				<div id="VideoPavilhao">
-					<iframe width="430" height="300" src="https://www.youtube.com/embed/lEMJgtMVsj8" frameborder="0" allowfullscreen></iframe>
+					<iframe src="http://player.vimeo.com/video/64414752?badge=0" width="430" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</div><!-- close VideoPaviilhao -->
 				<div id="VagasPeloMundo">
 				<div class="slideshow">

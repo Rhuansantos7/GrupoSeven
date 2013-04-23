@@ -47,7 +47,7 @@
 																												  
 																												  
 				<div class="TituloLogosRadio">																	  
-					<span>RADÍO OFICIAL</span>																	  
+					<span>RÁDIO OFICIAL</span>																	  
 					<center>																					  
 						<a href="http://sulamericaparadiso.uol.com.br/" target="new"><img src="img/rodape/logo-sulamerica-paradiso.png" alt="logo-sulamerica-paradiso" width="87" height="80" /></a>
 						<a href="http://mixriofm.uol.com.br/" target="new"><img src="img/rodape/logo-mix-fm.png" alt="logo-mix-fm" width="81" height="80" /></a>
@@ -179,8 +179,8 @@
 		<!---- validação de formulario ---->
 		<script type="text/javascript" src="js/validation.js"></script>  
 	
-		
-		
+		<!---- Contador ---->
+		<script type="text/javascript" src="js/jquery.countdown.js"></script>
 		
 		<!-- include Cycle plugin -->
 		<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>

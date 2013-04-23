@@ -33,10 +33,12 @@
 	
 	<div id="PesquisaRg">
 	
+	<center>
 	<div class="ColRg">
 		<form method="POST" action="" enctype="multipart/form-data">
 			<span class="TextoPadrao">R.G.</span>:<input class="inputRg" type="text" placeholder="Digite o seu RG" name="rg">
 	</div><!-- close ColRg -->
+	</center>
 	
 	<div class="ColRg">
 		<select name="banco" class="SelectOption">
@@ -135,8 +137,13 @@ if(isset($_POST['envio'])){
 	}
   }
 }
-	
+
 ?>
+
+
+
+
+
 
 
 </form>

@@ -12,6 +12,7 @@
 </div> <!-- close OpDesktop -->
 
 <!-- <embed class="banner_swf" src="banner/banner-mists.swf" height="570" width="100%"> -->
+<center>
 <div id="banner_home">
 	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="banner_formacao" align="absmiddle">
 					<param name="movie" value="estrutura_pronta4.swf" />
@@ -48,6 +49,7 @@
 
 	<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
 </div><!-- close banner_home -->
+</center>
 
 <div id="bannerHomeTablet">
 	</div><!-- close banner evento -->
@@ -59,6 +61,12 @@
 
 	
 <div id="content_home">
+			
+		<div id="TimeEvent">
+			
+			<div id="defaultCountdown"></div>
+			
+		</div><!-- close TimeEvent -->
 		
 	<a href="http://www.sevencg.com.br/2012/unidades.php" target="new"><div id="news_home">
 			<span class="titulo_home">NEWS</span>
@@ -209,34 +217,5 @@
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=405004916221406";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-<script type="text/javascript">
-
-$("#caminho").delay("1000").animate({
-		width: "980px"
-	},5000, function(){
-		$(this).fadeOut();
-	});
-
-		
-	
-	$("#aviao_top").animate({
-		marginLeft:"1000px"
-	},7000,function(){
-		$(this).fadeOut();
-	});
-
-	
-	$("#logo_top").delay(6000).animate({
-		marginTop: "0px"
-	},2000);
-	
-		$("#data_top").delay(7000).animate({
-		width: "332px"
-	},1500);
-	
-		$("#text_top").delay(8000).fadeIn("slow");
-
+}(document, 'script', 'facebook-jssdk'));
 </script>
