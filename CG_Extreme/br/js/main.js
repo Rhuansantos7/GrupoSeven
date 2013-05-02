@@ -1,3 +1,4 @@
+// JavaScript Document
 $(document)
     .ready(function(e) {
     hVideo_qtd = $("#b-slide ul li")
@@ -10,7 +11,7 @@ $(document)
             .append("<li i='" + index + "'></li>");
     });
     $("#b-slide-list-control ul li:eq(6)")
-        .css("background", "url(img/slider/bullets_hover.png) no-repeat");
+        .css("background", "url(../img/slider/bullets_hover.png) no-repeat");
     var img = 4;
     var imgAnt = 0;
     var eixo = 0;
@@ -25,7 +26,7 @@ $(document)
             .fadeIn("slow");
 
         $("#b-slide-list-control ul li:eq(" + img + ")")
-            .css("background", "url(img/slider/bullets_hover.png) no-repeat");
+            .css("background", "url(../img/slider/bullets_hover.png) no-repeat");
         $("#b-slide-list-control ul li:eq(" + imgAnt + ")")
             .css("background", "");
     }
@@ -54,6 +55,7 @@ $(document)
             interval();
             status = false;
         }
+        
         
     });
     

@@ -3,72 +3,58 @@
 <?php include('metas.php'); ?>
 
 <body>
-<div id="OpTablet">
-<?php include('include/menu_animado.php'); ?>
-</div> <!-- close op tablet -->
-
-<div id="OpDesktop">
- <?php include('include/menu.php'); ?>
-</div> <!-- close OpDesktop -->
-
 <!-- <embed class="banner_swf" src="banner/banner-mists.swf" height="570" width="100%"> -->
+
+<?php include('include/menu_animado.php'); ?>
+
 <center>
 <div id="banner_home">
-	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="banner_formacao" align="absmiddle">
-					<param name="movie" value="estrutura_pronta4.swf" />
-					<param name="quality" value="high" />
-					<param name="play" value="true" />
-					<param name="loop" value="true" />
-					<param name="wmode" value="transparent" />
-					<param name="scale" value="showall" />
-					<param name="menu" value="true" />
-					<param name="devicefont" value="false" />
-					<param name="salign" value="" />
-					<param name="allowScriptAccess" value="sameDomain" />
-					<!--[if !IE]>-->
-					<object data="estrutura_pronta4.swf" type="application/x-shockwave-flash" width="100%" height="100%" align="absmiddle">
-						<param name="movie" value="estrutura_pronta4.swf" />
-						<param name="quality" value="high" />
-						<param name="play" value="true" />
-						<param name="loop" value="true" />
-						<param name="wmode" value="transparent" />
-						<param name="scale" value="showall" />
-						<param name="menu" value="true" />
-						<param name="devicefont" value="false" />
-						<param name="salign" value="" />
-						<param name="allowScriptAccess" value="sameDomain" />
-					<!--<![endif]-->
+	
+ <div id="b-banner">
+      <div id="b-slide-list">
+        <div id="b-description">
+          <div id="b-delimiter">
+            <div id="b-left">
+              <h1></h1>
+              <h2></h2>
+            </div>
+            <div id="b-right">
+              <div id="b-slide-list-control">
+                <ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="b-slide">
+          <ul>
+          	<a href="https://www.facebook.com/SevenComputacaoGrafica/photos_albums" target="new"><li i='0' style="background:url(img/slider/banner4.jpg no-repeat center top;"></li></a>
+             <a href="https://www.facebook.com/SevenComputacaoGrafica/photos_albums" target="new"> <li i='1' style="background:url(img/slider/banner3.jpg) no-repeat center top;"></li></a>
+            <a href="https://www.facebook.com/SevenComputacaoGrafica/photos_albums" target="new"><li i='2' style="background:url(img/slider/banner2.jpg) no-repeat center top;"></li></a>
+           	<a href="https://www.facebook.com/SevenComputacaoGrafica/photos_albums" target="new"><li i='3' style="background:url(img/slider/banner1.jpg) no-repeat center top; display:block;"></li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 						
-						<center><img src="img/banner-cg-extreme-home.jpg" alt="banner-cg-extreme-home" width="1920" height="500"></center>
-						
-					<!--[if !IE]>-->
-					</object>
-					<!--<![endif]-->
-				</object>
 
 
-	<div class="MarcadorBanner"></div> <! close MarcadorBanner -->
+
+	<div class="MarcadorBanner"></div> <!-- close MarcadorBanner -->
 </div><!-- close banner_home -->
 </center>
-
-<div id="bannerHomeTablet">
-	</div><!-- close banner evento -->
-
-	
-	
-	
-	
-
 	
 <div id="content_home">
 			
-		<div id="TimeEvent">
+		<!--<div id="TimeEvent">
 			
 			<div id="defaultCountdown"></div>
 			
-		</div><!-- close TimeEvent -->
+		</div>
+		-->
 		
-	<a href="http://www.sevencg.com.br/2012/unidades.php" target="new"><div id="news_home">
+	<a href="megafoto.php" target="new"><div id="news_home">
 			<span class="titulo_home">NEWS</span>
 	
 	
@@ -131,7 +117,14 @@
 					<div style="display:none;margin:0 auto;" class="html5gallery" data-skin="light" data-width="370" data-height="250" data-autoplayvideo="false">
 					
 						<!-- Add Youtube video to Gallery -->
+						<a href="http://www.youtube.com/watch?v=ZM37w4jb0FE"><img src="http://i1.ytimg.com/vi/ZM37w4jb0FE/default.jpg" alt=""></a>
+						<a href="http://www.youtube.com/watch?v=X5Ff2EpA6_w"><img src="http://i1.ytimg.com/vi/X5Ff2EpA6_w/default.jpg" alt=""></a>
 						<a href="http://www.youtube.com/watch?v=CWNpj88lvJE"><img src="http://i1.ytimg.com/vi/CWNpj88lvJE/default.jpg" alt=""></a>
+						<a href="http://www.youtube.com/watch?v=o1bz1xYtXlI"><img src="http://i1.ytimg.com/vi/o1bz1xYtXlI/default.jpg" alt=""></a>
+						<a href="http://www.youtube.com/watch?v=mCodzXtaq7M"><img src="http://i1.ytimg.com/vi/mCodzXtaq7M/default.jpg" alt=""></a>
+						
+					
+						
 						<a href="http://www.youtube.com/watch?v=urdS0fcLopc&feature=share&list=UUOCnRD7UIj34ZsxAOonqNlQ"><img src="http://i1.ytimg.com/vi/urdS0fcLopc/hqdefault.jpg" alt=""></a>
 						<a href="http://www.youtube.com/watch?v=7GeMovTmacE&list=HL1362443380"><img src="http://i1.ytimg.com/vi/7GeMovTmacE/default.jpg" alt=""></a>
 						<a href="http://www.youtube.com/watch?v=JQgpbLO0Kvo&list=UUOCnRD7UIj34ZsxAOonqNlQ&index=10"><img src="http://i1.ytimg.com/vi/JQgpbLO0Kvo/default.jpg" alt=""></a>
